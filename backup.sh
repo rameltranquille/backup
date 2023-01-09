@@ -1,6 +1,6 @@
 
 CF="/home/ramel/.config"
-CONFIGS="zathura ranger nvim zshAliases task dmenu catpuccinWallpapers i3 kitty polybar"
+CONFIGS="zathura ranger nvim zshAliases task catpuccinWallpapers i3 kitty polybar"
 ALT_CONFIGS="/home/ramel/.config/oh-my-zsh /home/ramel/.vim/vimrc-extra /home/ramel/.vim/vimrc /home/ramel/.taskrc /home/ramel/.bmks"
 
 for folder in $CONFIGS
@@ -13,8 +13,8 @@ done
 for alt in $ALT_CONFIGS
 do
     echo "syncing $alt...\n"
-    rsync -aiv "$CF/$alt" "$CF/backup"
-    rsync -aiv "$CF/$alt" "$HOME/Dropbox/backups"
+    rsync -aiv $alt "$CF/backup"
+    rsync -aiv $alt "$HOME/Dropbox/backups"
 done
 
 mv $CF/backup/custom $CF/backup/oh-my-zsh-custom
