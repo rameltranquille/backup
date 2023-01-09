@@ -1,0 +1,53 @@
+Move line down in visual mode | J
+Move line down in visual mode | K
+Quit all windows (without save) | <leader>x
+Quit and save current buffer | <leader>q
+Save and quit all windows | <leader>w
+Delete and copy to global register | <leader>d
+
+## LATEX/VIMTEX
+TOC toggle | <ll>lT  
+View PDF | <ll>lv
+Clean Full | <ll>lC
+Clean | <ll>lc
+View PDF | <ll>lv
+Environment Change | cse
+Delim Close | ]]
+
+
+## LSP
+declaration | gD
+definition | gd
+hover | <C-k>
+implementation |  [d
+signature_help | d]
+goto_prev | <leader>cwa
+goto_next | <leader>cwr
+add_workspace_folder | <leader>cwa
+remove_workspace_folder | <leader>cwr
+inspect | <leader>cwl
+type_definition | <leader>ct
+rename | <leader>cn
+references | <leader>crf
+show_line_diagnostics | <leader>cd
+set_loclist | <leader>cs
+code action | <leader>cc
+
+## JDTLS
+Organize imports | <A-o>
+Extract variable | crv
+Extract constant | crc
+Extract method | crm
+
+## DAP 
+continue | <leader>dc
+step over | <leader>do
+step in | <leader>di
+set out | <leader>dq
+toggle_breakpoint | <leader>db
+set_breakpoint basic | <leader>ds
+set_breakpoint extra | <leader>dd
+repl.open | <leader>dr
+run_last | <leader>dl
+
+

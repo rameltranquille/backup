@@ -1,0 +1,19 @@
+unmap s [normal]
+unmap b [normal]
+include catppuccin-mocha
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map [normal] j scroll full-down
+map [normal] J scroll half-down
+map [normal] k scroll full-up
+map [normal] K scroll half-up
+map t toggle_index
+
+map b blist
+
+set adjust-open "best-fit"
+set pages-per-row 1
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+

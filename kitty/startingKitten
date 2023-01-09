@@ -1,0 +1,15 @@
+# Set layout
+layout tall
+
+cd ~
+new_tab Home
+
+cd ~/Dropbox
+launch nvim -c VimwikiIndex 
+
+new_tab News
+launch newsboat
+
+new_tab Tasks
+launch taskwarrior-tui
+

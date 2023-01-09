@@ -1,0 +1,93 @@
+Script started on 2022-09-21 13:06:50-04:00 [TERM="xterm-kitty" TTY="/dev/pts/5" COLUMNS="119" LINES="29"]
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar]1;..onfig/polybar[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mpolybar[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h[4ms[24m[4ms[24m[1m[4m[38;2;255;0;255mcript[0m[24m[39m[4ms[0m[39m[4mc[24m[4ms[4mc[0m[39m[4mr[24m[4mr[0m[39m[4mi[24m[4mi[0m[39m[4mp[24m[24m[32ms[24m[32mc[24m[32mr[24m[32mi[24m[32mp[0m[24m[32mt[39m[4m[32ms[4m[32mc[4m[32mr[4m[32mi[4m[32mp[4m[32mt[4m[32ms[24m[39m[?1l[?2004l
+]2;scripts]1;[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h[32ml[39m[32ml[32ms[39m[?1l[?2004l
+]2;ls --color=tty]1;current_url.txt  [0m[01;32mi3-window.py[0m           [01;32mpolybar-timer.sh[0m    [01;32mpolystock.py[0m       [01;32mtask.sh[0m
+[01;32mcurrWindow.sh[0m    [01;32minfo-hackspeed.sh[0m      [01;32mpolybar-todoist.py[0m  [01;32mspotify_status.py[0m  [01;32mtime[0m
+[01;32mdatetime[0m         [01;32mnotificationSound.mp3[0m  [01;32mpolynews.py[0m         [01;32msubprocess[0m         [01;32mtodoist[0m
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h[32m.[39m[32m.[39m[1m[4m[38;2;255;0;255m/polystock.py --customticker '^GSPC' --customticker 'JNJ'[0m[24m[39m[57D[4m[32m.[0m[4m[32m/[24m[39m[39m[4m.[39m[4m/[0m[39m[4mp[24m[4mp[0m[39m[4mo[24m[4mo[0m[39m[4ml[24m[4ml[0m[39m[4my[24m[4my[0m[39m[4mn[24m[0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [0m[24m[39m [51D[4mn[4me[24m[4me[4mw[24m[4mw[4ms[24m[4ms[4m.[24m[4m.[4mp[24m[12D[24m[32m.[24m[32m/[24m[32mp[24m[32mo[24m[32ml[24m[32my[24m[32mn[24m[32me[24m[32mw[24m[32ms[24m[32m.[24m[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;Reuters: Many Russians seek ways out as call-up orders arrive
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 22, in <module>
+    sourceName = data['articles'][0]['source']['name']
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 22, in <module>
+    sourceName = data['articles'][0]['source']['name']
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 22, in <module>
+    sourceName = data['articles'][0]['source']['name']
+KeyError: 'articles'
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 22, in <module>
+    sourceName = data['articles'][0]['source']['name']
+KeyError: 'articles'
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 22, in <module>
+    print(data['articles'])
+KeyError: 'articles'
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;[]
+Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 23, in <module>
+    sourceName = data['articles'][0]['source']['name']
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;{'status': 'ok', 'totalResults': 0, 'articles': []}
+Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 23, in <module>
+    sourceName = data['articles'][0]['source']['name']
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;{'status': 'ok', 'totalResults': 0, 'articles': []}
+Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 23, in <module>
+    sourceName = data['articles'][0]['source']['name']
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;{'status': 'ok', 'totalResults': 0, 'articles': []}
+Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 23, in <module>
+    sourceName = data['articles'][0]['source']['name']
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h./polynews.py[13D[32m.[32m/[32mp[32mo[32ml[32my[32mn[32me[32mw[32ms[32m.[32mp[32my[39m[?1l[?2004l
+]2;./polynews.py]1;{'status': 'ok', 'totalResults': 0, 'articles': []}
+Traceback (most recent call last):
+  File "/home/ramel/.config/polybar/scripts/./polynews.py", line 23, in <module>
+    sourceName = data['articles'][0]['source']['name']
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                                                       ]2;ramel@mira:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[01;37m[[01;36mmira[00m:[01;33mscripts[01;37m]
+[01;37m[[01;37mramel[01;37m][00m% [K[?1h[?2004h[1m[31mu[0m[39m
+[0muchardet                     uninstall_oh_my_zsh          unzzip-big                   uptftopl                   
+uclampset                    uniq                         unzzip-mem                   uptime                     
+uconv                        unix_chkpwd                  unzzip-mix                   urlglobber                 
+udevadm                      unix_update                  upbibtex                     url-quote-magic            
+udisksctl                    unlimit                      update                       us428control               
+uic                          unlink                       update-ca-trust              usb-devices                
+uic-qt5                      unlz4                        update-desktop-database      usbhid-dump                
+UID                          unlzma                       update-mime-database         USER                       
+ul                           unmunch                      update-pciids                useradd                    
+ulimit                       unopkg                       update_scripts.py            userdbctl                  
+ulockmgr_server              unpack200                    updmap                       userdel                    
+umask                        unset                        updmap-sys                   usermod                    
+umount                       unsetopt                     updmap-user                  USERNAME                   
+umount.udisks2               unshare                      updvitomp                    users                      
+un

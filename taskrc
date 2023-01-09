@@ -1,0 +1,84 @@
+# 'man task-sync' or 'man taskrc'
+
+# Here is an example of entries that use the default, override and blank values
+#   variable=foo   -- By specifying a value, this overrides the default
+#   variable=      -- By specifying no value, this means no default
+#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
+
+# You can also refence environment variables:
+#   variable=$HOME/task
+#   variable=$VALUE
+
+# Use the command 'task show' to see all defaults and overrides
+# Files
+data.location=$HOME/.config/task
+
+# To use the default location of the XDG directories,
+# move this configuration file from ~/.taskrc to ~/.config/task/taskrc and uncomment below
+
+#data.location=~/.local/share/task
+#hooks.location=~/.config/task/hooks
+
+# TaskRc
+include solarized-dark-256.theme
+
+indent.annotation=4 
+indent.report=2
+recurrence=1
+taskd.certificate=/home/ramel/.config/task/inTheAm/private.certificate.pem
+taskd.key=/home/ramel/.config/task/inTheAm/private.key.pem
+taskd.ca=/home/ramel/.config/task/inTheAm/ca.cert.pem
+taskd.server=inthe.am:53589
+taskd.credentials=inthe_am/tranquilleramel/98a97cc8-f39c-444d-bb7a-f226c449cf81
+taskd.trust=strict
+
+default.command=list
+search.case.sensitive=no
+default.due=3day
+default.project=Sift
+
+urgency.due.coefficient=25.0
+
+### PER TAG COEFF
+urgency.user.tag.shallow.coefficient=10.0
+urgency.user.tag.abey.coefficient=5.0
+urgency.user.tag.deep.coefficient=15.0
+urgency.user.tag.urgent.coefficient=20.0
+urgency.user.tag.uni.coefficient=15.0
+
+### PER PROJECT COEFF
+urgency.user.project.Maintain.coefficient=10.0
+urgency.user.project.Important.coefficient=20.0
+urgency.user.project.tds.coefficient=15.0
+urgency.user.project.stats.coefficient=13.0
+urgency.user.project.side.coefficient=14.0
+
+
+### Editing Reports
+
+report.list.columns=due,id,description,project,urgency,recur
+report.list.labels=Due,ID,Description,Proj,Urg,R
+report.list.sort=due+/,urgency-,project-
+report.list.dateformat=|M-D.a|
+
+report.long.columns=urgency,id,description,project,tags,recur,due
+report.long.labels=Urg,ID,Description,Proj,Tag,R,Due
+report.long.sort=urgency-,due+,tags-,project-
+report.long.dateformat=|M-D.a|
+
+report.minimal.columns=description,id,project,urgency,due
+report.minimal.labels=Description,ID,Proj,Urg,Due
+report.minimal.sort=urgency-,due+,project+
+report.minimal.dateformat=M-D
+
+report.simple.description=Simple list of open tasks by project
+report.simple.columns=project,id,description.count
+report.simple.labels=Proj,ID,Desc
+report.simple.sort=urgency-,due+
+report.simple.filter=status:pending
+### Colors
+color.due.today=bold red
+color.overdue=underline bold red
+color.due=bold yellow
+color.tag.uni=cyan
+news.version=2.6.0

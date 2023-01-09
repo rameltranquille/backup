@@ -1,7 +1,7 @@
 
 CF="/home/ramel/.config"
 CONFIGS="zathura ranger nvim zshAliases task catpuccinWallpapers i3 kitty polybar"
-ALT_CONFIGS="/home/ramel/.config/oh-my-zsh/custom /home/ramel/.vim/vimrc-extra /home/ramel/.vim/vimrc /home/ramel/.taskrc /home/ramel/.bmks"
+ALT_CONFIGS="/home/ramel/.vim/vimrc-extra /home/ramel/.vim/vimrc /home/ramel/.taskrc /home/ramel/.bmks"
 
 for folder in $CONFIGS
 do
@@ -21,7 +21,7 @@ mv $CF/backup/custom $CF/backup/oh-my-zsh-custom
 mv $CF/backup/.taskrc $CF/backup/taskrc
 mv $CF/backup/.bmks $CF/backup/bmks
 
-# git add .
+git add .
 git commit -am "Updated on $(date + '%m/%d/%Y')"
 git push origin main
 

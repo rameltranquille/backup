@@ -1,0 +1,93 @@
+######################################################################
+#   General
+######################################################################
+
+font pango:JetBrains Mono Bold 7
+set $mod Mod4
+
+include startup.conf
+include map.conf
+include assign.conf
+
+# reload the configuration file
+bindsym $mod+Shift+r restart
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+control+r reload
+# logout
+bindsym $mod+control+q exec i3-msg exit
+# kill focused window
+bindsym $mod+space kill
+
+######################################################################
+#   Settings
+######################################################################
+popup_during_fullscreen smart
+focus_on_window_activation smart
+workspace_auto_back_and_forth yes
+
+######################################################################
+#   Borders
+######################################################################
+smart_borders on
+smart_gaps on
+for_window [class="^.*"] border pixel 3
+gaps inner 5
+gaps outer 3
+
+ # Window color settings
+    # class                 border  backgr. text    indicator
+    # client.focused          #24273a #a6da95 #181926 #24273a
+    # client.focused          #E1FFE1 #E1FFE1 #181926 #E1FFE1
+    # client.unfocused        #181926 #181926 #cad3f5 #181926 
+    # client.focused_inactive #181926 #181926 #cad3f5 #181926 
+    # client.placeholder      #181926 #181926 #cad3f5 #181926 
+    # client.urgent           #ed8796 #ed8796 #cad3f5 #ed8796
+    # client.focused          #24A834 #24A834 #000000 #24A834
+    client.focused          #000000 #f78764 #000000 #f78764
+    client.unfocused        #181926 #000000 #cad3f5 #181926 
+    client.focused_inactive #181926 #000000 #cad3f5 #181926 
+    client.placeholder      #181926 #000000 #cad3f5 #181926 
+    client.urgent           #ed8796 #ed8796 #cad3f5 #ed8796
+
+    # client.background       #242424
+    client.background       #000000
+
+
+################# i3 gaps change                   
+
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+r mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}

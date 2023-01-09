@@ -1,0 +1,117 @@
+alias n="nvim"
+alias nt="nvim -t"
+alias np="nvim -p"
+alias z="zathura"
+alias ls='ls --color=auto'
+alias ll='ls -al --sort=extension'
+alias la='ls -Al'
+alias l='ls -CF'
+alias sps='sudo pacman -S'
+alias py='python'
+alias smi='sudo make install'
+alias pat='patch -p1 <'
+
+############ EDITOR: Vanilla Vim
+alias v="vim"
+alias vi3="vim $HOME/.config/i3/config"
+alias vcon="vim $HOME/.config/conky/conky.conf"
+alias vbar="vim $HOME/.config/polybar/config.ini"
+alias valias="vim $HOME/.config/zshAliases"
+alias vzsh="vim -O $HOME/.zshrc /$HOME/.config/zshAliases"
+alias vzshw="vim -o $HOME/.zshrc /$HOME/.config/zshAliases"
+alias vzsh="vim -O $HOME/.zshrc /$HOME/.config/zshAliases"
+alias vzshw="vim -o $HOME/.zshrc /$HOME/.config/zshAliases"
+alias vrc="vim -O $HOME/.vim/vimrc $HOME/.vim/vimrc-extra"
+alias vrcw="vim -o $HOME/.vim/vimrc $HOME/.vim/vimrc-extra"
+alias vkit="vim $HOME/.config/kitty/kitty.conf"
+alias vtask="vim $HOME/.taskrc"
+
+
+############ CONFIG EDITOR: NeoVim
+alias ni3="cd $HOME/.config/i3; nvim $HOME/.config/i3/config"
+alias i3maps="cd $HOME/.config/i3; nvim $HOME/.config/i3/map.conf"
+alias ncon="cd $HOME/.config/conky/conky.conf; nvim $HOME/.config/conky/conky.conf"
+alias nbar="cd $HOME/.config/polybar; nvim $HOME/.config/polybar/config.ini"
+alias nalias="nvim $HOME/.config/zshAliases"
+alias nzshw="nvim -o $HOME/.zshrc /$HOME/.config/zshAliases"
+alias nzsh="nvim -O $HOME/.zshrc /$HOME/.config/zshAliases"
+alias nrc="cd $HOME/.config/nvim/; nvim"
+alias nmaps="cd $HOME/.config/nvim/; nvim lua/config/remap.lua"
+alias nkit="cd $HOME/.config/kitty/; nvim $HOME/.config/kitty/kitty.conf"
+alias ntask="nvim $HOME/.taskrc"
+
+###############################################################
+#------------CLASS
+###############################################################
+## MORE VIMWIKI
+alias home="cd $HOME/Dropbox/; nvim -c VimwikiIndex"
+alias think="cd $HOME/Dropbox/thinkDS/; nvim readme.md"
+alias stats="cd $HOME/Dropbox/statistics/; nvim README.md"
+
+###############################################################
+#------------task Warrior
+###############################################################
+alias t="task"
+alias to="task +OVERDUE"
+alias ta="task add"
+alias tdo="task done"
+alias tdel="task delete"
+alias tm="task modify"
+alias tbd="task burndown.daily"
+alias tls="task list limit:5"
+alias tll="task long limit:5"
+alias ts="task simple"
+alias tcal="task calendar"
+alias tpm="task project:Maintain"
+alias tps="task project:Sift"
+alias tpi="task project:Important"
+alias tsum="task summary"
+alias tt="taskwarrior-tui"
+
+###############################################################
+#------------DIRECTORIES
+###############################################################
+alias drop="cd ~/Dropbox/"
+alias ci3="cd ~/.config/i3/"
+alias cbar="cd ~/.config/polybar/; tree ."
+alias cnv='cd /$HOME/.config/nvim/; tree .'
+alias cv='cd /$HOME/.vim; tree .'
+
+###############################################################
+#------------Other
+###############################################################
+alias dlv="youtube-dl --verbose --format mp4 -o '%(title)s.%(ext)s' --restrict-filenames --download-archive archive.txt --yes-playlist"
+alias dlm="youtube-dl --verbose -o '%(title)s.%(ext)s' --restrict-filenames --download-archive archive.txt --audio-quality=0 --audio-format mp3"
+alias cr="ranger_func"
+alias fopen='xdg-open $(fzf --height 40%)'
+
+alias timeR='timew report csv.sh'
+alias timeS='timew summary :id'
+alias h='harsh'
+alias ha='harsh ask'
+alias hask='harsh ask'
+alias htodo='harsh todo'
+alias c='cd ~/Dropbox/projects/ccc/'
+
+alias week='nvim $(python3 ~/Dropbox/getWeekNum)'
+alias plan='cd ~/Dropbox/; nvim -O ~/Dropbox/index.md $(python3 ~/Dropbox/getWeekNum) -c VimwikiIndex'
+
+alias snips='cd $HOME/.config/nvim/luasnippets/; ls -Al'
+alias jvc='java \
+	-Declipre.application=org.eclipse.jdt.ls.core.id1 \
+	-Dosgi.bundles.defaultStartLevel=4 \
+	-Declipse.product=org.eclipse.jdt.ls.core.product \
+	-Dlog.level=ALL \
+	-noverify \
+	-Xmx1G \
+	--add-modules=ALL-SYSTEM \
+	--add-opens java.base/java.util=ALL-UNNAMED \
+	--add-opens java.base/java.lang=ALL-UNNAMED \
+	-jar ./plugins/org.eclipse.equinox.launcher_1.5.200.v20180922-1751.jar \
+	-configuration ./config_linux \
+	-data /path/to/data'
+
+
+alias turn_on_top_monitor="xrandr --output HDMI-0 --pos 0x0 --mode 1920x1080"
+alias turn_off_top_monitor="xrandr --output HDMI-0 --off"
+alias totm="turn_on_top_monitor"
