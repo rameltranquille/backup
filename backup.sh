@@ -1,5 +1,5 @@
 
-CF="$HOME/.config/"
+CF="$HOME/.config"
 CONFIGS="zathura ranger nvim zshAliases task dmenu catpuccinWallpapers i3 kitty polybar"
 ALT_CONFIGS="$CF/oh-my-zsh $HOME/.vim/vimrc-extra $HOME/.vim/vimrc $HOME/.taskrc $HOME/.bmks"
 
@@ -23,6 +23,6 @@ mv $CF/backup/.taskrc $CF/backup/taskrc
 mv $CF/backup/.bmks $CF/backup/bmks
 
 # git add .
-git commit -am "Updated on $(date %m/%d/%Y)"
+git commit -am "Updated on $(date + '%m/%d/%Y')"
 git push origin main
 
