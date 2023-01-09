@@ -1,8 +1,7 @@
 
-CF="$HOME/.config"
+CF="/home/ramel/.config"
 CONFIGS="zathura ranger nvim zshAliases task dmenu catpuccinWallpapers i3 kitty polybar"
-ALT_CONFIGS="$CF/oh-my-zsh $HOME/.vim/vimrc-extra $HOME/.vim/vimrc $HOME/.taskrc $HOME/.bmks"
-
+ALT_CONFIGS="/home/ramel/.config/oh-my-zsh /home/ramel/.vim/vimrc-extra /home/ramel/.vim/vimrc /home/ramel/.taskrc /home/ramel/.bmks"
 
 for folder in $CONFIGS
 do
