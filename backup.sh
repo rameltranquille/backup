@@ -21,3 +21,8 @@ done
 mv $CF/backup/custom $CF/backup/oh-my-zsh-custom
 mv $CF/backup/.taskrc $CF/backup/taskrc
 mv $CF/backup/.bmks $CF/backup/bmks
+
+# git add .
+git commit -am "Updated on $(date %m/%d/%Y)"
+git push origin main
+
