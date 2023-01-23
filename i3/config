@@ -30,9 +30,9 @@ workspace_auto_back_and_forth yes
 ######################################################################
 smart_borders on
 smart_gaps on
-for_window [class="^.*"] border pixel 3
-gaps inner 5
-gaps outer 3
+for_window [class="^.*"] border pixel 2
+gaps inner 1
+gaps outer 1
 
  # Window color settings
     # class                 border  backgr. text    indicator
@@ -43,7 +43,8 @@ gaps outer 3
     # client.placeholder      #181926 #181926 #cad3f5 #181926 
     # client.urgent           #ed8796 #ed8796 #cad3f5 #ed8796
     # client.focused          #24A834 #24A834 #000000 #24A834
-    client.focused          #000000 #f78764 #000000 #f78764
+    #D1E3DD
+    client.focused          #000000 #5CFFDE #000000 #F5CFFD 
     client.unfocused        #181926 #000000 #cad3f5 #181926 
     client.focused_inactive #181926 #000000 #cad3f5 #181926 
     client.placeholder      #181926 #000000 #cad3f5 #181926 
@@ -54,7 +55,6 @@ gaps outer 3
 
 
 ################# i3 gaps change                   
-
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)

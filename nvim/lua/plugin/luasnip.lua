@@ -29,7 +29,7 @@ end
     
 -- require("luasnip.loaders.from_lua").load({path = "~/.config/nvim/lua/luasnippets/"})
 require("luasnip.loaders.from_lua").load()
-require("luasnip.loaders.from_vscode").load({ exclude = {"markdown", "latex", "tex", "md"} })
+require("luasnip.loaders.from_vscode").load({ exclude = {"markdown", "latex", "tex", "md"}, include = {"java", "sh", "python"} })
 
 -- require'luasnip'.filetype_extend("ruby", {"rails"})
 

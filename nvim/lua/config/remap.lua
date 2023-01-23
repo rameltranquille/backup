@@ -17,6 +17,7 @@ map("n", ";", ":")
 vim.cmd[[
 vmap <localleader>cd :s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<
 ]]
+
 map('n', '<leader>cd', ':cd %:h<CR>:pwd<CR>')
 -- LSP REMAPS
 map('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>')
@@ -38,10 +39,10 @@ map('n', '<leader>cc', '<cmd>lua vim.lsp.buf.code_action()<CR>')
 map('n', '<leader>cf', '<cmd>lua vim.lsp.buf.format { async = true }<CR>')
 
 -- QOF Stuff
-map("n", "<C-d>", "<C-d>zz") -- Open New Tab
-map("n", "<C-u>", "<C-u>zz") -- Save current file as
-map("n", "N", "Nzzzv") -- Open New Tab
-map("n", "n", "nzzzv") -- Save current file as
+map("n", "<C-d>", "<C-d>zz")
+map("n", "<C-u>", "<C-u>zz") 
+map("n", "N", "Nzzzv") 
+map("n", "n", "nzzzv")
 
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
@@ -73,6 +74,7 @@ map("n", "]b", ":BufferLineCycleNext<cr>")
 map("n", "[b", ":BufferLineCyclePrev<cr>")
 
 -- Nvim Tree
+map("n", "<leader><localleader>", ":Ex<cr>:set relativenumber<cr>")
 map("n", "<C-m>", "<cmd>NvimTreeFindFileToggle<cr><cmd>setlocal relativenumber<cr>")
 map("n", "<C-n>", "<cmd>NvimTreeToggle<cr><cmd>setlocal relativenumber<cr>")
 
@@ -86,8 +88,8 @@ map("n", "<C-n>", "<cmd>NvimTreeToggle<cr><cmd>setlocal relativenumber<cr>")
 map("n", "<leader><Tab>", "<C-6>")
 
 -- ------- TagBar 
--- map("n", "<leader>tt", "<cmd>TagbarToggle<cr>")
--- map("n", "<leader>tc", "<cmd>TagbarOpenAutoClose<cr>")
+map("n", "<leader>tt", "<cmd>TagbarToggle<cr><cmd>setlocal relativenumber<cr>")
+map("n", "<leader>tc", "<cmd>TagbarOpenAutoClose<cr><cmd>setlocal relativenumber<cr>")
 -- map("n", "<leader>tj", "<cmd>TagbarJumpPrev<cr>")
 -- map("n", "<leader>tk", "<cmd>TagbarJumpNext<cr>")
 --
@@ -105,10 +107,9 @@ map("n", "<leader>>", "<C-w>5-")
 -- map("n", "<leader>_", "<C-w>|")
 --
 -- ---- Terminal 
-map("n", "<leader>ts", "<cmd>Tnew<cr>")
-map("n", "<leader>tl", "<cmd>Tclear<cr>")
-map("n", "<leader>t<leader>", ":T ")
--- map("n", "<leader>tp", "<cmd>T python %<cr>")
+map("n", "<leader>ts", ":split | Tnew<cr>")
+-- map("n", "<leader>tl", "<cmd>Tclear<cr>")
+-- map("n", "<leader>t<leader>", ":T ")
 -- -- map("n", "<leader>ts", "<cmd>vsp | terminal<cr>")
 -- map("t", "jj", "<C-\\><C-n>")
 map("t", "<C-h>", "<C-\\><C-N><C-w>h")
@@ -119,8 +120,8 @@ map("t", "<C-l>", "<C-\\><C-N><C-w>l")
 -- ---- F KEYS
 -- ---- Telescope
 map("n", "<leader>ff", "<cmd>Telescope fd<cr>")
+map("n", "<leader>fb", "<cmd>Telescope buffers<cr>")
 -- map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>")
--- map("n", "<leader>fb", "<cmd>Telescope buffers<cr>")
 -- map("n", "<leader>f\"", "<cmd>Telescope marks<cr>")
 -- map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 -- map("n", "<leader>fr", "<cmd>Telescope registers<cr>")
@@ -150,7 +151,7 @@ map("n", "]n", "<Plug>(vimtex-]n)")
 map("n", "[n", "<Plug>(vimtex-[n)")
 --
 -- ---- Clipboard-Image
-map("n", "<leader>ps", ":w<cr> :!gscreenshot -sc<cr> <cmd>PasteImg<cr>")
+map("n", "<leader>pi", ":w<cr> :!gscreenshot -sc<cr> <cmd>PasteImg<cr>")
 -- map("n", "<leader>pi", "<cmd>PasteImg<cr>")
 --
 -- -- Vimwiki
@@ -161,8 +162,6 @@ map("n", "<leader>ps", ":w<cr> :!gscreenshot -sc<cr> <cmd>PasteImg<cr>")
 -- map("n", "<leader>cl0", ":set conceallevel=0<cr>")
 -- map("n", "<leader>cl1", ":set conceallevel=1<cr>")
 -- map("n", "<leader>cl2", ":set conceallevel=2<cr>")
---
--- map("n", "<leader>n", ":lua require('nabla').popup()<CR>")
 --
 -- map("n", "<leader>a", "<cmd>AerialToggle<cr>")
 
@@ -182,4 +181,13 @@ map("n", "<leader>ds", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Break
 map("n", "<leader>dd", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>")
 map("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<CR>")
 map("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<CR>")
+
+-- PYTHON
+map("n", "<leader>pp", "<cmd>TREPLSendFile<cr>")
+map("v", "<leader>ps", "<cmd>TREPLSendSelection<cr>")
+map("n", "<leader>pt", "<cmd>T python %<cr>")
+
+
+
+
 

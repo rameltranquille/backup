@@ -103,6 +103,6 @@ while true; do
 	# 	dirty=0
 	# 	dirty_countdown=0
 	# fi
-	sleep 1 &
+	sleep 10 &
 	wait
 done

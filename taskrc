@@ -37,32 +37,41 @@ search.case.sensitive=no
 default.due=3day
 default.project=Sift
 
-urgency.due.coefficient=25.0
+urgency.due.coefficient=45.0
+# urgency.user.tag.DUE.coefficient=30.0
+urgency.user.tag.duetoday.coefficient=50.0
+urgency.user.tag.overdue.coefficient=40.0
 
 ### PER TAG COEFF
-urgency.user.tag.shallow.coefficient=10.0
-urgency.user.tag.abey.coefficient=5.0
-urgency.user.tag.deep.coefficient=15.0
-urgency.user.tag.urgent.coefficient=20.0
-urgency.user.tag.uni.coefficient=15.0
+urgency.user.tag.shallow.coefficient=5.0
+urgency.user.tag.short.coefficient=15.0
+urgency.user.tag.deep.coefficient=20.0
+urgency.user.tag.NOW.coefficient=50.0
 
 ### PER PROJECT COEFF
 urgency.user.project.Maintain.coefficient=10.0
-urgency.user.project.Important.coefficient=20.0
+urgency.user.project.Important.coefficient=18.0
 urgency.user.project.tds.coefficient=15.0
 urgency.user.project.stats.coefficient=13.0
-urgency.user.project.side.coefficient=14.0
+# urgency.user.project.side.coefficient=14.0
 
+urgency.user.tag.ev.coefficient=20
+urgency.user.tag.ma.coefficient=20
+urgency.user.tag.it.coefficient=20
+# urgency.user.tag.uni.coefficient=20
+# urgency.user.tag.uni.coefficient=20
+# urgency.user.tag.uni.coefficient=20
+# urgency.user.tag.uni.coefficient=15.0
 
 ### Editing Reports
 
-report.list.columns=due,id,description,project,urgency,recur
-report.list.labels=Due,ID,Description,Proj,Urg,R
-report.list.sort=due+/,urgency-,project-
+report.list.columns=due,id,description,project,urgency,recur,tags
+report.list.labels=Due,ID,Description,Proj,Urg,R,Tags
+report.list.sort=due+/,urgency-,project-,tags-
 report.list.dateformat=|M-D.a|
 
-report.long.columns=urgency,id,description,project,tags,recur,due
-report.long.labels=Urg,ID,Description,Proj,Tag,R,Due
+report.long.columns=urgency,id,description,project,tags,recur,due,tags
+report.long.labels=Urg,ID,Description,Proj,Tag,R,Due,Tags
 report.long.sort=urgency-,due+,tags-,project-
 report.long.dateformat=|M-D.a|
 

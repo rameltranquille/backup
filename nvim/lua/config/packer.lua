@@ -11,8 +11,8 @@ return require('packer').startup(function(use)
     -- use { 'stevearc/aerial.nvim', }
 
     -- colorschemes
-    use { "catppuccin/nvim",  as = 'catppuccin' }
-    use { "folke/tokyonight.nvim" }
+    -- use { "catppuccin/nvim",  as = 'catppuccin' }
+    -- use { "folke/tokyonight.nvim" }
     use { "EdenEast/nightfox.nvim" }
 
     -- Better Typing Flow
@@ -22,14 +22,22 @@ return require('packer').startup(function(use)
     use 'tpope/vim-repeat' 
     use 'tpope/vim-unimpaired'
 
-    use 'neovim/nvim-lspconfig' 
-    use {'mfussenegger/nvim-jdtls' }
+    use {
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
+        "jose-elias-alvarez/null-ls.nvim",
+    }
+    -- use {'mfussenegger/nvim-jdtls' }
     use {'mfussenegger/nvim-dap' }
-    -- use { 'kyazdani42/nvim-tree.lua', cmd = 'NvimTreeToggle'}
-    use { 'kyazdani42/nvim-tree.lua' }
+    use { 'nvim-tree/nvim-tree.lua', cmd = 'NvimTreeToggle',
+        config = function()
+            require("nvim-tree").setup()
+        end
+    }
 
     -- QOF
-    use 'kyazdani42/nvim-web-devicons'
+    use 'nvim-tree/nvim-web-devicons'
     use 'wellle/context.vim' 
 
     -- Coding
@@ -68,19 +76,26 @@ return require('packer').startup(function(use)
 }
 
 
-use {
-    "max397574/better-escape.nvim",
-    config = function()
-        require("better_escape").setup()
-    end,
-}
+-- use {
+--     "max397574/better-escape.nvim",
+--     config = function()
+--         require("better_escape").setup()
+--     end,
+-- }
 
------------ Vimwiki
+--------- Vimwiki
     use { 'vimwiki/vimwiki', 
         ft = { 'markdown', 'vimwiki'}, 
         cmd = {'VimwikiIndex'},
         run = 'TSDisable highlight' 
+    } 
+    
+    use { 'michal-h21/vim-zettel', 
+        ft = { 'markdown', 'vimwiki' },
+        -- cmd = {'VimwikiIndex'},
+        -- run = 'VimwikiIndex',
     }
+    use { 'junegunn/fzf' }
 
     ----------- Markdown & Latex
     use { 'godlygeek/tabular', ft = {'markdown', 'vimwiki'}}
@@ -94,14 +109,13 @@ use {
 
     use { 'lervag/vimtex', ft = 'tex', run = 'TSDisable highlight' }
 
-    use { 'jbyuki/nabla.nvim' , ft = { 'tex', 'markdown', 'vimwiki' }}
-
     -------------- - Telescope
     use 'nvim-lua/plenary.nvim'
     use { 'nvim-telescope/telescope.nvim', 
         tag = '0.1.0', }
     use {'axkirillov/easypick.nvim', 
-        requires = 'nvim-telescope/telescope.nvim'}
+        requires = 'nvim-telescope/telescope.nvim',
+        cmd = 'Easypick'}
     use {'smartpde/telescope-recent-files', 
         requires = 'nvim-telescope/telescope.nvim'}
     ------------- Completion & Snippets
@@ -138,12 +152,12 @@ use {
       ----------- Tabs & Buffers
       use {
           'nvim-lualine/lualine.nvim',
-          requires = { 'kyazdani42/nvim-web-devicons', opt = true },
+          requires = { 'nvim-tree/nvim-web-devicons', opt = true },
       }
 
       use {'akinsho/bufferline.nvim', 
           tag = "v2.*", 
-          requires = 'kyazdani42/nvim-web-devicons'
+          requires = 'nvim-tree/nvim-web-devicons'
       }
 
       use {'tiagovla/scope.nvim'}
@@ -156,22 +170,8 @@ use {
           end
       }
 
-      use {
-          'sudormrfbin/cheatsheet.nvim',
-          requires = {
-              {'nvim-telescope/telescope.nvim'},
-              {'nvim-lua/popup.nvim'},
-              {'nvim-lua/plenary.nvim'},
-          },
-          cmd = "Cheatsheet"
-      }
-
-      use {
-          'goolord/alpha-nvim',
-          config = function ()
-              config = function() require("config.alpha") end
-          end
-      }
+    use { 'mhinz/vim-startify' }
+    
 
 
 end)

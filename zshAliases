@@ -91,7 +91,11 @@ alias h='harsh'
 alias ha='harsh ask'
 alias hask='harsh ask'
 alias htodo='harsh todo'
+
 alias c='cd ~/Dropbox/projects/ccc/'
+alias cn='cd ~/Dropbox/projects/ccc/; nvim'
+alias csrc='cd ~/Dropbox/projects/ccc/src/; nvim'
+alias ctest='cd ~/Dropbox/projects/ccc/test/; nvim'
 
 alias week='nvim $(python3 ~/Dropbox/getWeekNum)'
 alias plan='cd ~/Dropbox/; nvim -O ~/Dropbox/index.md $(python3 ~/Dropbox/getWeekNum) -c VimwikiIndex'
@@ -107,11 +111,12 @@ alias jvc='java \
 	--add-modules=ALL-SYSTEM \
 	--add-opens java.base/java.util=ALL-UNNAMED \
 	--add-opens java.base/java.lang=ALL-UNNAMED \
-	-jar ./plugins/org.eclipse.equinox.launcher_1.5.200.v20180922-1751.jar \
 	-configuration ./config_linux \
 	-data /path/to/data'
 
 
-alias turn_on_top_monitor="xrandr --output HDMI-0 --pos 0x0 --mode 1920x1080"
-alias turn_off_top_monitor="xrandr --output HDMI-0 --off"
+alias turn_on_top_monitor="xrandr --output HDMI-0 --pos 0x0 --mode 1920x1080 --output DVI-D-0 --off; polybar-msg cmd restart"
+alias turn_off_top_monitor="xrandr --output HDMI-0 --off --output DVI-D-0 --mode 1920x1080 --pos 0x1080"
 alias totm="turn_on_top_monitor"
+alias all_monitors="xrandr --output DVI-D-0 --mode 1920x1080 --pos 0x1080 --output HDMI-0 --pos 0x0 --mode 1920x1080"
+

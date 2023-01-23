@@ -13,6 +13,9 @@ vim.g.vimwiki_global_ext = 0
 vim.g.vimwiki_autowriteall = 1
 
 
+vim.g.zettel_format="%y%m%d-%H%M-%title-%file_no"
+vim.g.zettel_options= {{}, {path = '/home/ramel/Dropbox/personal/research'}}
+
 --- TASK WIKI
 -- vim.g.taskwiki_disable_concealcursor=yes
 
