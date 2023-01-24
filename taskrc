@@ -55,11 +55,11 @@ urgency.user.project.tds.coefficient=15.0
 urgency.user.project.stats.coefficient=13.0
 # urgency.user.project.side.coefficient=14.0
 
-urgency.user.tag.ev.coefficient=20
-urgency.user.tag.ma.coefficient=20
-urgency.user.tag.it.coefficient=20
-# urgency.user.tag.uni.coefficient=20
-# urgency.user.tag.uni.coefficient=20
+urgency.user.tag.ev.coefficient=30
+urgency.user.tag.ma.coefficient=30
+urgency.user.tag.it.coefficient=30
+urgency.user.tag.fap.coefficient=30
+urgency.user.tag.dc.coefficient=30
 # urgency.user.tag.uni.coefficient=20
 # urgency.user.tag.uni.coefficient=15.0
 

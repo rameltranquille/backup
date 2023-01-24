@@ -7328,3 +7328,132 @@ time 1674450005
 old [description:"update predictions" due:"1669006800" entry:"1668814435" mask:"+++++++++-" modified:"1674370816" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
 new [description:"update predictions" due:"1669006800" entry:"1668814435" mask:"+++++++++--" modified:"1674450005" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
 ---
+time 1674457203
+old [description:"Clear Bookmarks" due:"1662177600" entry:"1662108861" mask:"++++++++XX++++++++++--" modified:"1674370740" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e"]
+new [description:"Clear Bookmarks" due:"1662177600" entry:"1662108861" mask:"++++++++XX+++++++++++-" modified:"1674457203" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e"]
+---
+time 1674457203
+old [description:"Clear Bookmarks" due:"1674273600" entry:"1673688259" imask:"20.000000" modified:"1674370740" parent:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"434a959c-701e-4612-8d01-81bf84e01083"]
+new [description:"Clear Bookmarks" due:"1674273600" end:"1674457203" entry:"1673688259" imask:"20.000000" modified:"1674457203" parent:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"deep" tags_deep:"x" uuid:"434a959c-701e-4612-8d01-81bf84e01083"]
+---
+time 1674457207
+old [description:"Revise Notes" due:"1659758400" entry:"1659632046" mask:"+++++++++++XX+++++++++++--" modified:"1674273717" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+new [description:"Revise Notes" due:"1659758400" entry:"1659632046" mask:"+++++++++++XX++++++++++++-" modified:"1674457207" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+---
+time 1674457208
+old [description:"Revise Notes" due:"1674273600" entry:"1673688259" imask:"24.000000" modified:"1673628037" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"04bbe32e-f1a0-4dde-bf70-e5bffa199bf0"]
+new [description:"Revise Notes" due:"1674273600" end:"1674457207" entry:"1673688259" imask:"24.000000" modified:"1674457208" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"deep" tags_deep:"x" uuid:"04bbe32e-f1a0-4dde-bf70-e5bffa199bf0"]
+---
+time 1674457245
+new [description:"ch3 final exercises" due:"1674716445" entry:"1674457245" modified:"1674457245" project:"stats" status:"pending" uuid:"31f92a8a-965c-456a-8a77-f6f12b280197"]
+---
+time 1674457257
+new [description:"ch3 review" due:"1674716457" entry:"1674457257" modified:"1674457257" project:"stats" status:"pending" uuid:"88e6fe04-6c28-4116-8d71-ad96b1dd2105"]
+---
+time 1674457521
+new [description:"schedule therapist appt with paris" due:"1674450000" entry:"1674457521" modified:"1674457521" project:"Important" status:"pending" uuid:"414b7dab-ea1e-4b4b-8674-9c0adb03a713"]
+---
+time 1674457591
+old [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX++++++++++---" modified:"1674370674" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+new [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX++++++++++-+-" modified:"1674457591" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+---
+time 1674457591
+old [description:"Spring Cleaning" due:"1674273600" entry:"1673688259" imask:"14.000000" modified:"1674370674" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"0faacd0c-27b4-4586-b9e8-aef30dd59034"]
+new [description:"Spring Cleaning" due:"1674273600" end:"1674457591" entry:"1673688259" imask:"14.000000" modified:"1674457591" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"0faacd0c-27b4-4586-b9e8-aef30dd59034"]
+---
+time 1674457600
+old [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX++++++++++-+-" modified:"1674457591" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+new [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX++++++++++++-" modified:"1674457600" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+---
+time 1674457600
+old [description:"Spring Cleaning" due:"1674363600" entry:"1673064012" imask:"13.000000" modified:"1674370674" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"074b33a8-80f8-42af-a522-359aa0b674e6"]
+new [description:"Spring Cleaning" due:"1674363600" end:"1674457600" entry:"1673064012" imask:"13.000000" modified:"1674457600" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"074b33a8-80f8-42af-a522-359aa0b674e6"]
+---
+time 1674457609
+old [description:"review finances in excel" due:"1674450000" entry:"1673708582" modified:"1674370943" project:"Important" status:"pending" tags:"short" tags_short:"x" uuid:"c4f5427f-6299-4436-87bf-92e9944f6556"]
+new [description:"review finances in excel" due:"1674450000" end:"1674457609" entry:"1673708582" modified:"1674457609" project:"Important" status:"completed" tags:"short" tags_short:"x" uuid:"c4f5427f-6299-4436-87bf-92e9944f6556"]
+---
+time 1674457623
+old [description:"apply for ISP or other reqs" due:"1674450000" entry:"1674437869" modified:"1674437869" project:"Important" status:"pending" uuid:"2e276830-2fdd-49c5-94e8-25b9d20a2814"]
+new [description:"apply for ISP or other reqs" due:"1674450000" entry:"1674437869" modified:"1674457623" project:"Important" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"2e276830-2fdd-49c5-94e8-25b9d20a2814"]
+---
+time 1674496052
+old [description:"prereqs" due:"1674536400" entry:"1674370236" modified:"1674438555" project:"ev" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"e424e624-cbb7-483f-af1d-78ad8e7a0026"]
+new [description:"prereqs" due:"1674536400" entry:"1674370236" modified:"1674496052" project:"ev" status:"pending" tags:"deep" tags_deep:"x" uuid:"e424e624-cbb7-483f-af1d-78ad8e7a0026"]
+---
+time 1674496052
+old [description:"prereqs" due:"1674536400" entry:"1674370247" modified:"1674438543" project:"it" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"69ab9e76-a618-44e8-a3f0-b2e1c66aff65"]
+new [description:"prereqs" due:"1674536400" entry:"1674370247" modified:"1674496052" project:"it" status:"pending" tags:"deep" tags_deep:"x" uuid:"69ab9e76-a618-44e8-a3f0-b2e1c66aff65"]
+---
+time 1674501881
+old [description:"update predictions" due:"1674450000" entry:"1673845241" imask:"9.000000" modified:"1674370814" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"weekly" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"8fc4db2e-7f1a-4f4f-b9d5-8d79db5122c5"]
+new [description:"update predictions" due:"1674536400" entry:"1673845241" imask:"9.000000" modified:"1674501881" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"4d" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"8fc4db2e-7f1a-4f4f-b9d5-8d79db5122c5"]
+---
+time 1674501883
+old [description:"update predictions" due:"1675054800" entry:"1674450004" imask:"10.000000" modified:"1674370816" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"weekly" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"bb3e656b-3803-444a-a278-71549df10bc4"]
+new [description:"update predictions" due:"1674536400" entry:"1674450004" imask:"10.000000" modified:"1674501883" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"4d" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"bb3e656b-3803-444a-a278-71549df10bc4"]
+---
+time 1674501883
+old [description:"update predictions" due:"1669006800" entry:"1668814435" mask:"+++++++++--" modified:"1674450005" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
+new [description:"update predictions" due:"1674536400" entry:"1668814435" mask:"+++++++++--" modified:"1674501883" project:"Important" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
+---
+time 1674501971
+old [description:"update predictions" due:"1674536400" entry:"1668814435" mask:"+++++++++--" modified:"1674501883" project:"Important" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
+new [description:"update predictions" due:"1674536400" entry:"1668814435" mask:"++++++++++-" modified:"1674501971" project:"Important" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
+---
+time 1674501971
+old [description:"update predictions" due:"1674536400" entry:"1673845241" imask:"9.000000" modified:"1674501881" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"4d" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"8fc4db2e-7f1a-4f4f-b9d5-8d79db5122c5"]
+new [description:"update predictions" due:"1674536400" end:"1674501971" entry:"1673845241" imask:"9.000000" modified:"1674501971" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"4d" rtype:"periodic" status:"completed" tags:"deep" tags_deep:"x" uuid:"8fc4db2e-7f1a-4f4f-b9d5-8d79db5122c5"]
+---
+time 1674501971
+old [description:"update predictions" due:"1674536400" entry:"1668814435" mask:"++++++++++-" modified:"1674501971" project:"Important" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
+new [description:"update predictions" due:"1674536400" entry:"1668814435" mask:"+++++++++++" modified:"1674501971" project:"Important" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"a04655b7-0190-4851-af3a-d5cfd3f2522d"]
+---
+time 1674501971
+old [description:"update predictions" due:"1674536400" entry:"1674450004" imask:"10.000000" modified:"1674501883" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"4d" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"bb3e656b-3803-444a-a278-71549df10bc4"]
+new [description:"update predictions" due:"1674536400" end:"1674501971" entry:"1674450004" imask:"10.000000" modified:"1674501971" parent:"a04655b7-0190-4851-af3a-d5cfd3f2522d" project:"Important" recur:"4d" rtype:"periodic" status:"completed" tags:"deep" tags_deep:"x" uuid:"bb3e656b-3803-444a-a278-71549df10bc4"]
+---
+time 1674502068
+old [description:"update according to clean code" due:"1674665859" entry:"1674406659" modified:"1674406659" project:"ccc" status:"pending" uuid:"b887ab70-2a2c-4e9f-818d-6f9ceddc86d3"]
+new [description:"update according to clean code" due:"1674665859" entry:"1674406659" modified:"1674502068" project:"ccc" status:"pending" tags:"deep" tags_deep:"x" uuid:"b887ab70-2a2c-4e9f-818d-6f9ceddc86d3"]
+---
+time 1674502068
+old [description:"finish review of finances" due:"1674968400" entry:"1674435824" modified:"1674435824" project:"Important" status:"pending" uuid:"f8067a80-ce7d-41ad-9a49-a77be791434e"]
+new [description:"finish review of finances" due:"1674968400" entry:"1674435824" modified:"1674502068" project:"Important" status:"pending" tags:"deep" tags_deep:"x" uuid:"f8067a80-ce7d-41ad-9a49-a77be791434e"]
+---
+time 1674502068
+old [description:"clear base rate fallacy" due:"1674697572" entry:"1674438372" modified:"1674438372" project:"Important" status:"pending" uuid:"c80c2061-76d6-4369-a2e5-b948f6257c96"]
+new [description:"clear base rate fallacy" due:"1674697572" entry:"1674438372" modified:"1674502068" project:"Important" status:"pending" tags:"deep" tags_deep:"x" uuid:"c80c2061-76d6-4369-a2e5-b948f6257c96"]
+---
+time 1674502068
+old [description:"prereqs" due:"1674450000" entry:"1674438571" modified:"1674438571" project:"ma" status:"pending" uuid:"7776b0e1-4368-49ed-99b8-86d087b82d4e"]
+new [description:"prereqs" due:"1674450000" entry:"1674438571" modified:"1674502068" project:"ma" status:"pending" tags:"deep" tags_deep:"x" uuid:"7776b0e1-4368-49ed-99b8-86d087b82d4e"]
+---
+time 1674502068
+old [description:"prereqs" due:"1674450000" entry:"1674438584" modified:"1674438584" project:"fap" status:"pending" uuid:"eb05f0a9-e0f4-4137-a375-9d5fc7d9a698"]
+new [description:"prereqs" due:"1674450000" entry:"1674438584" modified:"1674502068" project:"fap" status:"pending" tags:"deep" tags_deep:"x" uuid:"eb05f0a9-e0f4-4137-a375-9d5fc7d9a698"]
+---
+time 1674502068
+old [description:"ch3 final exercises" due:"1674716445" entry:"1674457245" modified:"1674457245" project:"stats" status:"pending" uuid:"31f92a8a-965c-456a-8a77-f6f12b280197"]
+new [description:"ch3 final exercises" due:"1674716445" entry:"1674457245" modified:"1674502068" project:"stats" status:"pending" tags:"deep" tags_deep:"x" uuid:"31f92a8a-965c-456a-8a77-f6f12b280197"]
+---
+time 1674502068
+old [description:"ch3 review" due:"1674716457" entry:"1674457257" modified:"1674457257" project:"stats" status:"pending" uuid:"88e6fe04-6c28-4116-8d71-ad96b1dd2105"]
+new [description:"ch3 review" due:"1674716457" entry:"1674457257" modified:"1674502068" project:"stats" status:"pending" tags:"deep" tags_deep:"x" uuid:"88e6fe04-6c28-4116-8d71-ad96b1dd2105"]
+---
+time 1674502080
+old [description:"data bootcamp" due:"1674450000" entry:"1674438595" modified:"1674438595" project:"fap" status:"pending" uuid:"23008e56-71bd-4d37-b34d-e84a68a6d25f"]
+new [description:"data bootcamp" due:"1674450000" entry:"1674438595" modified:"1674502080" project:"db" status:"pending" uuid:"23008e56-71bd-4d37-b34d-e84a68a6d25f"]
+---
+time 1674502112
+old [description:"data bootcamp" due:"1674450000" entry:"1674438595" modified:"1674502080" project:"db" status:"pending" uuid:"23008e56-71bd-4d37-b34d-e84a68a6d25f"]
+new [description:"data bootcamp" due:"1674450000" entry:"1674438595" modified:"1674502112" project:"dc" status:"pending" uuid:"23008e56-71bd-4d37-b34d-e84a68a6d25f"]
+---
+time 1674502132
+old [description:"data bootcamp" due:"1674450000" entry:"1674438595" modified:"1674502112" project:"dc" status:"pending" uuid:"23008e56-71bd-4d37-b34d-e84a68a6d25f"]
+new [description:"data bootcamp" due:"1674450000" entry:"1674438595" modified:"1674502132" project:"dc" status:"pending" tags:"deep" tags_deep:"x" uuid:"23008e56-71bd-4d37-b34d-e84a68a6d25f"]
+---
+time 1674502143
+old [description:"schedule therapist appt with paris" due:"1674450000" entry:"1674457521" modified:"1674457521" project:"Important" status:"pending" uuid:"414b7dab-ea1e-4b4b-8674-9c0adb03a713"]
+new [description:"schedule therapist appt with paris" due:"1674450000" entry:"1674457521" modified:"1674502143" project:"Important" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"414b7dab-ea1e-4b4b-8674-9c0adb03a713"]
+---
