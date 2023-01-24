@@ -5,6 +5,12 @@
 font pango:JetBrains Mono Bold 7
 set $mod Mod4
 
+# alt + tab like windows
+focus_wrapping workspace
+bindsym Mod1+Tab focus right
+bindsym Mod1+Shift+Tab focus left
+
+
 include startup.conf
 include map.conf
 include assign.conf

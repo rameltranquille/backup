@@ -7457,3 +7457,17 @@ time 1674502143
 old [description:"schedule therapist appt with paris" due:"1674450000" entry:"1674457521" modified:"1674457521" project:"Important" status:"pending" uuid:"414b7dab-ea1e-4b4b-8674-9c0adb03a713"]
 new [description:"schedule therapist appt with paris" due:"1674450000" entry:"1674457521" modified:"1674502143" project:"Important" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"414b7dab-ea1e-4b4b-8674-9c0adb03a713"]
 ---
+time 1674525174
+old [description:"learn binary number system" due:"1674629569" entry:"1674370369" modified:"1674370740" project:"Important" status:"pending" tags:"deep" tags_deep:"x" uuid:"26222713-095f-4567-af73-29e56c575c5e"]
+new [description:"learn binary number system" due:"1674629569" entry:"1674370369" modified:"1674525174" project:"Sift" status:"pending" tags:"deep" tags_deep:"x" uuid:"26222713-095f-4567-af73-29e56c575c5e"]
+---
+time 1674554412
+new [description:"make private" due:"1674813612" entry:"1674554412" modified:"1674554412" project:"ccc" status:"pending" uuid:"3211ea16-387c-447e-b5f0-c850c03791a5"]
+---
+time 1674554665
+new [description:"download rescuetime on laptop" due:"1674813865" entry:"1674554665" modified:"1674554665" project:"Sift" status:"pending" uuid:"83f0d1c6-a251-4b24-86ba-2054d4f82782"]
+---
+time 1674583960
+old [description:"setup moses" due:"1674400916" entry:"1674141716" modified:"1674370943" project:"Important" status:"pending" tags:"short" tags_short:"x" uuid:"6f9a6fdd-b773-4906-9d51-bc14e8cadcf5"]
+new [description:"setup moses" due:"1674400916" end:"1674583960" entry:"1674141716" modified:"1674583960" project:"Important" status:"completed" tags:"short" tags_short:"x" uuid:"6f9a6fdd-b773-4906-9d51-bc14e8cadcf5"]
+---
