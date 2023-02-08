@@ -52,13 +52,16 @@ alias stats="cd $HOME/Dropbox/statistics/; nvim README.md"
 #------------task Warrior
 ###############################################################
 alias t="task"
-alias to="task +OVERDUE"
+alias to="taskopen"
+alias tO="task +OVERDUE"
 alias ta="task add"
 alias tdo="task done"
 alias tdel="task delete"
 alias tm="task modify"
 alias tbd="task burndown.daily"
+alias tdue="task list limit:5"
 alias tls="task list limit:5"
+alias turgent="task long limit:5"
 alias tll="task long limit:5"
 alias ts="task simple"
 alias tcal="task calendar"
@@ -115,8 +118,15 @@ alias jvc='java \
 	-data /path/to/data'
 
 
-alias turn_on_top_monitor="xrandr --output HDMI-0 --pos 0x0 --mode 1920x1080 --output DVI-D-0 --off; polybar-msg cmd restart"
-alias turn_off_top_monitor="xrandr --output HDMI-0 --off --output DVI-D-0 --mode 1920x1080 --pos 0x1080"
+alias turn_on_right_monitor="xrandr --output HDMI-0 --pos 0x0 --mode 1920x1080 --output DVI-D-0 --off; polybar-msg cmd restart"
+alias turn_off_right_monitor="xrandr --output HDMI-0 --off --output DVI-D-0 --mode 1920x1080 --pos 0x0; polybar-msg cmd restart"
 alias totm="turn_on_top_monitor"
-alias all_monitors="xrandr --output DVI-D-0 --mode 1920x1080 --pos 0x1080 --output HDMI-0 --pos 0x0 --mode 1920x1080"
+alias all_monitors="xrandr --output DVI-D-0 --mode 1920x1080 --pos 0x0 --output HDMI-0 --pos 0x1080 --mode 1920x1080; polybar-msg cmd restart; "
+alias uni="cd $HOME/Dropbox/uni/"
+alias dim="cd $HOME/Dropbox/uni/dim/"
+alias db="cd $HOME/Dropbox/uni/data_bootcamp/"
+alias it="cd $HOME/Dropbox/uni/info_tech/"
+alias dma="cd $HOME/Dropbox/uni/dma"
+alias acf="cd $HOME/Dropbox/uni/advanced_cf/"
+alias cf="cd $HOME/Dropbox/uni/advanced_cf/"
 

@@ -20,7 +20,7 @@ def main():
     
     parser.add_argument("location_code", type=str,                         help="specifies the location for where to check the weather")
     parser.add_argument("-n", "--n",     type=valid_n,    default=2,       help="specify how many forecasts should be scraped") 
-    parser.add_argument("-u", "--unit",  type=valid_unit, default='C',     help="sets the unit, valid units: C, F, H")
+    parser.add_argument("-u", "--unit",  type=valid_unit, default='F',     help="sets the unit, valid units: C, F, H")
     parser.add_argument("-l", "--lang",  type=valid_lang, default='en-GB', help="sets the language, format: <language code>-<country code>")
     parser.add_argument("-d", "--dir",   type=valid_dir,                   help="specify the directory for the output.json file")
 

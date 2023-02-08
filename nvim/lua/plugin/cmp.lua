@@ -127,11 +127,11 @@ cmp.setup({
     }
 })
 
-require("cmp_dictionary").setup({
-    dic = {
-        ["markdown"] = { "/home/ramel/.config/nvim/spell/my.dict" },
-        ["vimwiki"] = { "/home/ramel/.config/nvim/spell/my.dict" },
-        ["latex"] = { "/home/ramel/.config/nvim/spell/my.dict" },
-        ["tex"] = { "/home/ramel/.config/nvim/spell/my.dict" },
-    }
-})
+-- require("cmp_dictionary").setup({
+--     dic = {
+--         ["markdown"] = { "/home/ramel/.config/nvim/spell/my.dict" },
+--         ["vimwiki"] = { "/home/ramel/.config/nvim/spell/my.dict" },
+--         ["latex"] = { "/home/ramel/.config/nvim/spell/my.dict" },
+--         ["tex"] = { "/home/ramel/.config/nvim/spell/my.dict" },
+--     }
+-- })

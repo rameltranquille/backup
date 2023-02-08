@@ -1,3 +1,7 @@
+include startup.conf
+include map.conf
+include assign.conf
+
 ######################################################################
 #   General
 ######################################################################
@@ -11,9 +15,6 @@ bindsym Mod1+Tab focus right
 bindsym Mod1+Shift+Tab focus left
 
 
-include startup.conf
-include map.conf
-include assign.conf
 
 # reload the configuration file
 bindsym $mod+Shift+r restart

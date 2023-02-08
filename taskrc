@@ -39,8 +39,8 @@ default.project=Sift
 
 urgency.due.coefficient=45.0
 # urgency.user.tag.DUE.coefficient=30.0
-urgency.user.tag.duetoday.coefficient=50.0
-urgency.user.tag.overdue.coefficient=40.0
+urgency.user.tag.DUETODAY.coefficient=50.0
+urgency.user.tag.OVERDUE.coefficient=40.0
 
 ### PER TAG COEFF
 urgency.user.tag.shallow.coefficient=5.0
@@ -52,14 +52,14 @@ urgency.user.tag.NOW.coefficient=50.0
 urgency.user.project.Maintain.coefficient=10.0
 urgency.user.project.Important.coefficient=18.0
 urgency.user.project.tds.coefficient=15.0
-urgency.user.project.stats.coefficient=13.0
+urgency.user.project.stats.coefficient=10.0
 # urgency.user.project.side.coefficient=14.0
 
-urgency.user.tag.ev.coefficient=30
-urgency.user.tag.ma.coefficient=30
 urgency.user.tag.it.coefficient=30
-urgency.user.tag.fap.coefficient=30
-urgency.user.tag.dc.coefficient=30
+urgency.user.tag.dma.coefficient=30
+urgency.user.tag.dim.coefficient=30
+urgency.user.tag.corpFin.coefficient=30
+urgency.user.tag.ccc.coefficient=25
 # urgency.user.tag.uni.coefficient=20
 # urgency.user.tag.uni.coefficient=15.0
 
@@ -70,8 +70,8 @@ report.list.labels=Due,ID,Description,Proj,Urg,R,Tags
 report.list.sort=due+/,urgency-,project-,tags-
 report.list.dateformat=|M-D.a|
 
-report.long.columns=urgency,id,description,project,tags,recur,due,tags
-report.long.labels=Urg,ID,Description,Proj,Tag,R,Due,Tags
+report.long.columns=urgency,id,description,due,project,tags,recur
+report.long.labels=Urg,ID,Description,Due,Proj,Tags,R
 report.long.sort=urgency-,due+,tags-,project-
 report.long.dateformat=|M-D.a|
 

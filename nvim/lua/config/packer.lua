@@ -8,7 +8,6 @@ return require('packer').startup(function(use)
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use { 'ThePrimeagen/vim-be-good', cmd = 'VimBeGood'}
     use { 'preservim/tagbar', cmd = 'TagbarToggle' }
-    -- use { 'stevearc/aerial.nvim', }
 
     -- colorschemes
     -- use { "catppuccin/nvim",  as = 'catppuccin' }
@@ -42,6 +41,51 @@ return require('packer').startup(function(use)
 
     -- Coding
     -- use { 'vimlab/split-term.vim', cmd = {'Term', 'VTerm'} }
+    use {'GCBallesteros/jupytext.vim' }
+    use { 'hkupty/iron.nvim', 
+        config = function()
+            -- require('GCBallesteros/jupytext.vim').setup()
+            require("iron.core").setup({
+                config = {
+                    -- Whether a repl should be discarded or not
+                    should_map_plug = false,
+                    scratch_repl = true,
+                    repl_definition = {
+                      python = {
+                        command = { "ipython" },
+                        format = require("iron.fts.common").bracketed_paste,
+                      },
+                    },
+                -- How the repl window will be displayed
+                -- See below for more information
+                -- repl_open_cmd = require('iron.view').split.vertical(50),
+                },
+                -- Iron doesn't set keymaps by default anymore.
+                -- You can set them here or manually add keymaps to the functions in iron.core
+                keymaps = {
+                    send_motion = "<space>sc",
+                    visual_send = "<space>sc",
+                    send_file = "<space>sf",
+                    send_line = "<space>sl",
+                    send_mark = "<space>sm",
+                    mark_motion = "<space>mc",
+                    mark_visual = "<space>mc",
+                    remove_mark = "<space>md",
+                    cr = "<space>s<cr>",
+                    interrupt = "<space>s<space>",
+                    exit = "<space>sq",
+                    clear = "<space>cl",
+                },
+                  -- If the highlight is on, you can change how it looks
+                  -- For the available options, check nvim_set_hl
+                  highlight = {
+                    italic = true
+                  },
+                  ignore_blank_lines = true, -- ignore blank lines when sending visual select lines
+            })
+        end,
+    }
+
     use { 'kassio/neoterm', cmd = 'Tnew' }
     use { 'p00f/cphelper.nvim', cmd = 'CphReceive' }
 
@@ -76,12 +120,11 @@ return require('packer').startup(function(use)
 }
 
 
--- use {
---     "max397574/better-escape.nvim",
---     config = function()
---         require("better_escape").setup()
---     end,
--- }
+    use {
+      'AckslD/nvim-FeMaco.lua',
+      config = 'require("femaco").setup()',
+      cmd = {'FeMaco'}
+    }
 
 --------- Vimwiki
     use { 'vimwiki/vimwiki', 
@@ -115,7 +158,12 @@ return require('packer').startup(function(use)
         tag = '0.1.0', }
     use {'axkirillov/easypick.nvim', 
         requires = 'nvim-telescope/telescope.nvim',
-        cmd = 'Easypick'}
+        -- cmd = 'Easypick'
+    }
+    use {'nvim-telescope/telescope-file-browser.nvim', 
+        requires = 'nvim-telescope/telescope.nvim',
+        -- cmd = 'Easypick'
+    }
     use {'smartpde/telescope-recent-files', 
         requires = 'nvim-telescope/telescope.nvim'}
     ------------- Completion & Snippets

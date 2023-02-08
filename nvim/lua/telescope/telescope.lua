@@ -2,7 +2,6 @@ local mappings = {}
 local actions = require "telescope.actions"
 local config = require "telescope.config"
 -- Load extensions
-require("telescope").load_extension("recent_files")
 -- shortcut to open the picker.
 vim.api.nvim_set_keymap("n", "<Leader><Leader>",
   [[<cmd>lua require('telescope').extensions.recent_files.pick()<CR>]],
@@ -33,6 +32,19 @@ require('telescope').setup{
     -- builtin picker
   },
   extensions = {
+      file_browser = {
+          theme = "ivy",
+          -- disables netrw and use telescope-file-browser in its place
+          hijack_netrw = true,
+          mappings = {
+            ["i"] = {
+              -- your custom insert mode mappings
+            },
+            ["n"] = {
+              -- your custom normal mode mappings
+            },
+        },
+    },
     -- bookmarks = {
     --     selected_browser = 'qutebrowser',
     --
@@ -52,7 +64,7 @@ require('telescope').setup{
     --     -- Provide debug messages
     --     debug = true,
     -- }
-    recent_files = { }
+    recent_files = { },
     -- Your extension configuration goes here:
     -- extension_name = {
     --   extension_config_key = value,
@@ -62,5 +74,36 @@ require('telescope').setup{
 }
 
 
+local M = {}
+-- flex
+-- vertical
+-- cursor
+-- bottom pane
+-- horizaontal
+-- vetical
 
+function M.find_notes_betting()
+  require("telescope.builtin").find_files {
+    prompt_title = " Find Notes",
+    path_display = { "smart" },
+    cwd = "~/Dropbox/projects/betting/",
+    layout_strategy = "flex",
+    layout_config = { preview_width = 0.80, width = 0.50 },
+     }
+end
+
+function M.find_notes_uni()
+  require("telescope.builtin").find_files {
+    prompt_title = " Find Notes",
+    path_display = { "smart" },
+    cwd = "~/Dropbox/uni/",
+    layout_strategy = "vertical",
+    layout_config = { preview_width = 0.80, width = 0.50 },
+     }
+end
+
+require("telescope").load_extension "file_browser"
+require("telescope").load_extension("recent_files")
+
+return M
 

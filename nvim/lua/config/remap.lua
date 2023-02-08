@@ -7,15 +7,13 @@ vim.g.maplocalleader = ","
 map("n", "<leader>rc", ":luafile $MYVIMRC<cr>:source $HOME/.config/nvim/init.lua<cr>")
 
 -- SIMPLE
--- map("n", "<A-->", ";")
--- map("n", "<A-+>", ",")
 map("n", ")", ";")
 map("n", "(", ",")
 map("n", ";", ":")
 -- map("v", "<leader>cc", ":s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<")
 
 vim.cmd[[
-vmap <localleader>cd :s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<
+vmap <localleader>cc :s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<
 ]]
 
 map('n', '<leader>cd', ':cd %:h<CR>:pwd<CR>')
@@ -89,9 +87,11 @@ map("n", "<leader><Tab>", "<C-6>")
 
 -- ------- TagBar 
 map("n", "<leader>tt", "<cmd>TagbarToggle<cr><cmd>setlocal relativenumber<cr>")
-map("n", "<leader>tc", "<cmd>TagbarOpenAutoClose<cr><cmd>setlocal relativenumber<cr>")
--- map("n", "<leader>tj", "<cmd>TagbarJumpPrev<cr>")
--- map("n", "<leader>tk", "<cmd>TagbarJumpNext<cr>")
+-- map("n", "<leader>tc", "<cmd>TagbarOpenAutoClose<cr><cmd>setlocal relativenumber<cr>")
+map("n", "<leader>tc", "<cmd>TagbarCurrentTag<cr><cmd>setlocal relativenumber<cr>")
+map("n", "<leader>tj", "<cmd>TagbarJumpNext<cr><cmd>setlocal relativenumber<cr>")
+map("n", "<leader>tk", "<cmd>TagbarJumpPrev<cr><cmd>setlocal relativenumber<cr>")
+map("n", "<leader>ts", "<cmd>TagbarShowTag<cr><cmd>setlocal relativenumber<cr>")
 --
 --
 -- -- Moving Between Screens & Resizing
@@ -108,6 +108,7 @@ map("n", "<leader>>", "<C-w>5-")
 --
 -- ---- Terminal 
 map("n", "<leader>ts", ":split | Tnew<cr>")
+map("n", "<leader>tv", ":vsplit | Tnew<cr>")
 -- map("n", "<leader>tl", "<cmd>Tclear<cr>")
 -- map("n", "<leader>t<leader>", ":T ")
 -- -- map("n", "<leader>ts", "<cmd>vsp | terminal<cr>")
@@ -119,22 +120,21 @@ map("t", "<C-l>", "<C-\\><C-N><C-w>l")
 --
 -- ---- F KEYS
 -- ---- Telescope
+map("n", "<leader>n", "<cmd>Telescope file_browser<cr>")
+map("n", "<leader>fn", "<cmd>Telescope file_browser<cr>")
 map("n", "<leader>ff", "<cmd>Telescope fd<cr>")
 map("n", "<leader>fb", "<cmd>Telescope buffers<cr>")
--- map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>")
--- map("n", "<leader>f\"", "<cmd>Telescope marks<cr>")
+map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>")
+map("n", "<leader>f\"", "<cmd>Telescope marks<cr>")
 -- map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
--- map("n", "<leader>fr", "<cmd>Telescope registers<cr>")
+map("n", "<leader>fr", "<cmd>Telescope registers<cr>")
 -- map("n", "<leader>ft", "<cmd>Telescope tags<cr>")
 map("n", "<leader>fd", "<cmd>Telescope diagnostics<cr>")
--- map("n", "<leader>fs", "<cmd>Telescope current_buffer_fuzzy_find<cr>")
--- map("n", "<leader>fm", "<cmd>lua require('telescope.telescope').find_notes_math()<cr>")
--- map("n", "<leader>fl", "<cmd>lua require('telescope.telescope').find_notes_lbs()<cr>")
+map("n", "<leader>fs", "<cmd>Telescope current_buffer_fuzzy_find<cr>")
 --
--- map("n", "<leader>b", "<cmd>Easypick bookmarks<cr>")
--- map("n", "<leader>eb", ":e ~/Dropbox/.bookmarks")
-map("n", "<leader>el", "<cmd>Easypick ls<cr>")
--- map("n", "<leader>ei", "<cmd>Easypick important<cr>")
+map("n", "<leader>un", "<cmd>Easypick uni<cr>")
+map("n", "<leader>b", "<cmd>Easypick bookmarks<cr>")
+map("n", "<leader>eb", ":e ~/Dropbox/.bookmarks")
 --
 --
 -- ---- Markdown & Vimtex
@@ -149,21 +149,10 @@ map("n", "<leader>to", "<cmd>VimtexTocOpen<cr>")
 map("n", "<leader>l", "<cmd>VimtexView<cr>")
 map("n", "]n", "<Plug>(vimtex-]n)")
 map("n", "[n", "<Plug>(vimtex-[n)")
---
+
 -- ---- Clipboard-Image
 map("n", "<leader>pi", ":w<cr> :!gscreenshot -sc<cr> <cmd>PasteImg<cr>")
 -- map("n", "<leader>pi", "<cmd>PasteImg<cr>")
---
--- -- Vimwiki
--- map("n", "<leader>vs", "<cmd>VimwikiUISelect<cr>")
--- map("n", "<leader>vv", "<cmd>VimwikiVSplitLink<cr>")
--- map("n", "<leader>vt", "<cmd>VimwikiTabnewLink<cr>")
---
--- map("n", "<leader>cl0", ":set conceallevel=0<cr>")
--- map("n", "<leader>cl1", ":set conceallevel=1<cr>")
--- map("n", "<leader>cl2", ":set conceallevel=2<cr>")
---
--- map("n", "<leader>a", "<cmd>AerialToggle<cr>")
 
 map("n", "<A-o>", "<cmd>lua require'jdtls'.organize_imports()<CR>")
 map("n", "crv", "<cmd>lua require('jdtls').extract_variable()<cr>")
@@ -184,7 +173,11 @@ map("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<CR>")
 
 -- PYTHON
 map("n", "<leader>pp", "<cmd>TREPLSendFile<cr>")
+map("n", "<leader>ps", "<cmd>TREPLSendSelection<cr>")
+map("n", "<leader>pl", "<cmd>TREPLSendLine<cr>")
+map("v", "<leader>pp", "<cmd>TREPLSendFile<cr>")
 map("v", "<leader>ps", "<cmd>TREPLSendSelection<cr>")
+map("v", "<leader>pl", "<cmd>TREPLSendLine<cr>")
 map("n", "<leader>pt", "<cmd>T python %<cr>")
 
 
