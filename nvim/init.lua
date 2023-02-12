@@ -1,10 +1,10 @@
 require("config.packer")
 require("config.set")
 require("config.remap")
+require("plugin.autopairs")
+require("plugin.others")
 require("telescope.telescope")
--- require("telescope.easypick")
+require("telescope.plenary")
 
--- vim.g.loaded_netrw = 1
--- vim.g.loaded_netrwPlugin = 1
 
 

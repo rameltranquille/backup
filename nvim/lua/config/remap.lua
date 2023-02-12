@@ -3,7 +3,8 @@ local map = require("utils").map
 vim.g.mapleader = " "
 vim.g.maplocalleader = ","
 
--- ------- RELOAD LUA 
+-- map("v", "<localleader><localleader>", "<cmd>IronReplHere<CR>")
+-- ------- RELOAD LUA
 map("n", "<leader>rc", ":luafile $MYVIMRC<cr>:source $HOME/.config/nvim/init.lua<cr>")
 
 -- SIMPLE
@@ -12,7 +13,7 @@ map("n", "(", ",")
 map("n", ";", ":")
 -- map("v", "<leader>cc", ":s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<")
 
-vim.cmd[[
+vim.cmd [[
 vmap <localleader>cc :s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<
 ]]
 
@@ -30,7 +31,9 @@ map('n', '<leader>cwr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>')
 map('n', '<leader>cwl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>')
 map('n', '<leader>ct', '<cmd>lua vim.lsp.buf.type_definition()<CR>')
 map('n', '<leader>cn', '<cmd>lua vim.lsp.buf.rename()<CR>')
-map('n', '<leader>crf', '<cmd>lua vim.lsp.buf.references()<CR>')
+map('n', '<leader>ci', '<cmd>lua vim.lsp.buf.implementation()<CR>')
+map('v', '<leader>cc', '<cmd>lua vim.lsp.buf.range_code_action()<CR>')
+map('n', '<leader>cr', '<cmd>lua vim.lsp.buf.references()<CR>')
 map('n', '<leader>cl', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>')
 map('n', '<leader>cs', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>')
 map('n', '<leader>cc', '<cmd>lua vim.lsp.buf.code_action()<CR>')
@@ -38,8 +41,8 @@ map('n', '<leader>cf', '<cmd>lua vim.lsp.buf.format { async = true }<CR>')
 
 -- QOF Stuff
 map("n", "<C-d>", "<C-d>zz")
-map("n", "<C-u>", "<C-u>zz") 
-map("n", "N", "Nzzzv") 
+map("n", "<C-u>", "<C-u>zz")
+map("n", "N", "Nzzzv")
 map("n", "n", "nzzzv")
 
 map("v", "J", ":m '>+1<CR>gv=gv")
@@ -48,9 +51,8 @@ map("v", "K", ":m '<-2<CR>gv=gv")
 map("i", "jj", "<ESC>")
 map("i", "jk", "<ESC>")
 --- SAVING AND QUITING
-map("n", "<leader>x", ":qa!<cr>")  -- Quit all windows
-map("n", "<leader>q", ":w<cr>:bd<cr>")  -- Quit and save buffer
-map("n", "<leader>w", ":qwa<cr>")  -- Save & Quit all windows
+map("n", "<leader>x", ":qa!<cr>") -- Quit all windows
+map("n", "<leader>q", ":w<cr>:bd<cr>") -- Quit and save buffer
 -- Registers
 map("n", "<leader>y", "\"+y")
 map("n", "<leader>Y", "\"+Y")
@@ -70,12 +72,14 @@ map("n", "<leader>8", ":BufferLineGoToBuffer 8<cr>")
 map("n", "<leader>9", ":BufferLineGoToBuffer 9<cr>")
 map("n", "]b", ":BufferLineCycleNext<cr>")
 map("n", "[b", ":BufferLineCyclePrev<cr>")
+map("n", "<leader>w", ":BufferLinePickClose<cr>")
+map("n", "<leader>Bl", ":BufferLineCloseRight<cr>")
+map("n", "<leader>Bh", ":BufferLineCloseLeft<cr>")
 
 -- Nvim Tree
-map("n", "<leader><localleader>", ":Ex<cr>:set relativenumber<cr>")
-map("n", "<C-m>", "<cmd>NvimTreeFindFileToggle<cr><cmd>setlocal relativenumber<cr>")
-map("n", "<C-n>", "<cmd>NvimTreeToggle<cr><cmd>setlocal relativenumber<cr>")
-
+map("n", "<leader><localleader>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
+map("n", "<C-n>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
+map("n", "<C-n>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
 -- map("n", "<C-s>", ":sav ") -- Save current file as
 -- map("n", "<C-t>", ":tabnew ") -- Open New Tab
 -- map("n", "<leader>t1", "1gt")
@@ -85,7 +89,7 @@ map("n", "<C-n>", "<cmd>NvimTreeToggle<cr><cmd>setlocal relativenumber<cr>")
 -- map("n", "<leader>t5", "5gt")
 map("n", "<leader><Tab>", "<C-6>")
 
--- ------- TagBar 
+-- ------- TagBar
 map("n", "<leader>tt", "<cmd>TagbarToggle<cr><cmd>setlocal relativenumber<cr>")
 -- map("n", "<leader>tc", "<cmd>TagbarOpenAutoClose<cr><cmd>setlocal relativenumber<cr>")
 map("n", "<leader>tc", "<cmd>TagbarCurrentTag<cr><cmd>setlocal relativenumber<cr>")
@@ -106,7 +110,7 @@ map("n", "<leader>>", "<C-w>5-")
 -- map("n", "<leader>=", "<C-w>=")
 -- map("n", "<leader>_", "<C-w>|")
 --
--- ---- Terminal 
+-- ---- Terminal
 map("n", "<leader>ts", ":split | Tnew<cr>")
 map("n", "<leader>tv", ":vsplit | Tnew<cr>")
 -- map("n", "<leader>tl", "<cmd>Tclear<cr>")
@@ -135,15 +139,6 @@ map("n", "<leader>fs", "<cmd>Telescope current_buffer_fuzzy_find<cr>")
 map("n", "<leader>un", "<cmd>Easypick uni<cr>")
 map("n", "<leader>b", "<cmd>Easypick bookmarks<cr>")
 map("n", "<leader>eb", ":e ~/Dropbox/.bookmarks")
---
---
--- ---- Markdown & Vimtex
--- map("n", "<leader>mp", "<cmd>MarkdownPreview<cr>")
--- map("n", "<leader>ms", "<cmd>MarkdownPreviewStop<cr>")
---
--- map("n", "<leader>lc", "<cmd>VimtexCompile<cr>")
--- map("n", "<leader>lt", "<cmd>VimtexTocOpen<cr>")
--- map("n", "<leader>lo", "<cmd>VimtexTocToggle<cr>")
 
 map("n", "<leader>to", "<cmd>VimtexTocOpen<cr>")
 map("n", "<leader>l", "<cmd>VimtexView<cr>")
@@ -179,8 +174,3 @@ map("v", "<leader>pp", "<cmd>TREPLSendFile<cr>")
 map("v", "<leader>ps", "<cmd>TREPLSendSelection<cr>")
 map("v", "<leader>pl", "<cmd>TREPLSendLine<cr>")
 map("n", "<leader>pt", "<cmd>T python %<cr>")
-
-
-
-
-
