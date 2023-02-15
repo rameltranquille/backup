@@ -1,66 +1,21 @@
----------------------------------------------------------
----------------------------------------------------------
----------------------------------------------------------
--- This bundles definition is the same as in the previous section (java-debug installation)
--- local bundles = {
---   vim.fn.glob("/home/ramel/.config/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-*.jar", 1),
--- };
-
--- This is the new part
--- vim.list_extend(bundles, vim.split(vim.fn.glob("/home/ramel/.config/vscode-java-test/server/*.jar", 1), "\n"))
--- If you started neovim within `~/dev/xy/project-1` this would resolve to `project-1`
-
--- require('lspconfig').setup()
--- require('lspconfig')['jdtls'].setup{
---     on_attach = function(client, bufnr)
---         require'jdtls.setup'.add_commands()
---         require'jdtls'.setup_dap()
---     end,
---         
---     flags = lsp_flags,
---     init_options = {
---         bundles = bundles,
---     }
--- }
-
----------------------------------------------------------
----------------------------------------------------------
----------------------------------------------------------
--- require('lspconfig')['pyright'].setup{
---     on_attach = on_attach,
---     flags = lsp_flags,
--- }
----------------------------------------------------------
----------------------------------------------------------
----------------------------------------------------------
---
-
 require("mason").setup()
 require("mason-lspconfig").setup()
 
 require("mason-lspconfig").setup_handlers {
-    -- The first entry (without a key) will be the default handler
-    -- and will be called for each installed server that doesn't have
-    -- a dedicated handler.
     function (server_name) -- default handler (optional)
         require("lspconfig")[server_name].setup {}
     end,
-    -- Next, you can provide a dedicated handler for specific servers.
-    -- For example, a handler override for the `rust_analyzer`:
-    -- ["jdtls"] = function ()
-    --     require('lspconfig')['jdtls'].setup{
-    --         on_attach = function(client, bufnr)
-    --             require'jdtls.setup'.add_commands()
-    --             require'jdtls'.setup_dap()
-    --         end,
-    --             
-    --         flags = lsp_flags,
-    --         init_options = {
-    --             bundles = bundles,
-    --         }
-    --     }
-    -- end
 }
+
+local signature_config = {
+  log_path = vim.fn.expand("$HOME") .. "/tmp/sig.log",
+  debug = true,
+  hint_enable = false,
+  handler_opts = { border = "single" },
+  max_width = 80,
+}
+
+require("lsp_signature").setup(signature_config)
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
     vim.lsp.diagnostic.on_publish_diagnostics, {

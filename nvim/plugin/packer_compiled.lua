@@ -92,7 +92,7 @@ _G.packer_plugins = {
   },
   ["clipboard-image.nvim"] = {
     commands = { "PasteImg" },
-    config = { "\27LJ\2\n.\0\0\3\0\3\0\0046\0\0\0009\0\1\0'\2\2\0D\0\2\0\19%Y-%m-%d-%H-%M\tdate\aos.\0\0\3\0\3\0\0046\0\0\0009\0\1\0'\2\2\0D\0\2\0\19%Y-%m-%d-%H-%M\tdate\aos.\0\0\3\0\3\0\0046\0\0\0009\0\1\0'\2\2\0D\0\2\0\19%Y-%m-%d-%H-%M\tdate\aos.\0\0\3\0\3\0\0046\0\0\0009\0\1\0'\2\2\0D\0\2\0\19%Y-%m-%d-%H-%M\tdate\aos†\3\1\0\5\0\17\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0003\4\4\0=\4\5\3=\3\a\0025\3\b\0003\4\t\0=\4\5\3=\3\n\0025\3\v\0003\4\f\0=\4\5\3=\3\r\0025\3\14\0003\4\15\0=\4\5\3=\3\16\2B\0\2\1K\0\1\0\btex\0\1\0\3\fimg_dir\bimg\16img_dir_txt\5\naffix$\\includegraphics[scale=0.5]{%s}\nlatex\0\1\0\3\fimg_dir\bimg\16img_dir_txt\5\naffix$\\includegraphics[scale=0.5]{%s}\rmarkdown\0\1\0\3\fimg_dir\bimg\16img_dir_txt\bimg\naffix\18[%s](file:%s)\fvimwiki\1\0\0\rimg_name\0\1\0\2\fimg_dir\bimg\naffix\18[%s](file:%s)\nsetup\20clipboard-image\frequire\0" },
+    config = { "\27LJ\2\n \0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\5\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -173,7 +173,7 @@ _G.packer_plugins = {
     url = "https://github.com/junegunn/fzf"
   },
   ["iron.nvim"] = {
-    config = { "\27LJ\2\nï\4\0\0\t\0\23\0 6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\17\0005\3\3\0005\4\n\0005\5\5\0005\6\4\0=\6\6\0056\6\0\0'\b\a\0B\6\2\0029\6\b\6=\6\t\5=\5\v\4=\4\f\0036\4\0\0'\6\r\0B\4\2\0029\4\14\0049\4\15\4)\6d\0B\4\2\2=\4\16\3=\3\18\0025\3\19\0=\3\20\0025\3\21\0=\3\22\2B\0\2\1K\0\1\0\14highlight\1\0\1\vitalic\2\fkeymaps\1\0\f\14send_mark\14<space>sm\14interrupt\20<space>s<space>\14send_line\14<space>sl\texit\14<space>sq\14send_file\14<space>sf\16visual_send\r<space>/\nclear\14<space>cl\16send_motion\r<space>/\acr\17<space>s<cr>\16remove_mark\14<space>md\16mark_visual\14<space>mc\16mark_motion\14<space>mc\vconfig\1\0\1\23ignore_blank_lines\2\18repl_open_cmd\rvertical\nsplit\14iron.view\20repl_definition\vpython\1\0\0\vformat\20bracketed_paste\20iron.fts.common\fcommand\1\0\0\1\2\0\0\fipython\1\0\2\17scratch_repl\2\20should_map_plug\1\nsetup\14iron.core\frequire\0" },
+    config = { "\27LJ\2\n+\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\16plugin.iron\frequire\0" },
     loaded = true,
     path = "/home/ramel/.local/share/nvim/site/pack/packer/start/iron.nvim",
     url = "https://github.com/hkupty/iron.nvim"
@@ -182,6 +182,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramel/.local/share/nvim/site/pack/packer/start/jupytext.vim",
     url = "https://github.com/GCBallesteros/jupytext.vim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/ramel/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["lsp_signature.nvim"] = {
+    loaded = true,
+    path = "/home/ramel/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
+    url = "https://github.com/ray-x/lsp_signature.nvim"
   },
   ["lualine.nvim"] = {
     config = { "\27LJ\2\n.\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\19plugin.lualine\frequire\0" },
@@ -206,14 +216,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramel/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  neoterm = {
-    commands = { "Tnew" },
-    loaded = false,
-    needs_bufread = true,
-    only_cond = false,
-    path = "/home/ramel/.local/share/nvim/site/pack/packer/opt/neoterm",
-    url = "https://github.com/kassio/neoterm"
   },
   ["nightfox.nvim"] = {
     loaded = true,
@@ -324,6 +326,17 @@ _G.packer_plugins = {
     path = "/home/ramel/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["toggleterm.nvim"] = {
+    config = { "\27LJ\2\n1\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22plugin.toggleterm\frequire\0" },
+    loaded = true,
+    path = "/home/ramel/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["true-zen.nvim"] = {
+    loaded = true,
+    path = "/home/ramel/.local/share/nvim/site/pack/packer/start/true-zen.nvim",
+    url = "https://github.com/Pocco81/true-zen.nvim"
+  },
   ["vim-be-good"] = {
     commands = { "VimBeGood" },
     loaded = false,
@@ -331,6 +344,11 @@ _G.packer_plugins = {
     only_cond = false,
     path = "/home/ramel/.local/share/nvim/site/pack/packer/opt/vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
+  ["vim-eunuch"] = {
+    loaded = true,
+    path = "/home/ramel/.local/share/nvim/site/pack/packer/start/vim-eunuch",
+    url = "https://github.com/tpope/vim-eunuch"
   },
   ["vim-repeat"] = {
     loaded = true,
@@ -383,33 +401,51 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-treesitter
-time([[Config for nvim-treesitter]], true)
-try_loadstring("\27LJ\2\n1\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22plugin.treesitter\frequire\0", "config", "nvim-treesitter")
-time([[Config for nvim-treesitter]], false)
--- Config for: nvim-cmp
-time([[Config for nvim-cmp]], true)
- require('plugin.cmp') 
-time([[Config for nvim-cmp]], false)
--- Config for: LuaSnip
-time([[Config for LuaSnip]], true)
- require('plugin.luasnip') 
-time([[Config for LuaSnip]], false)
 -- Config for: which-key.nvim
 time([[Config for which-key.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0", "config", "which-key.nvim")
 time([[Config for which-key.nvim]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+try_loadstring("\27LJ\2\n1\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22plugin.toggleterm\frequire\0", "config", "toggleterm.nvim")
+time([[Config for toggleterm.nvim]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\2\n1\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22plugin.treesitter\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
 -- Config for: lualine.nvim
 time([[Config for lualine.nvim]], true)
 try_loadstring("\27LJ\2\n.\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\19plugin.lualine\frequire\0", "config", "lualine.nvim")
 time([[Config for lualine.nvim]], false)
+-- Config for: LuaSnip
+time([[Config for LuaSnip]], true)
+ require('plugin.luasnip') 
+time([[Config for LuaSnip]], false)
+-- Config for: nvim-cmp
+time([[Config for nvim-cmp]], true)
+ require('plugin.cmp') 
+time([[Config for nvim-cmp]], false)
 -- Config for: iron.nvim
 time([[Config for iron.nvim]], true)
-try_loadstring("\27LJ\2\nï\4\0\0\t\0\23\0 6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\17\0005\3\3\0005\4\n\0005\5\5\0005\6\4\0=\6\6\0056\6\0\0'\b\a\0B\6\2\0029\6\b\6=\6\t\5=\5\v\4=\4\f\0036\4\0\0'\6\r\0B\4\2\0029\4\14\0049\4\15\4)\6d\0B\4\2\2=\4\16\3=\3\18\0025\3\19\0=\3\20\0025\3\21\0=\3\22\2B\0\2\1K\0\1\0\14highlight\1\0\1\vitalic\2\fkeymaps\1\0\f\14send_mark\14<space>sm\14interrupt\20<space>s<space>\14send_line\14<space>sl\texit\14<space>sq\14send_file\14<space>sf\16visual_send\r<space>/\nclear\14<space>cl\16send_motion\r<space>/\acr\17<space>s<cr>\16remove_mark\14<space>md\16mark_visual\14<space>mc\16mark_motion\14<space>mc\vconfig\1\0\1\23ignore_blank_lines\2\18repl_open_cmd\rvertical\nsplit\14iron.view\20repl_definition\vpython\1\0\0\vformat\20bracketed_paste\20iron.fts.common\fcommand\1\0\0\1\2\0\0\fipython\1\0\2\17scratch_repl\2\20should_map_plug\1\nsetup\14iron.core\frequire\0", "config", "iron.nvim")
+try_loadstring("\27LJ\2\n+\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\16plugin.iron\frequire\0", "config", "iron.nvim")
 time([[Config for iron.nvim]], false)
 
 -- Command lazy-loads
 time([[Defining lazy-load commands]], true)
+pcall(vim.api.nvim_create_user_command, 'PasteImg', function(cmdargs)
+          require('packer.load')({'clipboard-image.nvim'}, { cmd = 'PasteImg', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
+        end,
+        {nargs = '*', range = true, bang = true, complete = function()
+          require('packer.load')({'clipboard-image.nvim'}, {}, _G.packer_plugins)
+          return vim.fn.getcompletion('PasteImg ', 'cmdline')
+      end})
+pcall(vim.api.nvim_create_user_command, 'TagbarToggle', function(cmdargs)
+          require('packer.load')({'tagbar'}, { cmd = 'TagbarToggle', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
+        end,
+        {nargs = '*', range = true, bang = true, complete = function()
+          require('packer.load')({'tagbar'}, {}, _G.packer_plugins)
+          return vim.fn.getcompletion('TagbarToggle ', 'cmdline')
+      end})
 pcall(vim.api.nvim_create_user_command, 'FeMaco', function(cmdargs)
           require('packer.load')({'nvim-FeMaco.lua'}, { cmd = 'FeMaco', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
         end,
@@ -424,27 +460,6 @@ pcall(vim.api.nvim_create_user_command, 'MarkdownPreview', function(cmdargs)
           require('packer.load')({'markdown-preview.nvim'}, {}, _G.packer_plugins)
           return vim.fn.getcompletion('MarkdownPreview ', 'cmdline')
       end})
-pcall(vim.api.nvim_create_user_command, 'VimBeGood', function(cmdargs)
-          require('packer.load')({'vim-be-good'}, { cmd = 'VimBeGood', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
-        end,
-        {nargs = '*', range = true, bang = true, complete = function()
-          require('packer.load')({'vim-be-good'}, {}, _G.packer_plugins)
-          return vim.fn.getcompletion('VimBeGood ', 'cmdline')
-      end})
-pcall(vim.api.nvim_create_user_command, 'TagbarToggle', function(cmdargs)
-          require('packer.load')({'tagbar'}, { cmd = 'TagbarToggle', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
-        end,
-        {nargs = '*', range = true, bang = true, complete = function()
-          require('packer.load')({'tagbar'}, {}, _G.packer_plugins)
-          return vim.fn.getcompletion('TagbarToggle ', 'cmdline')
-      end})
-pcall(vim.api.nvim_create_user_command, 'Tnew', function(cmdargs)
-          require('packer.load')({'neoterm'}, { cmd = 'Tnew', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
-        end,
-        {nargs = '*', range = true, bang = true, complete = function()
-          require('packer.load')({'neoterm'}, {}, _G.packer_plugins)
-          return vim.fn.getcompletion('Tnew ', 'cmdline')
-      end})
 pcall(vim.api.nvim_create_user_command, 'CphReceive', function(cmdargs)
           require('packer.load')({'cphelper.nvim'}, { cmd = 'CphReceive', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
         end,
@@ -452,12 +467,12 @@ pcall(vim.api.nvim_create_user_command, 'CphReceive', function(cmdargs)
           require('packer.load')({'cphelper.nvim'}, {}, _G.packer_plugins)
           return vim.fn.getcompletion('CphReceive ', 'cmdline')
       end})
-pcall(vim.api.nvim_create_user_command, 'PasteImg', function(cmdargs)
-          require('packer.load')({'clipboard-image.nvim'}, { cmd = 'PasteImg', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
+pcall(vim.api.nvim_create_user_command, 'VimBeGood', function(cmdargs)
+          require('packer.load')({'vim-be-good'}, { cmd = 'VimBeGood', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
         end,
         {nargs = '*', range = true, bang = true, complete = function()
-          require('packer.load')({'clipboard-image.nvim'}, {}, _G.packer_plugins)
-          return vim.fn.getcompletion('PasteImg ', 'cmdline')
+          require('packer.load')({'vim-be-good'}, {}, _G.packer_plugins)
+          return vim.fn.getcompletion('VimBeGood ', 'cmdline')
       end})
 time([[Defining lazy-load commands]], false)
 
@@ -465,10 +480,10 @@ vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads
 time([[Defining lazy-load filetype autocommands]], true)
-vim.cmd [[au FileType java ++once lua require("packer.load")({'nvim-jdtls'}, { ft = "java" }, _G.packer_plugins)]]
-vim.cmd [[au FileType markdown ++once lua require("packer.load")({'vim-zettel', 'tabular', 'vimwiki', 'markdown-preview.nvim'}, { ft = "markdown" }, _G.packer_plugins)]]
-vim.cmd [[au FileType vimwiki ++once lua require("packer.load")({'vim-zettel', 'tabular', 'vimwiki', 'markdown-preview.nvim'}, { ft = "vimwiki" }, _G.packer_plugins)]]
 vim.cmd [[au FileType tex ++once lua require("packer.load")({'vimtex'}, { ft = "tex" }, _G.packer_plugins)]]
+vim.cmd [[au FileType markdown ++once lua require("packer.load")({'tabular', 'markdown-preview.nvim', 'vimwiki', 'vim-zettel'}, { ft = "markdown" }, _G.packer_plugins)]]
+vim.cmd [[au FileType vimwiki ++once lua require("packer.load")({'tabular', 'markdown-preview.nvim', 'vimwiki', 'vim-zettel'}, { ft = "vimwiki" }, _G.packer_plugins)]]
+vim.cmd [[au FileType java ++once lua require("packer.load")({'nvim-jdtls'}, { ft = "java" }, _G.packer_plugins)]]
 time([[Defining lazy-load filetype autocommands]], false)
 vim.cmd("augroup END")
 vim.cmd [[augroup filetypedetect]]

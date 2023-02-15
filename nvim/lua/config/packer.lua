@@ -4,14 +4,14 @@
 --         install_path })
 
 local ensure_packer = function()
-  local fn = vim.fn
-  local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
-  if fn.empty(fn.glob(install_path)) > 0 then
-    fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
-    vim.cmd [[packadd packer.nvim]]
-    return true
-  end
-  return false
+    local fn = vim.fn
+    local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
+    if fn.empty(fn.glob(install_path)) > 0 then
+        fn.system({ 'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path })
+        vim.cmd [[packadd packer.nvim]]
+        return true
+    end
+    return false
 end
 
 local packer_bootstrap = ensure_packer()
@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
         use 'wbthomason/packer.nvim'
 
         use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate',
-            config = function ()
+            config = function()
                 require("plugin.treesitter")
             end
         }
@@ -29,9 +29,17 @@ return require('packer').startup(function(use)
         use { 'preservim/tagbar', cmd = 'TagbarToggle' }
 
         use { "EdenEast/nightfox.nvim" }
+        use { "rebelot/kanagawa.nvim" }
 
         -- Better Typing Flow
         use 'numToStr/Comment.nvim'
+        use { 'Pocco81/true-zen.nvim',
+            config = function()
+                require("plugin.true-zen")
+            end
+        }
+
+        use 'lewis6991/impatient.nvim'
         use 'windwp/nvim-autopairs'
         use 'machakann/vim-sandwich'
         use 'tpope/vim-repeat'
@@ -42,102 +50,37 @@ return require('packer').startup(function(use)
             "williamboman/mason.nvim",
             "williamboman/mason-lspconfig.nvim",
             "neovim/nvim-lspconfig",
+            "ray-x/lsp_signature.nvim",
             "jose-elias-alvarez/null-ls.nvim",
-            config = function ()
-                require("plugin.lsp")
-            end
+            requires = { "williamboman/mason.nvim" },
         }
-        use {'mfussenegger/nvim-jdtls', ft='java' }
+        use { 'mfussenegger/nvim-jdtls', ft = 'java' }
         use { 'mfussenegger/nvim-dap' }
-        use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+        use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
         -- use {'mfussenegger/nvim-dap-python' }
-        -- use { 'nvim-tree/nvim-tree.lua', cmd = 'NvimTreeToggle',
-        --     config = function()
-        --         require("nvim-tree").setup()
-        --     end
-        -- }
 
         -- QOF
         use 'nvim-tree/nvim-web-devicons'
         use 'wellle/context.vim'
 
         -- Coding
-        -- use { 'vimlab/split-term.vim', cmd = {'Term', 'VTerm'} }
         use { 'GCBallesteros/jupytext.vim' }
         use { 'hkupty/iron.nvim',
             config = function()
-                -- require('GCBallesteros/jupytext.vim').setup()
-                require("iron.core").setup({
-                    config = {
-                        -- Whether a repl should be discarded or not
-                        should_map_plug = false,
-                        scratch_repl = true,
-                        repl_definition = {
-                            python = {
-                                command = { "ipython" },
-                                format = require("iron.fts.common").bracketed_paste,
-                            },
-                        },
-                        -- How the repl window will be displayed
-                        -- See below for more information
-                        repl_open_cmd = require('iron.view').split.vertical(100),
-                    },
-                    -- Iron doesn't set keymaps by default anymore.
-                    -- You can set them here or manually add keymaps to the functions in iron.core
-                    keymaps = {
-                        send_motion = "<space>/",
-                        visual_send = "<space>/",
-                        send_file = "<space>sf",
-                        send_line = "<space>sl",
-                        send_mark = "<space>sm",
-                        mark_motion = "<space>mc",
-                        mark_visual = "<space>mc",
-                        remove_mark = "<space>md",
-                        cr = "<space>s<cr>",
-                        interrupt = "<space>s<space>",
-                        exit = "<space>sq",
-                        clear = "<space>cl",
-                    },
-                    -- If the highlight is on, you can change how it looks
-                    -- For the available options, check nvim_set_hl
-                    highlight = {
-                        italic = true
-                    },
-                    ignore_blank_lines = true, -- ignore blank lines when sending visual select lines
-                })
+                require("plugin.iron")
             end,
         }
 
-        use { 'kassio/neoterm', cmd = 'Tnew' }
+        use { 'akinsho/toggleterm.nvim',
+            config = function()
+                require("plugin.toggleterm")
+            end
+        }
         use { 'p00f/cphelper.nvim', cmd = 'CphReceive' }
 
         use { 'ekickx/clipboard-image.nvim', cmd = 'PasteImg',
             config = function()
-                require("clipboard-image").setup({
-                    vimwiki = {
-                        img_dir = "img",
-                        img_name = function() return os.date('%Y-%m-%d-%H-%M') end,
-                        affix = "[%s](file:%s)" -- Multi lines affix
-                    },
-                    markdown = {
-                        img_dir = "img", -- Use table for nested dir (New feature form PR #20)
-                        img_name = function() return os.date('%Y-%m-%d-%H-%M') end,
-                        img_dir_txt = "img",
-                        affix = "[%s](file:%s)" -- Multi lines affix
-                    },
-                    latex = {
-                        img_dir = "img", -- Use table for nested dir (New feature form PR #20)
-                        img_name = function() return os.date('%Y-%m-%d-%H-%M') end,
-                        img_dir_txt = "",
-                        affix = "\\includegraphics[scale=0.5]{%s}" -- Multi lines affix
-                    },
-                    tex = {
-                        img_dir = "img", -- Use table for nested dir (New feature form PR #20)
-                        img_name = function() return os.date('%Y-%m-%d-%H-%M') end,
-                        img_dir_txt = "",
-                        affix = "\\includegraphics[scale=0.5]{%s}" -- Multi lines affix
-                    }
-                })
+                require("")
             end,
         }
 
@@ -152,7 +95,7 @@ return require('packer').startup(function(use)
         use { 'vimwiki/vimwiki',
             ft = { 'markdown', 'vimwiki' },
             run = 'TSDisable highlight',
-            config = function ()
+            config = function()
                 require("plugin.vimwiki")
             end
         }
@@ -195,6 +138,7 @@ return require('packer').startup(function(use)
                 "hrsh7th/cmp-cmdline",
                 "uga-rosa/cmp-dictionary",
                 "hrsh7th/cmp-nvim-lsp", -- nvim-cmp source for neovim builtin LSP client
+                "ray-x/lsp_signature.nvim",
                 "hrsh7th/cmp-nvim-lua", -- nvim-cmp source for nvim lua
                 "hrsh7th/cmp-buffer", -- nvim-cmp source for buffer words.
                 "hrsh7th/cmp-path", -- nvim-cmp source for filesystem paths.
@@ -224,7 +168,7 @@ return require('packer').startup(function(use)
         use {
             'nvim-lualine/lualine.nvim',
             requires = { 'nvim-tree/nvim-web-devicons', opt = true },
-            config = function ()
+            config = function()
                 require("plugin.lualine")
             end
         }

@@ -1,4 +1,3 @@
--- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menu,noinsert,noselect'
 local cmp = require 'cmp'
 local compare = require 'cmp.config.compare'
@@ -14,9 +13,6 @@ local kind_score = {
 }
 
 cmp.setup({
-    -- completion = {
-    --     completeopt = 'menu,longest','noinsert'
-    -- },
     snippet = {
         expand = function(args) require('luasnip').lsp_expand(args.body) end
     },
@@ -25,9 +21,9 @@ cmp.setup({
 
             local source = entry.source.name
             vim_item.menu = ({
+                nvim_lsp = "[LSP]",
                 buffer = "[Buff]",
                 luasnip = "[LuaSnip]",
-                nvim_lsp = "[LSP]",
                 latex_symbols = "[Latex]",
                 -- dictionary = "[Dictionary]",
                 nvim_lua = "[Lua]",
@@ -35,7 +31,6 @@ cmp.setup({
                 treesitter = "[TS]"
             })[entry.source.name]
 
-            -- if source == "luasnip" or source == "nvim_lsp" or source == "dictionary" then
             if source == "luasnip" or source == "nvim_lsp" then
                 vim_item.dup = 0
             end
@@ -45,16 +40,18 @@ cmp.setup({
     },
     sources = cmp.config.sources(
         {
-        {name = 'luasnip'},
+        {name = 'nvim_lsp'},
         {name = 'buffer', keyword_length = 3},
-        {name = 'nvim_lsp'}, 
+        },
+        {
+        {name = 'luasnip'},
         },
 
         {
-        {name = 'nvim_lua'}, 
+        {name = 'nvim_lua'},
         {name = 'path'},
         {name = 'treesitter'},
-        {name = 'calc'}, 
+        {name = 'calc'},
         }
     ),
 
@@ -62,9 +59,8 @@ cmp.setup({
         comparators = {
             compare.exact,
             compare.recently_used,
+            compare.length,
             compare.locality,
-            
-            -- compare.length,
             function(entry1, entry2)
                 local kind1 = kind_score[kind_mapper[entry1:get_kind()]] or 100
                 local kind2 = kind_score[kind_mapper[entry2:get_kind()]] or 100
@@ -81,7 +77,6 @@ cmp.setup({
 
 })
 
--- Require function for tab to work with LUA-SNIP
 local has_words_before = function()
     local line, col = unpack(vim.api.nvim_win_get_cursor(0))
     return col ~= 0 and
@@ -93,7 +88,6 @@ local luasnip = require("luasnip")
 
 cmp.setup({
     mapping = {
-        -- ['<C-E>'] = cmp.mapping.complete(),
         ['<C-p>'] = cmp.mapping.close(),
         ['<C-u>'] = cmp.mapping.scroll_docs(-4),
         ['<C-d>'] = cmp.mapping.scroll_docs(4),
@@ -126,12 +120,3 @@ cmp.setup({
 
     }
 })
-
--- require("cmp_dictionary").setup({
---     dic = {
---         ["markdown"] = { "/home/ramel/.config/nvim/spell/my.dict" },
---         ["vimwiki"] = { "/home/ramel/.config/nvim/spell/my.dict" },
---         ["latex"] = { "/home/ramel/.config/nvim/spell/my.dict" },
---         ["tex"] = { "/home/ramel/.config/nvim/spell/my.dict" },
---     }
--- })

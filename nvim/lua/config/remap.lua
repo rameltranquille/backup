@@ -3,7 +3,6 @@ local map = require("utils").map
 vim.g.mapleader = " "
 vim.g.maplocalleader = ","
 
--- map("v", "<localleader><localleader>", "<cmd>IronReplHere<CR>")
 -- ------- RELOAD LUA
 map("n", "<leader>rc", ":luafile $MYVIMRC<cr>:source $HOME/.config/nvim/init.lua<cr>")
 
@@ -11,7 +10,6 @@ map("n", "<leader>rc", ":luafile $MYVIMRC<cr>:source $HOME/.config/nvim/init.lua
 map("n", ")", ";")
 map("n", "(", ",")
 map("n", ";", ":")
--- map("v", "<leader>cc", ":s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<")
 
 vim.cmd [[
 vmap <localleader>cc :s/\%V\v<(.)(\w*)/\u\1\L\2/g<CR> \| `<
@@ -31,13 +29,13 @@ map('n', '<leader>cwr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>')
 map('n', '<leader>cwl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>')
 map('n', '<leader>ct', '<cmd>lua vim.lsp.buf.type_definition()<CR>')
 map('n', '<leader>cn', '<cmd>lua vim.lsp.buf.rename()<CR>')
-map('n', '<leader>ci', '<cmd>lua vim.lsp.buf.implementation()<CR>')
 map('v', '<leader>cc', '<cmd>lua vim.lsp.buf.range_code_action()<CR>')
 map('n', '<leader>cr', '<cmd>lua vim.lsp.buf.references()<CR>')
 map('n', '<leader>cl', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>')
 map('n', '<leader>cs', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>')
 map('n', '<leader>cc', '<cmd>lua vim.lsp.buf.code_action()<CR>')
 map('n', '<leader>cf', '<cmd>lua vim.lsp.buf.format { async = true }<CR>')
+
 
 -- QOF Stuff
 map("n", "<C-d>", "<C-d>zz")
@@ -80,13 +78,8 @@ map("n", "<leader>Bh", ":BufferLineCloseLeft<cr>")
 map("n", "<leader><localleader>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
 map("n", "<C-n>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
 map("n", "<C-n>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
--- map("n", "<C-s>", ":sav ") -- Save current file as
+map("n", "<C-s>", ":sav ") -- Save current file as
 -- map("n", "<C-t>", ":tabnew ") -- Open New Tab
--- map("n", "<leader>t1", "1gt")
--- map("n", "<leader>t2", "2gt")
--- map("n", "<leader>t3", "3gt")
--- map("n", "<leader>t4", "4gt")
--- map("n", "<leader>t5", "5gt")
 map("n", "<leader><Tab>", "<C-6>")
 
 -- ------- TagBar
@@ -111,12 +104,29 @@ map("n", "<leader>>", "<C-w>5-")
 -- map("n", "<leader>_", "<C-w>|")
 --
 -- ---- Terminal
-map("n", "<leader>ts", ":split | Tnew<cr>")
-map("n", "<leader>tv", ":vsplit | Tnew<cr>")
--- map("n", "<leader>tl", "<cmd>Tclear<cr>")
--- map("n", "<leader>t<leader>", ":T ")
--- -- map("n", "<leader>ts", "<cmd>vsp | terminal<cr>")
--- map("t", "jj", "<C-\\><C-n>")
+map("n", "<localleader>0", "<cmd>lua require'toggleterm'.exec('taskwarrior-tui')<cr>")
+map("n", "<localleader><localleader>", "<cmd>lua require'toggleterm'.exec('taskwarrior-tui')<cr>")
+map("n", "<localleader>9", "<cmd>lua require'toggleterm'.exec('btop')<cr>")
+map("n", "<localleader>1", "<cmd>lua require'toggleterm'.exec('python')<cr>")
+map("n", "<localleader>2", "<cmd>lua require'toggleterm'.exec('python test.py')<cr>")
+-- map("n", "<localleader>4", "lua _TASKWARRIOR_TOGGLE")
+
+map("n", "<localleader>T", "<cmd>ToggleTerm size=40 dir=~/ direction=vertical<cr>")
+map("n", "<C-t>", "<cmd>ToggleTerm size=40 dir=~/ direction=vertical<cr>")
+
+map("n", "<C-\\>", "<cmd>ToggleTerm size=40 dir=~/ direction=float<cr>")
+map("n", "<localleader>tf", "<cmd>ToggleTerm size=40 dir=~/ direction=float<cr>")
+
+map("n", "<localleader>th", "<cmd>ToggleTerm size=40 dir=~/ direction=horizontal<cr>")
+map("n", "<localleader>tt", "<cmd>ToggleTerm size=40 dir=~/ direction=tab<cr>")
+
+map("n", "<localleader>te", "<cmd>TermExec cmd=\"python %\" size=40 direction=vertical<cr>")
+map("n", "<leader>ts", "<cmd>ToggleTermSendCurrentLine<cr>")
+map("v", "<leader>ts", "<cmd>ToggleTermSendVisualLines<cr>")
+map("v", "<localleader>ts", "<cmd>ToggleTermSendVisualSelection<cr>")
+
+map("t", "<C-\\>", "<C-\\><C-N><C-w>j")
+map("t", "<C-t>", "<C-\\><C-N><C-w>j")
 map("t", "<C-h>", "<C-\\><C-N><C-w>h")
 map("t", "<C-j>", "<C-\\><C-N><C-w>j")
 map("t", "<C-k>", "<C-\\><C-N><C-w>k")
@@ -165,12 +175,3 @@ map("n", "<leader>ds", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Break
 map("n", "<leader>dd", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>")
 map("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<CR>")
 map("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<CR>")
-
--- PYTHON
-map("n", "<leader>pp", "<cmd>TREPLSendFile<cr>")
-map("n", "<leader>ps", "<cmd>TREPLSendSelection<cr>")
-map("n", "<leader>pl", "<cmd>TREPLSendLine<cr>")
-map("v", "<leader>pp", "<cmd>TREPLSendFile<cr>")
-map("v", "<leader>ps", "<cmd>TREPLSendSelection<cr>")
-map("v", "<leader>pl", "<cmd>TREPLSendLine<cr>")
-map("n", "<leader>pt", "<cmd>T python %<cr>")
