@@ -101,7 +101,7 @@ alias cn='cd ~/Dropbox/projects/ccc/; nvim'
 alias csrc='cd ~/Dropbox/projects/ccc/src/; nvim'
 alias ctest='cd ~/Dropbox/projects/ccc/test/; nvim'
 
-alias week='nvim $(python3 ~/Dropbox/getWeekNum)'
+alias week='nvim $(python3 ~/Dropbox/weekly-note.py)'
 alias plan='cd ~/Dropbox/; nvim -O ~/Dropbox/index.md $(python3 ~/Dropbox/getWeekNum) -c VimwikiIndex'
 
 alias snips='cd $HOME/.config/nvim/luasnippets/; ls -Al'

@@ -9154,3 +9154,9 @@ time 1676436757
 old [description:"Clear Bookmarks" due:"1676347200" entry:"1676001822" imask:"41.000000" modified:"1675962478" parent:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e" project:"Maintain" recur:"4d" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"a718be8a-ae70-4f5d-9b81-c0b81a063e8c"]
 new [description:"Clear Bookmarks" due:"1676347200" end:"1676436757" entry:"1676001822" imask:"41.000000" modified:"1676436757" parent:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e" project:"Maintain" recur:"4d" rtype:"periodic" status:"completed" tags:"deep" tags_deep:"x" uuid:"a718be8a-ae70-4f5d-9b81-c0b81a063e8c"]
 ---
+time 1676441549
+new [description:"EMAILS TO ALL PROFS" due:"1676437200" entry:"1676441549" modified:"1676441549" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"7193e0cb-26c3-4aee-910b-58c13dc7b351"]
+---
+time 1676443457
+new [description:"email nickwright" due:"1676702657" entry:"1676443457" modified:"1676443457" project:"Sift" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"e6dd60d2-6570-4ed6-bd0c-f6b12437d310"]
+---
