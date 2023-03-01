@@ -10,7 +10,7 @@ do
 done
 
 if (($n > 0)); then
-    task sync recurrence=on
+    task sync 
 fi
 
 exit 0

@@ -35,7 +35,10 @@ require('telescope').setup{
       file_browser = {
           theme = "ivy",
           -- disables netrw and use telescope-file-browser in its place
+          cwd_to_path = false,
           hijack_netrw = true,
+          hidden = true,
+          depth = 2,
           mappings = {
             ["i"] = {
               -- your custom insert mode mappings

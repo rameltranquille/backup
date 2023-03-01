@@ -75,9 +75,8 @@ map("n", "<leader>Bl", ":BufferLineCloseRight<cr>")
 map("n", "<leader>Bh", ":BufferLineCloseLeft<cr>")
 
 -- Nvim Tree
-map("n", "<leader><localleader>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
-map("n", "<C-n>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
-map("n", "<C-n>", "<cmd>Telescope file_browser<cr>:set relativenumber<cr>")
+map("n", "<leader><localleader>", "<cmd>Telescope file_browser<cr>")
+map("n", "<C-n>", "<cmd>Telescope file_browser<cr>")
 map("n", "<C-s>", ":sav ") -- Save current file as
 -- map("n", "<C-t>", ":tabnew ") -- Open New Tab
 map("n", "<leader><Tab>", "<C-6>")
@@ -104,8 +103,8 @@ map("n", "<leader>>", "<C-w>5-")
 -- map("n", "<leader>_", "<C-w>|")
 --
 -- ---- Terminal
-map("n", "<localleader>0", "<cmd>lua require'toggleterm'.exec('taskwarrior-tui')<cr>")
-map("n", "<localleader><localleader>", "<cmd>lua require'toggleterm'.exec('taskwarrior-tui')<cr>")
+map("n", "<localleader>0", "<cmd>lua require'toggleterm'.exec('tasksh')<cr>")
+map("n", "<localleader><localleader>", "<cmd>lua require'toggleterm'.exec('tasksh')<cr>")
 map("n", "<localleader>9", "<cmd>lua require'toggleterm'.exec('btop')<cr>")
 map("n", "<localleader>1", "<cmd>lua require'toggleterm'.exec('python')<cr>")
 map("n", "<localleader>2", "<cmd>lua require'toggleterm'.exec('python test.py')<cr>")
@@ -125,12 +124,10 @@ map("n", "<leader>ts", "<cmd>ToggleTermSendCurrentLine<cr>")
 map("v", "<leader>ts", "<cmd>ToggleTermSendVisualLines<cr>")
 map("v", "<localleader>ts", "<cmd>ToggleTermSendVisualSelection<cr>")
 
-map("t", "<C-\\>", "<C-\\><C-N><C-w>j")
 map("t", "<C-t>", "<C-\\><C-N><C-w>j")
 map("t", "<C-h>", "<C-\\><C-N><C-w>h")
 map("t", "<C-j>", "<C-\\><C-N><C-w>j")
 map("t", "<C-k>", "<C-\\><C-N><C-w>k")
-map("t", "<C-l>", "<C-\\><C-N><C-w>l")
 --
 -- ---- F KEYS
 -- ---- Telescope
@@ -175,3 +172,34 @@ map("n", "<leader>ds", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Break
 map("n", "<leader>dd", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>")
 map("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<CR>")
 map("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<CR>")
+
+
+
+map("n", "<leader>cp", "<cmd>Copilot panel<CR>")
+map("n", "<leader>cb", "<cmd>Copilot status<CR>")
+map("n", "<M-m>", "<cmd>Copilot enable<CR>")
+map("n", "<C-m>", "<cmd>Copilot disable<CR>")
+map("n", "<leader>cb", "<cmd>Copilot disable<CR>")
+
+vim.cmd [[ 
+        imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
+        let g:copilot_no_tab_map = v:true
+]]
+
+
+-- Other Maps  
+-- *copilot-i_CTRL-]*
+-- <C-]>                   Dismiss the current suggestion.
+-- <Plug>(copilot-dismiss)
+-- -------------
+-- *copilot-i_ALT-]*
+-- <M-]>                   Cycle to the next suggestion, if one is available.
+-- <Plug>(copilot-next)
+-- -------------
+-- *copilot-i_ALT-[*
+-- <M-[>                   Cycle to the previous suggestion.
+-- <Plug>(copilot-previous)
+-- -------------
+-- *copilot-i_ALT-\*
+-- <M-\>                   Explicitly request a suggestion, even if Copilot
+-- <Plug>(copilot-suggest) is disabled.

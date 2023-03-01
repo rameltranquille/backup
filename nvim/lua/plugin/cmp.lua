@@ -27,8 +27,8 @@ cmp.setup({
                 latex_symbols = "[Latex]",
                 -- dictionary = "[Dictionary]",
                 nvim_lua = "[Lua]",
-                nvim_calc = "[calc]",
-                treesitter = "[TS]"
+                treesitter = "[TS]",
+                -- nvim_calc = "[calc]"
             })[entry.source.name]
 
             if source == "luasnip" or source == "nvim_lsp" then
@@ -45,13 +45,13 @@ cmp.setup({
         },
         {
         {name = 'luasnip'},
+        {name = 'path'},
         },
 
         {
         {name = 'nvim_lua'},
-        {name = 'path'},
         {name = 'treesitter'},
-        {name = 'calc'},
+        -- {name = 'calc'},
         }
     ),
 

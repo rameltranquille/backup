@@ -47,6 +47,7 @@ urgency.user.tag.shallow.coefficient=5.0
 urgency.user.tag.short.coefficient=15.0
 urgency.user.tag.deep.coefficient=20.0
 urgency.user.tag.NOW.coefficient=50.0
+urgency.user.tag.HW.coefficient=45.0
 
 ### PER PROJECT COEFF
 urgency.user.project.Maintain.coefficient=10.0
@@ -60,6 +61,7 @@ urgency.user.tag.dma.coefficient=30
 urgency.user.tag.dim.coefficient=30
 urgency.user.tag.corpFin.coefficient=30
 urgency.user.tag.ccc.coefficient=25
+urgency.user.tag.ig.coefficient=25
 # urgency.user.tag.uni.coefficient=20
 # urgency.user.tag.uni.coefficient=15.0
 

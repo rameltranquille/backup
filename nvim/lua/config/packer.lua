@@ -92,7 +92,10 @@ return require('packer').startup(function(use)
         }
 
         --------- Vimwiki
-        use { 'vimwiki/vimwiki',
+        use {
+            'vimwiki/vimwiki',
+            'michal-h21/vim-zettel',
+            cmd = { 'VimwikiIndex', 'ZettelNew' },
             ft = { 'markdown', 'vimwiki' },
             run = 'TSDisable highlight',
             config = function()
@@ -100,10 +103,6 @@ return require('packer').startup(function(use)
             end
         }
 
-        use { 'michal-h21/vim-zettel',
-            ft = { 'markdown', 'vimwiki' },
-            requires = 'vimwiki/vimwiki'
-        }
         use { 'junegunn/fzf' }
 
         ----------- Markdown & Latex
@@ -124,7 +123,9 @@ return require('packer').startup(function(use)
             tag = '0.1.0', }
         use { 'axkirillov/easypick.nvim',
             requires = 'nvim-telescope/telescope.nvim',
-            -- cmd = 'Easypick'
+            config = function()
+                require("plugin.easypick")
+            end
         }
         use { 'nvim-telescope/telescope-file-browser.nvim',
             requires = 'nvim-telescope/telescope.nvim',

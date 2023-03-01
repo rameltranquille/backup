@@ -45,7 +45,7 @@ alias ntask="nvim $HOME/.taskrc"
 #------------CLASS
 ###############################################################
 ## MORE VIMWIKI
-alias home="cd $HOME/Dropbox/; nvim -c VimwikiIndex"
+alias home="cd $HOME/Dropbox/; nvim index.md"
 alias think="cd $HOME/Dropbox/thinkDS/; nvim readme.md"
 alias stats="cd $HOME/Dropbox/statistics/; nvim README.md"
 
@@ -60,10 +60,10 @@ alias tdo="task done"
 alias tdel="task delete"
 alias tm="task modify"
 alias tbd="task burndown.daily"
-alias tdue="task list limit:5"
-alias tls="task list limit:5"
-alias turgent="task long limit:5"
-alias tll="task long limit:5"
+alias tdue="task list limit:10"
+alias tls="task list limit:10"
+alias turgent="task long limit:10"
+alias tll="task long limit:10"
 alias ts="task simple"
 alias tcal="task calendar"
 alias tpm="task project:Maintain"

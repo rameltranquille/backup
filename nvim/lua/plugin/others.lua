@@ -32,7 +32,7 @@ vim.g.cph_vsplit = true
 
 vim.g.startify_session_autoload = 1
 vim.g.startify_files_number = 5
-vim.cmd [[ let g:startify_bookmarks = [{'s':'/home/ramel/Dropbox/uni/data_bootcamp/README.md'}, {'d':'/home/ramel/Dropbox/uni/info_tech/README.md'}, {'c':'/home/ramel/Dropbox/projects/ccc/README.md'}, {'a':'/home/ramel/Dropbox/uni/dma/README.md'}, {'b':'/home/ramel/Dropbox/uni/dim/README.md'}, {'c':'/home/ramel/Dropbox/uni/advanced_cf/README.md'} ] ]]
+vim.cmd [[ let g:startify_bookmarks = [{'s':'/home/ramel/.config/nvim/lua/config/packer.lua'}, {'s':'/home/ramel/Dropbox/uni/data_bootcamp/README.md'}, {'d':'/home/ramel/Dropbox/uni/info_tech/README.md'}, {'c':'/home/ramel/Dropbox/projects/ccc/README.md'}, {'a':'/home/ramel/Dropbox/uni/dma/README.md'}, {'b':'/home/ramel/Dropbox/uni/dim/README.md'}, {'c':'/home/ramel/Dropbox/uni/advanced_cf/README.md'} ] ]]
 
 vim.g.netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 

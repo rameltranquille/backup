@@ -9160,3 +9160,1466 @@ new [description:"EMAILS TO ALL PROFS" due:"1676437200" entry:"1676441549" modif
 time 1676443457
 new [description:"email nickwright" due:"1676702657" entry:"1676443457" modified:"1676443457" project:"Sift" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"e6dd60d2-6570-4ed6-bd0c-f6b12437d310"]
 ---
+time 1676478791
+new [description:"review project compared to naming_conventions notes and clean code" due:"1676737991" entry:"1676478791" modified:"1676478791" project:"ccc" status:"pending" uuid:"6e7dd235-c157-4566-a6f3-1e544b4d4643"]
+---
+time 1676491943
+old [description:"EMAILS TO ALL PROFS" due:"1676437200" entry:"1676441549" modified:"1676441549" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"7193e0cb-26c3-4aee-910b-58c13dc7b351"]
+new [description:"EMAILS TO ALL PROFS" due:"1676437200" end:"1676491943" entry:"1676441549" modified:"1676491943" project:"dim" status:"completed" tags:"NOW" tags_NOW:"x" uuid:"7193e0cb-26c3-4aee-910b-58c13dc7b351"]
+---
+time 1676491952
+old [description:"complete graphing best practice" due:"1676437200" entry:"1675892997" modified:"1676241306" project:"bootcamp" status:"pending" uuid:"4930c62a-23ab-4db8-af84-5c462b552538"]
+new [description:"complete graphing best practice" due:"1676437200" end:"1676491951" entry:"1675892997" modified:"1676491952" project:"bootcamp" status:"deleted" uuid:"4930c62a-23ab-4db8-af84-5c462b552538"]
+---
+time 1676491968
+old [description:"hackerrank data structures" due:"1676091600" entry:"1674346692" modified:"1675629376" project:"Sift" status:"pending" tags:"deep" tags_deep:"x" uuid:"57f6e735-5b3d-4d27-9f9b-086792af7fc2"]
+new [description:"hackerrank data structures" due:"1676091600" end:"1676491966" entry:"1674346692" modified:"1676491968" project:"Sift" status:"deleted" tags:"deep" tags_deep:"x" uuid:"57f6e735-5b3d-4d27-9f9b-086792af7fc2"]
+---
+time 1676492004
+old [description:"Add to Anki" due:"1666411200" entry:"1665903259" mask:"+X++++++++++++X---" modified:"1676128096" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+new [description:"Add to Anki" due:"1666411200" entry:"1665903259" mask:"+X++++++++++++XX--" modified:"1676492004" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+---
+time 1676492004
+old [description:"Add to Anki" due:"1675659600" entry:"1674878563" imask:"15.000000" modified:"1675629339" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"dd716e4d-50bc-4d11-aad4-6ef70a23306d"]
+new [description:"Add to Anki" due:"1675659600" end:"1676492003" entry:"1674878563" imask:"15.000000" modified:"1676492004" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"dd716e4d-50bc-4d11-aad4-6ef70a23306d"]
+---
+time 1676492041
+old [description:"Revise Notes" due:"1659758400" entry:"1659632046" mask:"+++++++++++XX+++++++++++++X--" modified:"1676128096" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+new [description:"Revise Notes" due:"1659758400" entry:"1659632046" mask:"+++++++++++XX+++++++++++++XX-" modified:"1676492041" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+---
+time 1676492041
+old [description:"Revise Notes" due:"1676088000" entry:"1675483670" imask:"27.000000" modified:"1676427083" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"deep,next" tags_deep:"x" tags_next:"x" uuid:"99a74480-ef2e-4b3b-a671-7437d22c23b9"]
+new [description:"Revise Notes" due:"1676088000" end:"1676492039" entry:"1675483670" imask:"27.000000" modified:"1676492041" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"deep,next" tags_deep:"x" tags_next:"x" uuid:"99a74480-ef2e-4b3b-a671-7437d22c23b9"]
+---
+time 1676492042
+old [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++-+-" modified:"1676436740" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+new [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+-" modified:"1676492042" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+---
+time 1676492043
+old [description:"Update Home.md" due:"1676088000" entry:"1675742859" imask:"34.000000" modified:"1675705390" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"73f5cdf9-d180-46b5-9dc1-4a7338ba343e"]
+new [description:"Update Home.md" due:"1676088000" end:"1676492042" entry:"1675742859" imask:"34.000000" modified:"1676492043" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"73f5cdf9-d180-46b5-9dc1-4a7338ba343e"]
+---
+time 1676492043
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+---" modified:"1676260975" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X--" modified:"1676492043" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1676492043
+old [description:"Review Qs in Dropbox" due:"1676001600" entry:"1675742859" imask:"53.000000" modified:"1675714991" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"44a0357d-a9d2-4863-9404-ad751c702cad"]
+new [description:"Review Qs in Dropbox" due:"1676001600" end:"1676492043" entry:"1675742859" imask:"53.000000" modified:"1676492043" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"deleted" tags:"uni" tags_uni:"x" uuid:"44a0357d-a9d2-4863-9404-ad751c702cad"]
+---
+time 1676492067
+old [description:"summarize notes from lectures 1-4" due:"1675884576" entry:"1675625376" modified:"1675625376" project:"it" status:"pending" uuid:"7474afdd-a778-44aa-a9f1-7016ec93e348"]
+new [description:"summarize notes from lectures 1-4" due:"1675884576" end:"1676492066" entry:"1675625376" modified:"1676492067" project:"it" status:"deleted" uuid:"7474afdd-a778-44aa-a9f1-7016ec93e348"]
+---
+time 1676492077
+old [description:"read up to chapter 4" due:"1675884647" entry:"1675625447" modified:"1675625447" project:"it" status:"pending" uuid:"8c3c1a01-13b7-44d3-90e2-f504e2963ef4"]
+new [description:"read up to chapter 4" due:"1675884647" end:"1676492075" entry:"1675625447" modified:"1676492077" project:"it" status:"deleted" uuid:"8c3c1a01-13b7-44d3-90e2-f504e2963ef4"]
+---
+time 1676492103
+old [description:"update ccc readme projects:ccc" due:"1675900714" entry:"1675641514" modified:"1675641514" project:"Sift" status:"pending" uuid:"e62b2df2-58b4-450f-aed8-e31607653790"]
+new [description:"update ccc readme" due:"1675900714" entry:"1675641514" modified:"1676492103" project:"ccc" status:"pending" uuid:"e62b2df2-58b4-450f-aed8-e31607653790"]
+---
+time 1676492129
+old [description:"Clear Tray" due:"1663387200" entry:"1662886007" mask:"++++++XX+++++++++++++--" modified:"1676128096" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a92eabf4-3bce-4778-804e-2e021d6fe7e2"]
+new [description:"Clear Tray" due:"1663387200" entry:"1662886007" mask:"++++++XX++++++++++++++-" modified:"1676492129" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a92eabf4-3bce-4778-804e-2e021d6fe7e2"]
+---
+time 1676492129
+old [description:"Clear Tray" due:"1676088000" entry:"1675483670" imask:"21.000000" modified:"1674878563" parent:"a92eabf4-3bce-4778-804e-2e021d6fe7e2" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"65d4f7fb-7098-4362-94ca-812552acdbdf"]
+new [description:"Clear Tray" due:"1676088000" end:"1676492129" entry:"1675483670" imask:"21.000000" modified:"1676492129" parent:"a92eabf4-3bce-4778-804e-2e021d6fe7e2" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"65d4f7fb-7098-4362-94ca-812552acdbdf"]
+---
+time 1676492129
+old [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX++++++++++++++--" modified:"1676128096" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+new [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX+++++++++++++++-" modified:"1676492129" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+---
+time 1676492129
+old [description:"Spring Cleaning" due:"1676088000" entry:"1675483670" imask:"17.000000" modified:"1674878563" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"e1db7940-f7a3-4e28-a1e6-e2834acfd463"]
+new [description:"Spring Cleaning" due:"1676088000" end:"1676492129" entry:"1675483670" imask:"17.000000" modified:"1676492129" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"e1db7940-f7a3-4e28-a1e6-e2834acfd463"]
+---
+time 1676514757
+new [description:"Update Submanager" due:"1677724258" entry:"1676514757" imask:"15.000000" modified:"1675628900" parent:"fcf819d8-4d1c-4560-86d3-254003bac37c" project:"Maintain" recur:"biweekly" rtype:"periodic" scheduled:"1659321058" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"3bfe5657-6cce-4f8e-b72f-4cd6203350b5"]
+---
+time 1676514757
+old [description:"Update Submanager" due:"1659580258" entry:"1659321058" mask:"+-++++X+++++++-" modified:"1675628900" project:"Maintain" recur:"biweekly" rtype:"periodic" scheduled:"1659321058" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"fcf819d8-4d1c-4560-86d3-254003bac37c"]
+new [description:"Update Submanager" due:"1659580258" entry:"1659321058" mask:"+-++++X+++++++--" modified:"1676514757" project:"Maintain" recur:"biweekly" rtype:"periodic" scheduled:"1659321058" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"fcf819d8-4d1c-4560-86d3-254003bac37c"]
+---
+time 1676520309
+new [description:"Review Qs in Dropbox" due:"1676779200" entry:"1676520309" imask:"56.000000" modified:"1676492043" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"3b7a8ab1-7b04-4361-9a1e-59152fb39b4d"]
+---
+time 1676520309
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X--" modified:"1676492043" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X---" modified:"1676520309" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1676522853
+new [description:"track the predictions of sports pundits" due:"1676782052" entry:"1676522852" modified:"1676522852" project:"Sift" status:"pending" uuid:"d98aadbd-6c00-443e-bc6f-7f1204d17ae9"]
+---
+time 1676523302
+new [description:"tracker for sachin" due:"1676782502" entry:"1676523302" modified:"1676523302" project:"Sift" status:"pending" uuid:"f9b5f55c-ef77-4810-84a8-59a5a052d98f"]
+---
+time 1676523628
+new [description:"update weightLog" due:"1677128400" entry:"1676523628" imask:"8.000000" modified:"1675965783" parent:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6" project:"Sift" recur:"7d" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"dd153475-1058-41f1-8fa1-c3b06c721b02"]
+---
+time 1676523628
+old [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"+++++++-" modified:"1675965783" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+new [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"+++++++--" modified:"1676523628" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+---
+time 1676566345
+old [description:"Clean PC" due:"1657118110" entry:"1655303710" mask:"++--" modified:"1674370667" priority:"M" project:"Maintain" recur:"quarterly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7ffc87ff-6df4-4eb8-8675-23b3eb46e0ec"]
+new [description:"Clean PC" due:"1657118110" entry:"1655303710" mask:"++X-" modified:"1676566345" priority:"M" project:"Maintain" recur:"quarterly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7ffc87ff-6df4-4eb8-8675-23b3eb46e0ec"]
+---
+time 1676566345
+old [description:"Clean PC" due:"1676523600" entry:"1665066958" imask:"2.000000" modified:"1675492880" parent:"7ffc87ff-6df4-4eb8-8675-23b3eb46e0ec" priority:"M" project:"Maintain" recur:"quarterly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"53c80bbb-8028-4e3d-a9b3-408041dc4005"]
+new [description:"Clean PC" due:"1676523600" end:"1676566343" entry:"1665066958" imask:"2.000000" modified:"1676566345" parent:"7ffc87ff-6df4-4eb8-8675-23b3eb46e0ec" priority:"M" project:"Maintain" recur:"quarterly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"53c80bbb-8028-4e3d-a9b3-408041dc4005"]
+---
+time 1676569556
+old [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"+++++++--" modified:"1676523628" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+new [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"++++++++-" modified:"1676569556" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+---
+time 1676569556
+old [description:"update weightLog" due:"1676523600" entry:"1675918957" imask:"7.000000" modified:"1675379157" parent:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6" project:"Sift" recur:"7d" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"cdda3d12-63c9-4f21-8eb3-ce57a6dcb5ab"]
+new [description:"update weightLog" due:"1676523600" end:"1676569556" entry:"1675918957" imask:"7.000000" modified:"1676569556" parent:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6" project:"Sift" recur:"7d" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"cdda3d12-63c9-4f21-8eb3-ce57a6dcb5ab"]
+---
+time 1676570841
+old [description:"Update Submanager" due:"1659580258" entry:"1659321058" mask:"+-++++X+++++++--" modified:"1676514757" project:"Maintain" recur:"biweekly" rtype:"periodic" scheduled:"1659321058" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"fcf819d8-4d1c-4560-86d3-254003bac37c"]
+new [description:"Update Submanager" due:"1659580258" entry:"1659321058" mask:"+-++++X++++++++-" modified:"1676570841" project:"Maintain" recur:"biweekly" rtype:"periodic" scheduled:"1659321058" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"fcf819d8-4d1c-4560-86d3-254003bac37c"]
+---
+time 1676570842
+old [description:"Update Submanager" due:"1676514658" entry:"1675305491" imask:"14.000000" modified:"1674095601" parent:"fcf819d8-4d1c-4560-86d3-254003bac37c" project:"Maintain" recur:"biweekly" rtype:"periodic" scheduled:"1659321058" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"66aa148d-6172-4cf4-8460-0f549640cb2f"]
+new [description:"Update Submanager" due:"1676514658" end:"1676570840" entry:"1675305491" imask:"14.000000" modified:"1676570842" parent:"fcf819d8-4d1c-4560-86d3-254003bac37c" project:"Maintain" recur:"biweekly" rtype:"periodic" scheduled:"1659321058" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"66aa148d-6172-4cf4-8460-0f549640cb2f"]
+---
+time 1676570842
+old [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX++++++++++++++--" modified:"1676174812" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+new [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX+++++++++++++++-" modified:"1676570842" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+---
+time 1676570842
+old [description:"Update Unlisted Tasks" due:"1676174400" entry:"1675569706" imask:"27.000000" modified:"1675095268" parent:"c4316c19-dc31-47b3-a57d-76ca73193aa7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"ab4e558a-7fc5-4b91-884d-d4d7629fae18"]
+new [description:"Update Unlisted Tasks" due:"1676174400" end:"1676570842" entry:"1675569706" imask:"27.000000" modified:"1676570842" parent:"c4316c19-dc31-47b3-a57d-76ca73193aa7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"ab4e558a-7fc5-4b91-884d-d4d7629fae18"]
+---
+time 1676570842
+old [description:"update ccc readme" due:"1675900714" entry:"1675641514" modified:"1676492103" project:"ccc" status:"pending" uuid:"e62b2df2-58b4-450f-aed8-e31607653790"]
+new [description:"update ccc readme" due:"1675900714" end:"1676570842" entry:"1675641514" modified:"1676570842" project:"ccc" status:"completed" uuid:"e62b2df2-58b4-450f-aed8-e31607653790"]
+---
+time 1676570842
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X---" modified:"1676520309" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+--" modified:"1676570842" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1676570842
+old [description:"Review Qs in Dropbox" due:"1676260800" entry:"1676001822" imask:"54.000000" modified:"1675742859" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"939eb878-4086-4bed-ba41-7d96cb057de4"]
+new [description:"Review Qs in Dropbox" due:"1676260800" end:"1676570842" entry:"1676001822" imask:"54.000000" modified:"1676570842" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"completed" tags:"uni" tags_uni:"x" uuid:"939eb878-4086-4bed-ba41-7d96cb057de4"]
+---
+time 1676570860
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+--" modified:"1676570842" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++-" modified:"1676570860" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1676570860
+old [description:"Review Qs in Dropbox" due:"1676520000" entry:"1676260975" imask:"55.000000" modified:"1676001822" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"1366d048-8063-4a0d-9bd5-4c62638f053c"]
+new [description:"Review Qs in Dropbox" due:"1676520000" end:"1676570860" entry:"1676260975" imask:"55.000000" modified:"1676570860" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"completed" tags:"uni" tags_uni:"x" uuid:"1366d048-8063-4a0d-9bd5-4c62638f053c"]
+---
+time 1676570878
+old [description:"permit exam" due:"1676264400" entry:"1673207096" modified:"1675715170" project:"Maintain" status:"pending" tags:"short" tags_short:"x" uuid:"2846550a-3f46-4b94-a575-a8e6c0fead93"]
+new [description:"permit exam" due:"1677646799" entry:"1673207096" modified:"1676570878" project:"Maintain" status:"pending" tags:"short" tags_short:"x" uuid:"2846550a-3f46-4b94-a575-a8e6c0fead93"]
+---
+time 1676571027
+old [description:"learn binary number system" due:"1676610000" entry:"1674370369" modified:"1676241454" project:"Sift" status:"pending" tags:"deep" tags_deep:"x" uuid:"26222713-095f-4567-af73-29e56c575c5e"]
+new [description:"learn binary number system" due:"1677646799" entry:"1674370369" modified:"1676571027" project:"Sift" status:"pending" tags:"deep" tags_deep:"x" uuid:"26222713-095f-4567-af73-29e56c575c5e"]
+---
+time 1676571033
+old [description:"convert 50 integers to binary" due:"1676650364" entry:"1674148517" modified:"1675959164" project:"Sift" status:"pending" tags:"deep" tags_deep:"x" uuid:"19589df4-faeb-4806-893c-6d18dc4e4ddd"]
+new [description:"convert 50 integers to binary" due:"1677646799" entry:"1674148517" modified:"1676571033" project:"Sift" status:"pending" tags:"deep" tags_deep:"x" uuid:"19589df4-faeb-4806-893c-6d18dc4e4ddd"]
+---
+time 1676571162
+old [description:"Update Nvim and Vim plugins and configs" due:"1664596800" entry:"1659423380" mask:"-++++X++++-" modified:"1675628171" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"23fe41bd-4329-4a93-9111-f57e1590161b"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1664596800" entry:"1659423380" mask:"-++++X++++X" modified:"1676571162" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"23fe41bd-4329-4a93-9111-f57e1590161b"]
+---
+time 1676571162
+old [description:"Update Nvim and Vim plugins and configs" due:"1676692800" entry:"1675483670" imask:"10.000000" modified:"1674371047" parent:"23fe41bd-4329-4a93-9111-f57e1590161b" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"d603ea3f-a910-4f66-9af8-354f9ec7141d"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676692800" end:"1676571160" entry:"1675483670" imask:"10.000000" modified:"1676571162" parent:"23fe41bd-4329-4a93-9111-f57e1590161b" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"d603ea3f-a910-4f66-9af8-354f9ec7141d"]
+---
+time 1676571163
+old [description:"Update Nvim and Vim plugins and configs" due:"1664596800" entry:"1659423380" mask:"-++++X++++X" modified:"1676571162" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"23fe41bd-4329-4a93-9111-f57e1590161b"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1664596800" end:"1676571163" entry:"1659423380" mask:"-++++X++++X" modified:"1676571163" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"23fe41bd-4329-4a93-9111-f57e1590161b"]
+---
+time 1676571163
+old [description:"Add to Anki" due:"1666411200" entry:"1665903259" mask:"+X++++++++++++XX--" modified:"1676492004" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+new [description:"Add to Anki" due:"1666411200" entry:"1665903259" mask:"+X++++++++++++XXX-" modified:"1676571163" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+---
+time 1676571163
+old [description:"Add to Anki" due:"1676088000" entry:"1675483670" imask:"16.000000" modified:"1674878563" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"1c250c2a-2bc4-44e1-b8a5-adb5c0309009"]
+new [description:"Add to Anki" due:"1676088000" end:"1676571163" entry:"1675483670" imask:"16.000000" modified:"1676571163" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"1c250c2a-2bc4-44e1-b8a5-adb5c0309009"]
+---
+time 1676571163
+old [description:"Add to Anki" due:"1666411200" entry:"1665903259" mask:"+X++++++++++++XXX-" modified:"1676571163" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+new [description:"Add to Anki" due:"1666411200" entry:"1665903259" mask:"+X++++++++++++XXXX" modified:"1676571163" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+---
+time 1676571163
+old [description:"Add to Anki" due:"1676692800" entry:"1676088165" imask:"17.000000" modified:"1675483670" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"52ed3cb4-c50e-4c27-b66c-20ad031e9fac"]
+new [description:"Add to Anki" due:"1676692800" end:"1676571163" entry:"1676088165" imask:"17.000000" modified:"1676571163" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"52ed3cb4-c50e-4c27-b66c-20ad031e9fac"]
+---
+time 1676571163
+old [description:"Add to Anki" due:"1676692800" entry:"1676128096" imask:"17.000000" modified:"1675483670" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"54e64ef9-ce9f-4169-bfdd-731c8ff22a12"]
+new [description:"Add to Anki" due:"1676692800" end:"1676571163" entry:"1676128096" imask:"17.000000" modified:"1676571163" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"54e64ef9-ce9f-4169-bfdd-731c8ff22a12"]
+---
+time 1676571163
+old [description:"Add to Anki" due:"1666411200" entry:"1665903259" mask:"+X++++++++++++XXXX" modified:"1676571163" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+new [description:"Add to Anki" due:"1666411200" end:"1676571163" entry:"1665903259" mask:"+X++++++++++++XXXX" modified:"1676571163" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"8de7c42c-538b-4508-a924-31d5df425495"]
+---
+time 1676571163
+old [description:"figure tests for collection script" due:"1676171612" entry:"1675912412" modified:"1675912412" project:"ccc" status:"pending" uuid:"74fb94c0-0d5a-47ef-83c2-9a47b3d63e50"]
+new [description:"figure tests for collection script" due:"1676171612" end:"1676571163" entry:"1675912412" modified:"1676571163" project:"ccc" status:"deleted" uuid:"74fb94c0-0d5a-47ef-83c2-9a47b3d63e50"]
+---
+time 1676571164
+old [description:"Laundry" due:"1662177600" entry:"1659320500" mask:"-+++++++XX++++++++++++++-" modified:"1676436757" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"0d8a90b6-6fce-465b-aeff-550956c53839"]
+new [description:"Laundry" due:"1662177600" entry:"1659320500" mask:"-+++++++XX++++++++++++++X" modified:"1676571164" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"0d8a90b6-6fce-465b-aeff-550956c53839"]
+---
+time 1676571164
+old [description:"Laundry" due:"1676692800" entry:"1676088165" imask:"24.000000" modified:"1675634379" parent:"0d8a90b6-6fce-465b-aeff-550956c53839" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"9731047f-aa60-43de-80ef-bd2b7fca19bd"]
+new [description:"Laundry" due:"1676692800" end:"1676571163" entry:"1676088165" imask:"24.000000" modified:"1676571164" parent:"0d8a90b6-6fce-465b-aeff-550956c53839" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"9731047f-aa60-43de-80ef-bd2b7fca19bd"]
+---
+time 1676571164
+old [description:"Laundry" due:"1676692800" entry:"1676128096" imask:"24.000000" modified:"1675634379" parent:"0d8a90b6-6fce-465b-aeff-550956c53839" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"868a1e3b-cebb-43bb-9eb1-aa40bda5a319"]
+new [description:"Laundry" due:"1676692800" end:"1676571164" entry:"1676128096" imask:"24.000000" modified:"1676571164" parent:"0d8a90b6-6fce-465b-aeff-550956c53839" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"868a1e3b-cebb-43bb-9eb1-aa40bda5a319"]
+---
+time 1676571164
+old [description:"Laundry" due:"1662177600" entry:"1659320500" mask:"-+++++++XX++++++++++++++X" modified:"1676571164" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"0d8a90b6-6fce-465b-aeff-550956c53839"]
+new [description:"Laundry" due:"1662177600" end:"1676571164" entry:"1659320500" mask:"-+++++++XX++++++++++++++X" modified:"1676571164" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1659320500" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"0d8a90b6-6fce-465b-aeff-550956c53839"]
+---
+time 1676571164
+old [description:"Revise Notes" due:"1659758400" entry:"1659632046" mask:"+++++++++++XX+++++++++++++XX-" modified:"1676492041" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+new [description:"Revise Notes" due:"1659758400" entry:"1659632046" mask:"+++++++++++XX+++++++++++++XXX" modified:"1676571164" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+---
+time 1676571164
+old [description:"Revise Notes" due:"1676692800" entry:"1676088165" imask:"28.000000" modified:"1675627559" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"b047d502-63a1-4e70-b7ed-d06fc1604cf4"]
+new [description:"Revise Notes" due:"1676692800" end:"1676571164" entry:"1676088165" imask:"28.000000" modified:"1676571164" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"deep" tags_deep:"x" uuid:"b047d502-63a1-4e70-b7ed-d06fc1604cf4"]
+---
+time 1676571166
+old [description:"Revise Notes" due:"1676692800" entry:"1676128096" imask:"28.000000" modified:"1675627559" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"a867dfff-46f5-46a7-a97b-dabc409ccdbd"]
+new [description:"Revise Notes" due:"1676692800" end:"1676571166" entry:"1676128096" imask:"28.000000" modified:"1676571166" parent:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"deep" tags_deep:"x" uuid:"a867dfff-46f5-46a7-a97b-dabc409ccdbd"]
+---
+time 1676571166
+old [description:"Revise Notes" due:"1659758400" entry:"1659632046" mask:"+++++++++++XX+++++++++++++XXX" modified:"1676571164" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+new [description:"Revise Notes" due:"1659758400" end:"1676571166" entry:"1659632046" mask:"+++++++++++XX+++++++++++++XXX" modified:"1676571166" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"deep" tags_deep:"x" uuid:"d6ff363c-b5ff-4ada-b88b-65cfb4a2be7d"]
+---
+time 1676571166
+old [description:"Add to Anki" due:"1676692800" end:"1676571163" entry:"1676088165" imask:"17.000000" modified:"1676571163" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"52ed3cb4-c50e-4c27-b66c-20ad031e9fac"]
+new [description:"Add to Anki" due:"1676692800" end:"1676571166" entry:"1676088165" imask:"17.000000" modified:"1676571166" parent:"8de7c42c-538b-4508-a924-31d5df425495" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"52ed3cb4-c50e-4c27-b66c-20ad031e9fac"]
+---
+time 1676571167
+old [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX+++++++++++++++-" modified:"1676492129" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+new [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX+++++++++++++++X" modified:"1676571167" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+---
+time 1676571167
+old [description:"Spring Cleaning" due:"1676692800" entry:"1676128096" imask:"18.000000" modified:"1675629122" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"c83f46ef-60de-4d78-8c28-2d3b1b5ae749"]
+new [description:"Spring Cleaning" due:"1676692800" end:"1676571167" entry:"1676128096" imask:"18.000000" modified:"1676571167" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"c83f46ef-60de-4d78-8c28-2d3b1b5ae749"]
+---
+time 1676571168
+old [description:"Spring Cleaning" due:"1676692800" entry:"1676088165" imask:"18.000000" modified:"1675629122" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"51e8cb4c-1f36-49d3-9cd3-6daea7b5926d"]
+new [description:"Spring Cleaning" due:"1676692800" end:"1676571168" entry:"1676088165" imask:"18.000000" modified:"1676571168" parent:"8372a573-f370-4f89-b29b-4d711f3cae83" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"51e8cb4c-1f36-49d3-9cd3-6daea7b5926d"]
+---
+time 1676571168
+old [description:"Spring Cleaning" due:"1665806400" entry:"1665812266" mask:"XXX+++++++++++++++X" modified:"1676571167" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+new [description:"Spring Cleaning" due:"1665806400" end:"1676571168" entry:"1665812266" mask:"XXX+++++++++++++++X" modified:"1676571168" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"8372a573-f370-4f89-b29b-4d711f3cae83"]
+---
+time 1676571168
+old [description:"Clear Bookmarks" due:"1662177600" entry:"1662108861" mask:"++++++++XX+++++++++++XXXXXXXXXXXXXXXXX++++-" modified:"1676436757" project:"Maintain" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e"]
+new [description:"Clear Bookmarks" due:"1662177600" entry:"1662108861" mask:"++++++++XX+++++++++++XXXXXXXXXXXXXXXXX++++X" modified:"1676571168" project:"Maintain" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e"]
+---
+time 1676571168
+old [description:"Clear Bookmarks" due:"1676692800" entry:"1676347656" imask:"42.000000" modified:"1676001822" parent:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e" project:"Maintain" recur:"4d" rtype:"periodic" status:"pending" tags:"deep" tags_deep:"x" uuid:"231319d4-e979-447d-a409-6816503924a2"]
+new [description:"Clear Bookmarks" due:"1676692800" end:"1676571168" entry:"1676347656" imask:"42.000000" modified:"1676571168" parent:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e" project:"Maintain" recur:"4d" rtype:"periodic" status:"deleted" tags:"deep" tags_deep:"x" uuid:"231319d4-e979-447d-a409-6816503924a2"]
+---
+time 1676571169
+old [description:"Clear Bookmarks" due:"1662177600" entry:"1662108861" mask:"++++++++XX+++++++++++XXXXXXXXXXXXXXXXX++++X" modified:"1676571168" project:"Maintain" recur:"4d" rtype:"periodic" status:"recurring" tags:"deep" tags_deep:"x" uuid:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e"]
+new [description:"Clear Bookmarks" due:"1662177600" end:"1676571169" entry:"1662108861" mask:"++++++++XX+++++++++++XXXXXXXXXXXXXXXXX++++X" modified:"1676571169" project:"Maintain" recur:"4d" rtype:"periodic" status:"deleted" tags:"deep" tags_deep:"x" uuid:"408f00d1-5ff6-4377-9c12-bf1ac1c5326e"]
+---
+time 1676571192
+old [description:"Clear Tray" due:"1663387200" entry:"1662886007" mask:"++++++XX++++++++++++++-" modified:"1676492129" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a92eabf4-3bce-4778-804e-2e021d6fe7e2"]
+new [description:"Clear Tray" due:"1663387200" entry:"1662886007" mask:"++++++XX++++++++++++++X" modified:"1676571192" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a92eabf4-3bce-4778-804e-2e021d6fe7e2"]
+---
+time 1676571192
+old [description:"Clear Tray" due:"1676692800" entry:"1676088165" imask:"22.000000" modified:"1675628906" parent:"a92eabf4-3bce-4778-804e-2e021d6fe7e2" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"40316a87-3914-4a69-92fe-587cdb6990f0"]
+new [description:"Clear Tray" due:"1676692800" end:"1676571190" entry:"1676088165" imask:"22.000000" modified:"1676571192" parent:"a92eabf4-3bce-4778-804e-2e021d6fe7e2" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"40316a87-3914-4a69-92fe-587cdb6990f0"]
+---
+time 1676571194
+old [description:"Clear Tray" due:"1676692800" entry:"1676128096" imask:"22.000000" modified:"1675628906" parent:"a92eabf4-3bce-4778-804e-2e021d6fe7e2" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"c8bead3a-10f5-4ec9-ad35-b49257021bac"]
+new [description:"Clear Tray" due:"1676692800" end:"1676571194" entry:"1676128096" imask:"22.000000" modified:"1676571194" parent:"a92eabf4-3bce-4778-804e-2e021d6fe7e2" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"c8bead3a-10f5-4ec9-ad35-b49257021bac"]
+---
+time 1676571194
+old [description:"Clear Tray" due:"1663387200" entry:"1662886007" mask:"++++++XX++++++++++++++X" modified:"1676571192" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a92eabf4-3bce-4778-804e-2e021d6fe7e2"]
+new [description:"Clear Tray" due:"1663387200" end:"1676571194" entry:"1662886007" mask:"++++++XX++++++++++++++X" modified:"1676571194" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"a92eabf4-3bce-4778-804e-2e021d6fe7e2"]
+---
+time 1676571246
+new [description:"Revise Notes" due:"1676610000" entry:"1676571246" modified:"1676571246" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+---
+time 1676571256
+new [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" modified:"1676571256" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+---
+time 1676571261
+new [description:"Laundry" due:"1676610000" entry:"1676571261" modified:"1676571261" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+---
+time 1676571269
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" modified:"1676571269" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+---
+time 1676571269
+new [description:"Revise Notes" due:"1676610000" entry:"1676571237" imask:"0.000000" modified:"1676571246" parent:"5e1c46ca-766e-4297-a9a3-6c6beef3316a" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"066439c1-8ab1-4003-a5fe-b3200bb136f5"]
+---
+time 1676571269
+old [description:"Revise Notes" due:"1676610000" entry:"1676571246" modified:"1676571246" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+new [description:"Revise Notes" due:"1676610000" entry:"1676571246" mask:"-" modified:"1676571237" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+---
+time 1676571276
+new [description:"Update Submanager" due:"1676610000" entry:"1676571276" modified:"1676571276" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+---
+time 1676571276
+new [description:"Clear Bookmarks" due:"1676610000" entry:"1676571251" imask:"0.000000" modified:"1676571256" parent:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"d517c480-f628-475a-8a5f-a02dd31c43ef"]
+---
+time 1676571276
+old [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" modified:"1676571256" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+new [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"-" modified:"1676571251" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+---
+time 1676571276
+new [description:"Laundry" due:"1676610000" entry:"1676571251" imask:"0.000000" modified:"1676571261" parent:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"8e6b457e-9d8f-400f-a98a-049497372489"]
+---
+time 1676571276
+old [description:"Laundry" due:"1676610000" entry:"1676571261" modified:"1676571261" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+new [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"-" modified:"1676571251" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+---
+time 1676571317
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571317" imask:"0.000000" modified:"1676571269" parent:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"f75cb637-af5e-4e87-a13d-e435837b88a3"]
+---
+time 1676571317
+old [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" modified:"1676571269" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+---
+time 1676571317
+new [description:"Update Submanager" due:"1676610000" entry:"1676571317" imask:"0.000000" modified:"1676571276" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"7f4a0a83-a754-40b9-b7e2-c05c082cef64"]
+---
+time 1676571317
+old [description:"Update Submanager" due:"1676610000" entry:"1676571276" modified:"1676571276" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+new [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+---
+time 1676571326
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571259" imask:"0.000000" modified:"1676571269" parent:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"2f0d5629-881c-46f4-90e8-b7b37ffd74ae"]
+---
+time 1676571326
+old [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"-" modified:"1676571259" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+---
+time 1676571326
+new [description:"Update Submanager" due:"1676610000" entry:"1676571267" imask:"0.000000" modified:"1676571276" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"836b41d4-8957-4727-a64d-5790105073e2"]
+---
+time 1676571326
+old [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+new [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"-" modified:"1676571267" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+---
+time 1676571326
+old [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"-" modified:"1676571259" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+---
+time 1676571326
+old [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"-" modified:"1676571267" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+new [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+---
+time 1676571360
+old [description:"Update Submanager" due:"1664596800" entry:"1659632337" mask:"++++++++++-" modified:"1675628171" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"b0451583-fb6b-4d61-849c-bbb1ca829b04"]
+new [description:"Update Submanager" due:"1664596800" entry:"1659632337" mask:"++++++++++X" modified:"1676571360" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"b0451583-fb6b-4d61-849c-bbb1ca829b04"]
+---
+time 1676571360
+old [description:"Update Submanager" due:"1676692800" entry:"1675483670" imask:"10.000000" modified:"1674273717" parent:"b0451583-fb6b-4d61-849c-bbb1ca829b04" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"ca0d8b2e-4c69-46e9-a362-25e288a3aa3c"]
+new [description:"Update Submanager" due:"1676692800" end:"1676571359" entry:"1675483670" imask:"10.000000" modified:"1676571360" parent:"b0451583-fb6b-4d61-849c-bbb1ca829b04" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"ca0d8b2e-4c69-46e9-a362-25e288a3aa3c"]
+---
+time 1676571361
+old [description:"Update Submanager" due:"1664596800" entry:"1659632337" mask:"++++++++++X" modified:"1676571360" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"b0451583-fb6b-4d61-849c-bbb1ca829b04"]
+new [description:"Update Submanager" due:"1664596800" end:"1676571361" entry:"1659632337" mask:"++++++++++X" modified:"1676571361" project:"Maintain" recur:"biweekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"b0451583-fb6b-4d61-849c-bbb1ca829b04"]
+---
+time 1676571361
+old [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+new [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"X" modified:"1676571361" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+---
+time 1676571361
+old [description:"Update Submanager" due:"1676610000" entry:"1676571317" imask:"0.000000" modified:"1676571276" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"7f4a0a83-a754-40b9-b7e2-c05c082cef64"]
+new [description:"Update Submanager" due:"1676610000" end:"1676571361" entry:"1676571317" imask:"0.000000" modified:"1676571361" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"7f4a0a83-a754-40b9-b7e2-c05c082cef64"]
+---
+time 1676571362
+old [description:"Update Submanager" due:"1676610000" entry:"1676571267" imask:"0.000000" modified:"1676571276" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"836b41d4-8957-4727-a64d-5790105073e2"]
+new [description:"Update Submanager" due:"1676610000" end:"1676571362" entry:"1676571267" imask:"0.000000" modified:"1676571362" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"836b41d4-8957-4727-a64d-5790105073e2"]
+---
+time 1676571362
+old [description:"Update Submanager" due:"1676610000" entry:"1676571276" mask:"X" modified:"1676571361" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+new [description:"Update Submanager" due:"1676610000" end:"1676571362" entry:"1676571276" mask:"X" modified:"1676571362" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"e36dd87d-9ad5-4c89-98d1-275033be8ccc"]
+---
+time 1676571362
+old [description:"Update Submanager" due:"1676610000" end:"1676571362" entry:"1676571267" imask:"0.000000" modified:"1676571362" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"836b41d4-8957-4727-a64d-5790105073e2"]
+new [description:"Update Submanager" due:"1676610000" end:"1676571362" entry:"1676571267" imask:"0.000000" modified:"1676571362" parent:"e36dd87d-9ad5-4c89-98d1-275033be8ccc" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"836b41d4-8957-4727-a64d-5790105073e2"]
+---
+time 1676571374
+old [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"-" modified:"1676571317" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"X" modified:"1676571374" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+---
+time 1676571374
+old [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571317" imask:"0.000000" modified:"1676571269" parent:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"f75cb637-af5e-4e87-a13d-e435837b88a3"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" end:"1676571372" entry:"1676571317" imask:"0.000000" modified:"1676571374" parent:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"f75cb637-af5e-4e87-a13d-e435837b88a3"]
+---
+time 1676571375
+old [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571259" imask:"0.000000" modified:"1676571269" parent:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"2f0d5629-881c-46f4-90e8-b7b37ffd74ae"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" end:"1676571375" entry:"1676571259" imask:"0.000000" modified:"1676571375" parent:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"2f0d5629-881c-46f4-90e8-b7b37ffd74ae"]
+---
+time 1676571375
+old [description:"Update Nvim and Vim plugins and configs" due:"1676610000" entry:"1676571269" mask:"X" modified:"1676571374" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+new [description:"Update Nvim and Vim plugins and configs" due:"1676610000" end:"1676571375" entry:"1676571269" mask:"X" modified:"1676571375" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"7b5e40f4-1bd3-43b4-bfef-b72e02a9cfbe"]
+---
+time 1676571411
+new [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" modified:"1676571411" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+---
+time 1676571436
+new [description:"Update Subscriptions" due:"1676610000" entry:"1676571436" imask:"0.000000" modified:"1676571411" parent:"88c8820d-3141-43a8-9278-d4f4fb0d62a3" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"4e4b2cc2-37bb-4cdc-b018-0a318fda7639"]
+---
+time 1676571436
+old [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" modified:"1676571411" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+new [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"-" modified:"1676571436" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+---
+time 1676571437
+new [description:"Update Subscriptions" due:"1676610000" entry:"1676571402" imask:"0.000000" modified:"1676571411" parent:"88c8820d-3141-43a8-9278-d4f4fb0d62a3" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"d05e2e78-b692-4efd-afe2-1775b24b7d5c"]
+---
+time 1676571437
+old [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"-" modified:"1676571436" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+new [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"-" modified:"1676571402" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+---
+time 1676571437
+old [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"-" modified:"1676571402" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+new [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"-" modified:"1676571436" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+---
+time 1676571470
+old [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"-" modified:"1676571436" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+new [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"X" modified:"1676571470" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+---
+time 1676571470
+old [description:"Update Subscriptions" due:"1676610000" entry:"1676571436" imask:"0.000000" modified:"1676571411" parent:"88c8820d-3141-43a8-9278-d4f4fb0d62a3" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"4e4b2cc2-37bb-4cdc-b018-0a318fda7639"]
+new [description:"Update Subscriptions" due:"1676610000" end:"1676571468" entry:"1676571436" imask:"0.000000" modified:"1676571470" parent:"88c8820d-3141-43a8-9278-d4f4fb0d62a3" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"4e4b2cc2-37bb-4cdc-b018-0a318fda7639"]
+---
+time 1676571472
+old [description:"Update Subscriptions" due:"1676610000" entry:"1676571402" imask:"0.000000" modified:"1676571411" parent:"88c8820d-3141-43a8-9278-d4f4fb0d62a3" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"d05e2e78-b692-4efd-afe2-1775b24b7d5c"]
+new [description:"Update Subscriptions" due:"1676610000" end:"1676571472" entry:"1676571402" imask:"0.000000" modified:"1676571472" parent:"88c8820d-3141-43a8-9278-d4f4fb0d62a3" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"d05e2e78-b692-4efd-afe2-1775b24b7d5c"]
+---
+time 1676571472
+old [description:"Update Subscriptions" due:"1676610000" entry:"1676571411" mask:"X" modified:"1676571470" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+new [description:"Update Subscriptions" due:"1676610000" end:"1676571472" entry:"1676571411" mask:"X" modified:"1676571472" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"88c8820d-3141-43a8-9278-d4f4fb0d62a3"]
+---
+time 1676571491
+new [description:"Update subscription manager" due:"1676610000" entry:"1676571491" modified:"1676571491" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+---
+time 1676571504
+new [description:"Update subscription manager" due:"1676610000" entry:"1676571504" imask:"0.000000" modified:"1676571491" parent:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"5d41d109-bc78-4d1c-8ff9-d926914b78b1"]
+---
+time 1676571504
+old [description:"Update subscription manager" due:"1676610000" entry:"1676571491" modified:"1676571491" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+new [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"-" modified:"1676571504" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+---
+time 1676571505
+new [description:"Update subscription manager" due:"1676610000" entry:"1676571483" imask:"0.000000" modified:"1676571491" parent:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"93286a45-67cf-4462-acf3-3f63f26e3a5c"]
+---
+time 1676571505
+old [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"-" modified:"1676571504" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+new [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"-" modified:"1676571483" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+---
+time 1676571505
+old [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"-" modified:"1676571483" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+new [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"-" modified:"1676571504" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+---
+time 1676571522
+old [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"-" modified:"1676571504" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+new [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"X" modified:"1676571522" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+---
+time 1676571522
+old [description:"Update subscription manager" due:"1676610000" entry:"1676571504" imask:"0.000000" modified:"1676571491" parent:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"5d41d109-bc78-4d1c-8ff9-d926914b78b1"]
+new [description:"Update subscription manager" due:"1676610000" end:"1676571520" entry:"1676571504" imask:"0.000000" modified:"1676571522" parent:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"5d41d109-bc78-4d1c-8ff9-d926914b78b1"]
+---
+time 1676571522
+old [description:"Update subscription manager" due:"1676610000" entry:"1676571483" imask:"0.000000" modified:"1676571491" parent:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"93286a45-67cf-4462-acf3-3f63f26e3a5c"]
+new [description:"Update subscription manager" due:"1676610000" end:"1676571522" entry:"1676571483" imask:"0.000000" modified:"1676571522" parent:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"93286a45-67cf-4462-acf3-3f63f26e3a5c"]
+---
+time 1676571522
+old [description:"Update subscription manager" due:"1676610000" entry:"1676571491" mask:"X" modified:"1676571522" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+new [description:"Update subscription manager" due:"1676610000" end:"1676571522" entry:"1676571491" mask:"X" modified:"1676571522" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"dc42821a-eb59-4a95-a8c6-524b1e5bb9a7"]
+---
+time 1676571536
+new [description:"Update Submanager" due:"1676610000" entry:"1676571536" modified:"1676571536" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3"]
+---
+time 1676571544
+new [description:"Update Submanager" due:"1676610000" entry:"1676571544" imask:"0.000000" modified:"1676571536" parent:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"86b0d3f0-a3bc-412d-8f4e-c4fe3cd56894"]
+---
+time 1676571544
+old [description:"Update Submanager" due:"1676610000" entry:"1676571536" modified:"1676571536" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3"]
+new [description:"Update Submanager" due:"1676610000" entry:"1676571536" mask:"-" modified:"1676571544" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3"]
+---
+time 1676571593
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571593" modified:"1676571593" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578"]
+---
+time 1676571593
+new [description:"Update Submanager" due:"1676610000" entry:"1676571527" imask:"0.000000" modified:"1676571536" parent:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"092abba4-d5f7-4004-85c6-2a19cdf1c44b"]
+---
+time 1676571600
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571600" imask:"0.000000" modified:"1676571593" parent:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"a4c6a562-1903-42b9-a464-4c12a87e32da"]
+---
+time 1676571600
+old [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571593" modified:"1676571593" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578"]
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571593" mask:"-" modified:"1676571600" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578"]
+---
+time 1676571746
+old [description:"Update Submanager" due:"1676610000" entry:"1676571536" mask:"-" modified:"1676571544" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3"]
+new [description:"Update Submanager" due:"1676610000" entry:"1676571536" mask:"X" modified:"1676571746" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3"]
+---
+time 1676571746
+old [description:"Update Submanager" due:"1676610000" entry:"1676571544" imask:"0.000000" modified:"1676571536" parent:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"86b0d3f0-a3bc-412d-8f4e-c4fe3cd56894"]
+new [description:"Update Submanager" due:"1676610000" end:"1676571745" entry:"1676571544" imask:"0.000000" modified:"1676571746" parent:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"86b0d3f0-a3bc-412d-8f4e-c4fe3cd56894"]
+---
+time 1676571747
+old [description:"Update Submanager" due:"1676610000" entry:"1676571527" imask:"0.000000" modified:"1676571536" parent:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"092abba4-d5f7-4004-85c6-2a19cdf1c44b"]
+new [description:"Update Submanager" due:"1676610000" end:"1676571747" entry:"1676571527" imask:"0.000000" modified:"1676571747" parent:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"092abba4-d5f7-4004-85c6-2a19cdf1c44b"]
+---
+time 1676571747
+old [description:"Update Submanager" due:"1676610000" entry:"1676571536" mask:"X" modified:"1676571746" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3"]
+new [description:"Update Submanager" due:"1676610000" end:"1676571747" entry:"1676571536" mask:"X" modified:"1676571747" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"5e7e3d2d-80c3-483d-8e66-0f94d324fbf3"]
+---
+time 1676571748
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571583" imask:"0.000000" modified:"1676571593" parent:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"1fe4105c-e400-4ff2-8bd5-255586abb551"]
+---
+time 1676571775
+old [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571593" mask:"-" modified:"1676571600" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578"]
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571593" mask:"X" modified:"1676571775" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578"]
+---
+time 1676571775
+old [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571600" imask:"0.000000" modified:"1676571593" parent:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"a4c6a562-1903-42b9-a464-4c12a87e32da"]
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" end:"1676571773" entry:"1676571600" imask:"0.000000" modified:"1676571775" parent:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"a4c6a562-1903-42b9-a464-4c12a87e32da"]
+---
+time 1676571778
+old [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571583" imask:"0.000000" modified:"1676571593" parent:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"1fe4105c-e400-4ff2-8bd5-255586abb551"]
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" end:"1676571778" entry:"1676571583" imask:"0.000000" modified:"1676571778" parent:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"1fe4105c-e400-4ff2-8bd5-255586abb551"]
+---
+time 1676571778
+old [description:"Update neovim vim and lunarvim configs" due:"1676610000" entry:"1676571593" mask:"X" modified:"1676571775" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578"]
+new [description:"Update neovim vim and lunarvim configs" due:"1676610000" end:"1676571778" entry:"1676571593" mask:"X" modified:"1676571778" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"e0f7f2d4-1fb9-4d20-a085-9cf9f3b44578"]
+---
+time 1676571883
+new [description:"Update subscriptions" due:"1676610000" entry:"1676571883" modified:"1676571883" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+---
+time 1676571903
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" modified:"1676571903" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+---
+time 1676571904
+new [description:"Update subscriptions" due:"1676610000" entry:"1676571874" imask:"0.000000" modified:"1676571883" parent:"6685848f-4931-451f-a37a-964a752e897a" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"a2fe0c08-381e-4957-b6ea-8f3e90daff3f"]
+---
+time 1676571904
+old [description:"Update subscriptions" due:"1676610000" entry:"1676571883" modified:"1676571883" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+new [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"-" modified:"1676571874" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+---
+time 1676571919
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571919" imask:"0.000000" modified:"1676571903" parent:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"c997cceb-0dc6-4b88-a89a-74ac76a6f42b"]
+---
+time 1676571919
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" modified:"1676571903" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"-" modified:"1676571919" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+---
+time 1676571922
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571894" imask:"0.000000" modified:"1676571903" parent:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"1b13c165-1d74-4cd6-9ca9-080e70f47222"]
+---
+time 1676571922
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"-" modified:"1676571919" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"-" modified:"1676571894" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+---
+time 1676571922
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"-" modified:"1676571894" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"-" modified:"1676571919" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+---
+time 1676571956
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" modified:"1676571956" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+---
+time 1676571959
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571959" imask:"0.000000" modified:"1676571956" parent:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"abdbcfa2-f8fb-4298-aecb-b9f0f68a39f9"]
+---
+time 1676571959
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" modified:"1676571956" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"-" modified:"1676571959" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+---
+time 1676571969
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"-" modified:"1676571919" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"X" modified:"1676571969" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+---
+time 1676571969
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571919" imask:"0.000000" modified:"1676571903" parent:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"c997cceb-0dc6-4b88-a89a-74ac76a6f42b"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" end:"1676571968" entry:"1676571919" imask:"0.000000" modified:"1676571969" parent:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"c997cceb-0dc6-4b88-a89a-74ac76a6f42b"]
+---
+time 1676571970
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571894" imask:"0.000000" modified:"1676571903" parent:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"1b13c165-1d74-4cd6-9ca9-080e70f47222"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" end:"1676571970" entry:"1676571894" imask:"0.000000" modified:"1676571970" parent:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"1b13c165-1d74-4cd6-9ca9-080e70f47222"]
+---
+time 1676571970
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571903" mask:"X" modified:"1676571969" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" end:"1676571970" entry:"1676571903" mask:"X" modified:"1676571970" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"6b74c574-9cf0-4f0d-ac7d-3aef7078bd69"]
+---
+time 1676572061
+new [description:"Clear Tray" due:"1676610000" entry:"1676572061" modified:"1676572061" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+---
+time 1676572067
+new [description:"Clear Tray" due:"1676610000" entry:"1676572067" imask:"0.000000" modified:"1676572061" parent:"12667d83-ccc7-472a-91b4-f3eec5679e53" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"a8b19fad-6d4e-4d14-ade5-88869e3eb206"]
+---
+time 1676572067
+old [description:"Clear Tray" due:"1676610000" entry:"1676572061" modified:"1676572061" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+new [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"-" modified:"1676572067" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+---
+time 1676572116
+new [description:"Add to Anki" due:"1676610000" entry:"1676572116" modified:"1676572116" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+---
+time 1676572119
+new [description:"Add to Anki" due:"1676610000" entry:"1676572119" imask:"0.000000" modified:"1676572116" parent:"c1ac1237-f03b-4f99-8bc6-5a94044511fc" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"dda2d60e-2119-4b92-8ee5-d0511ec04e74"]
+---
+time 1676572119
+old [description:"Add to Anki" due:"1676610000" entry:"1676572116" modified:"1676572116" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+new [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"-" modified:"1676572119" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+---
+time 1676572143
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" modified:"1676572143" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+---
+time 1676572159
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572159" imask:"0.000000" modified:"1676572143" parent:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"062dc4b5-d1b0-4825-96e7-26c7502e8959"]
+---
+time 1676572159
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" modified:"1676572143" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"-" modified:"1676572159" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+---
+time 1676572160
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572134" imask:"0.000000" modified:"1676572143" parent:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"09aaa06c-e96b-4707-bcab-9efe5d540107"]
+---
+time 1676572160
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"-" modified:"1676572159" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"-" modified:"1676572134" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+---
+time 1676572160
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"-" modified:"1676572134" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"-" modified:"1676572159" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+---
+time 1676572171
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" modified:"1676572171" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+---
+time 1676572173
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572173" imask:"0.000000" modified:"1676572171" parent:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"832d3c3b-73c3-4118-8474-45ae1cf45547"]
+---
+time 1676572173
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" modified:"1676572171" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"-" modified:"1676572173" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+---
+time 1676572182
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"-" modified:"1676572159" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"X" modified:"1676572182" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+---
+time 1676572182
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572159" imask:"0.000000" modified:"1676572143" parent:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"062dc4b5-d1b0-4825-96e7-26c7502e8959"]
+new [description:"Spring Cleaning" due:"1676610000" end:"1676572181" entry:"1676572159" imask:"0.000000" modified:"1676572182" parent:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"062dc4b5-d1b0-4825-96e7-26c7502e8959"]
+---
+time 1676572183
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572134" imask:"0.000000" modified:"1676572143" parent:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"09aaa06c-e96b-4707-bcab-9efe5d540107"]
+new [description:"Spring Cleaning" due:"1676610000" end:"1676572183" entry:"1676572134" imask:"0.000000" modified:"1676572183" parent:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"09aaa06c-e96b-4707-bcab-9efe5d540107"]
+---
+time 1676572183
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572143" mask:"X" modified:"1676572182" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+new [description:"Spring Cleaning" due:"1676610000" end:"1676572183" entry:"1676572143" mask:"X" modified:"1676572183" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"7d3a5ea4-fde6-4e97-8f23-8b6ceca3f8d7"]
+---
+time 1676572250
+old [description:"Revise Notes" due:"1676610000" entry:"1676571246" mask:"-" modified:"1676571237" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+new [description:"Revise Notes" due:"1676610000" entry:"1676571246" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+---
+time 1676572250
+old [description:"Revise Notes" due:"1676610000" entry:"1676571237" imask:"0.000000" modified:"1676571246" parent:"5e1c46ca-766e-4297-a9a3-6c6beef3316a" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"066439c1-8ab1-4003-a5fe-b3200bb136f5"]
+new [description:"Revise Notes" due:"1676610000" end:"1676572248" entry:"1676571237" imask:"0.000000" modified:"1676572250" parent:"5e1c46ca-766e-4297-a9a3-6c6beef3316a" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"066439c1-8ab1-4003-a5fe-b3200bb136f5"]
+---
+time 1676572250
+old [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"-" modified:"1676571251" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+new [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+---
+time 1676572250
+old [description:"Clear Bookmarks" due:"1676610000" entry:"1676571251" imask:"0.000000" modified:"1676571256" parent:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"d517c480-f628-475a-8a5f-a02dd31c43ef"]
+new [description:"Clear Bookmarks" due:"1676610000" end:"1676572250" entry:"1676571251" imask:"0.000000" modified:"1676572250" parent:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"d517c480-f628-475a-8a5f-a02dd31c43ef"]
+---
+time 1676572250
+old [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"-" modified:"1676571251" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+new [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+---
+time 1676572250
+old [description:"Laundry" due:"1676610000" entry:"1676571251" imask:"0.000000" modified:"1676571261" parent:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"8e6b457e-9d8f-400f-a98a-049497372489"]
+new [description:"Laundry" due:"1676610000" end:"1676572250" entry:"1676571251" imask:"0.000000" modified:"1676572250" parent:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"8e6b457e-9d8f-400f-a98a-049497372489"]
+---
+time 1676572250
+old [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"-" modified:"1676571874" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+new [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+---
+time 1676572250
+old [description:"Update subscriptions" due:"1676610000" entry:"1676571874" imask:"0.000000" modified:"1676571883" parent:"6685848f-4931-451f-a37a-964a752e897a" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"a2fe0c08-381e-4957-b6ea-8f3e90daff3f"]
+new [description:"Update subscriptions" due:"1676610000" end:"1676572250" entry:"1676571874" imask:"0.000000" modified:"1676572250" parent:"6685848f-4931-451f-a37a-964a752e897a" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"a2fe0c08-381e-4957-b6ea-8f3e90daff3f"]
+---
+time 1676572250
+old [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"-" modified:"1676572067" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+new [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+---
+time 1676572250
+old [description:"Clear Tray" due:"1676610000" entry:"1676572067" imask:"0.000000" modified:"1676572061" parent:"12667d83-ccc7-472a-91b4-f3eec5679e53" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"a8b19fad-6d4e-4d14-ade5-88869e3eb206"]
+new [description:"Clear Tray" due:"1676610000" end:"1676572250" entry:"1676572067" imask:"0.000000" modified:"1676572250" parent:"12667d83-ccc7-472a-91b4-f3eec5679e53" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"a8b19fad-6d4e-4d14-ade5-88869e3eb206"]
+---
+time 1676572250
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"-" modified:"1676572173" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+---
+time 1676572250
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572173" imask:"0.000000" modified:"1676572171" parent:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"832d3c3b-73c3-4118-8474-45ae1cf45547"]
+new [description:"Spring Cleaning" due:"1676610000" end:"1676572250" entry:"1676572173" imask:"0.000000" modified:"1676572250" parent:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"832d3c3b-73c3-4118-8474-45ae1cf45547"]
+---
+time 1676572273
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"-" modified:"1676571959" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"+" modified:"1676572273" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+---
+time 1676572273
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571959" imask:"0.000000" modified:"1676571956" parent:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"abdbcfa2-f8fb-4298-aecb-b9f0f68a39f9"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" end:"1676572273" entry:"1676571959" imask:"0.000000" modified:"1676572273" parent:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"abdbcfa2-f8fb-4298-aecb-b9f0f68a39f9"]
+---
+time 1676572463
+new [description:"prepare for and complete quiz" due:"1676782800" entry:"1676572463" modified:"1676572463" project:"bootcamp" status:"pending" uuid:"f87f889d-8328-4ea7-bdd0-d56ba872a575"]
+---
+time 1676572489
+new [description:"watch last lecture" due:"1676610000" entry:"1676572489" modified:"1676572489" project:"bootcamp" status:"pending" uuid:"94d018fb-c58d-41ae-a4c7-13dd70d35c2e"]
+---
+time 1676572565
+new [description:"assignment 3" due:"1676869200" entry:"1676572565" modified:"1676572565" project:"it" status:"pending" uuid:"146c6c20-2be6-49e2-8643-4a53507384d9"]
+---
+time 1676572581
+new [description:"catchup" due:"1676610000" entry:"1676572581" modified:"1676572581" project:"it" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"d35b7da9-f64a-45f6-a3d5-38e926d73332"]
+---
+time 1676592752
+new [description:"catchup" due:"1676610000" entry:"1676592752" modified:"1676592752" project:"it" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"c930e6b9-06b7-475f-9d52-45094cde99f8"]
+---
+time 1676592780
+new [description:"catchup" due:"1676523600" entry:"1676592780" modified:"1676592780" project:"bootcamp" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"55ff7c43-4ded-422e-83e6-aa8c0b2887da"]
+---
+time 1676592796
+new [description:"catchup" due:"1676523600" entry:"1676592796" modified:"1676592796" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"a2d69b68-1999-4efc-910e-53e071645177"]
+---
+time 1676610264
+new [description:"Revise Notes" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"5e1c46ca-766e-4297-a9a3-6c6beef3316a" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"e04ed533-546c-411c-a082-4381964fd8dd"]
+---
+time 1676610264
+old [description:"Revise Notes" due:"1676610000" entry:"1676571246" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+new [description:"Revise Notes" due:"1676610000" entry:"1676571246" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+---
+time 1676610264
+new [description:"Clear Bookmarks" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"ebba3158-68c3-48c2-b63c-55a536708073"]
+---
+time 1676610264
+old [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+new [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+---
+time 1676610264
+new [description:"Laundry" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"825c52e5-9adc-4ce5-b087-74e5c454594f"]
+---
+time 1676610264
+old [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+new [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+---
+time 1676610264
+new [description:"Update subscriptions" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"6685848f-4931-451f-a37a-964a752e897a" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"c9cc2871-12cd-4953-8889-8355ccd9a7d3"]
+---
+time 1676610264
+old [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+new [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+---
+time 1676610264
+new [description:"update vim nvim and lunarvim configs" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572273" parent:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"862a0807-a8a1-4200-a7de-05f93faa0035"]
+---
+time 1676610264
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"+" modified:"1676572273" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+---
+time 1676610264
+new [description:"Clear Tray" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"12667d83-ccc7-472a-91b4-f3eec5679e53" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"4831154a-518d-4dd7-a72e-e51c0c8c0746"]
+---
+time 1676610264
+old [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+new [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+---
+time 1676610264
+new [description:"Add to Anki" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572119" parent:"c1ac1237-f03b-4f99-8bc6-5a94044511fc" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"34d31fad-ca89-4ccd-b868-5d1aa6d0e536"]
+---
+time 1676610264
+old [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"-" modified:"1676572119" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+new [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"--" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+---
+time 1676610264
+new [description:"Spring Cleaning" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"20bad978-888b-4b73-89c7-fc6f7959b4b5"]
+---
+time 1676610264
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"+" modified:"1676572250" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+---
+time 1676649094
+new [description:"review google_sheets sslides and commands" due:"1676782800" entry:"1676649094" modified:"1676649094" project:"it" status:"pending" uuid:"3eecfc1e-5195-4373-a39c-95377d682a78"]
+---
+time 1676649159
+new [description:"review zara case and watch lec if needed" due:"1676869200" entry:"1676649158" modified:"1676649158" project:"it" status:"pending" uuid:"c52ebf02-b77f-4b15-8713-0e64ff02981c"]
+---
+time 1676649240
+new [description:"assignment 3" due:"1676782800" entry:"1676649240" modified:"1676649240" project:"it" status:"pending" uuid:"d1d187c8-bc1d-4ac6-8b58-cb8324f6c049"]
+---
+time 1676649279
+old [description:"assignment 3" due:"1676782800" entry:"1676649240" modified:"1676649240" project:"it" status:"pending" uuid:"d1d187c8-bc1d-4ac6-8b58-cb8324f6c049"]
+new [description:"assignment 3" due:"1676782800" entry:"1676649240" modified:"1676649279" project:"it" status:"pending" tags:"HW" tags_HW:"x" uuid:"d1d187c8-bc1d-4ac6-8b58-cb8324f6c049"]
+---
+time 1676649527
+old [description:"catchup" due:"1676610000" entry:"1676572581" modified:"1676572581" project:"it" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"d35b7da9-f64a-45f6-a3d5-38e926d73332"]
+new [description:"catchup" due:"1676610000" end:"1676649527" entry:"1676572581" modified:"1676649527" project:"it" status:"completed" tags:"NOW" tags_NOW:"x" uuid:"d35b7da9-f64a-45f6-a3d5-38e926d73332"]
+---
+time 1676649527
+old [description:"catchup" due:"1676610000" entry:"1676592752" modified:"1676592752" project:"it" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"c930e6b9-06b7-475f-9d52-45094cde99f8"]
+new [description:"catchup" due:"1676610000" end:"1676649527" entry:"1676592752" modified:"1676649527" project:"it" status:"completed" tags:"NOW" tags_NOW:"x" uuid:"c930e6b9-06b7-475f-9d52-45094cde99f8"]
+---
+time 1676649641
+new [description:"email prof about exit slips and presentation" due:"1676696400" entry:"1676649641" modified:"1676649641" project:"it" status:"pending" uuid:"3066fe77-8e9a-4f62-8a0f-6dd3cb3d1488"]
+---
+time 1676649754
+old [description:"watch last lecture" due:"1676610000" entry:"1676572489" modified:"1676572489" project:"bootcamp" status:"pending" uuid:"94d018fb-c58d-41ae-a4c7-13dd70d35c2e"]
+new [description:"watch last lecture" due:"1676610000" end:"1676649754" entry:"1676572489" modified:"1676649754" project:"bootcamp" status:"completed" uuid:"94d018fb-c58d-41ae-a4c7-13dd70d35c2e"]
+---
+time 1676649776
+old [description:"get resources" due:"1675882520" entry:"1675623320" modified:"1675623320" project:"it" status:"pending" uuid:"5d1a85e5-f624-4da7-84c1-6e52838db4cb"]
+new [description:"get resources" due:"1675882520" end:"1676649776" entry:"1675623320" modified:"1676649776" project:"it" status:"completed" uuid:"5d1a85e5-f624-4da7-84c1-6e52838db4cb"]
+---
+time 1676654583
+new [description:"full read course summary without notetaking" due:"1676610000" entry:"1676654583" modified:"1676654583" project:"corpFin" status:"pending" uuid:"0dbc9355-0e71-4787-ba97-d857d95e3926"]
+---
+time 1676656756
+old [description:"catchup" due:"1676523600" entry:"1676592780" modified:"1676592780" project:"bootcamp" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"55ff7c43-4ded-422e-83e6-aa8c0b2887da"]
+new [description:"catchup" due:"1676523600" end:"1676656756" entry:"1676592780" modified:"1676656756" project:"bootcamp" status:"completed" tags:"NOW" tags_NOW:"x" uuid:"55ff7c43-4ded-422e-83e6-aa8c0b2887da"]
+---
+time 1676656848
+new [description:"watch last two lectures" due:"1676696400" entry:"1676656848" modified:"1676656848" project:"corpFin" status:"pending" uuid:"8e8e4e89-e338-4145-a970-7430a1968444"]
+---
+time 1676656909
+new [description:"review overview worksheets" due:"1676696400" entry:"1676656909" modified:"1676656909" project:"corpFin" status:"pending" uuid:"41c3f5f3-a407-426e-9ad2-214e283bea37"]
+---
+time 1676656922
+new [description:"review other presentation slides" due:"1676696400" entry:"1676656921" modified:"1676656921" project:"corpFin" status:"pending" uuid:"fe57d9f7-f8b2-4e4f-af9e-383a4fd8132a"]
+---
+time 1676656930
+old [description:"get caughtup" due:"1675746000" entry:"1675703783" modified:"1675703783" project:"corpFin" status:"pending" uuid:"426fc321-6cba-4218-b1eb-177e03ef84e1"]
+new [description:"get caughtup" due:"1675746000" end:"1676656930" entry:"1675703783" modified:"1676656930" project:"corpFin" status:"completed" uuid:"426fc321-6cba-4218-b1eb-177e03ef84e1"]
+---
+time 1676737720
+new [description:"get phone for gma" due:"1676996920" entry:"1676737720" modified:"1676737720" project:"Sift" status:"pending" uuid:"8614e4f2-f808-43e9-a168-46b7784b3c83"]
+---
+time 1676749134
+old [description:"email nickwright" due:"1676702657" entry:"1676443457" modified:"1676443457" project:"Sift" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"e6dd60d2-6570-4ed6-bd0c-f6b12437d310"]
+new [description:"email nickwright" due:"1676702657" end:"1676749132" entry:"1676443457" modified:"1676749134" project:"Sift" status:"deleted" tags:"NOW" tags_NOW:"x" uuid:"e6dd60d2-6570-4ed6-bd0c-f6b12437d310"]
+---
+time 1676779424
+new [description:"Update Home.md" due:"1677124800" entry:"1676779424" imask:"37.000000" modified:"1676492042" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"dd0287a2-7b4a-4bad-9679-9575d99b563c"]
+---
+time 1676779424
+old [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+-" modified:"1676492042" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+new [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+--" modified:"1676779424" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+---
+time 1676779424
+new [description:"Update Unlisted Tasks" due:"1677384000" entry:"1676779424" imask:"29.000000" modified:"1676570842" parent:"c4316c19-dc31-47b3-a57d-76ca73193aa7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"1546d42e-9f11-4003-9ae6-23e16724f6ed"]
+---
+time 1676779424
+old [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX+++++++++++++++-" modified:"1676570842" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+new [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX+++++++++++++++--" modified:"1676779424" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+---
+time 1676779424
+new [description:"Review Qs in Dropbox" due:"1677038400" entry:"1676779424" imask:"57.000000" modified:"1676570860" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"68135167-f15f-428a-a159-c270da41de35"]
+---
+time 1676779424
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++-" modified:"1676570860" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++--" modified:"1676779424" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1676931275
+old [description:"assignment 3" due:"1676869200" entry:"1676572565" modified:"1676572565" project:"it" status:"pending" uuid:"146c6c20-2be6-49e2-8643-4a53507384d9"]
+new [description:"assignment 3" due:"1676869200" end:"1676931275" entry:"1676572565" modified:"1676931275" project:"it" status:"completed" uuid:"146c6c20-2be6-49e2-8643-4a53507384d9"]
+---
+time 1676931600
+old [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+--" modified:"1676779424" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+new [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X++-" modified:"1676931600" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+---
+time 1676931600
+old [description:"Update Home.md" due:"1676779200" entry:"1676433648" imask:"36.000000" modified:"1676128096" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"319a5010-725b-459f-9fdb-c9ecb9252f76"]
+new [description:"Update Home.md" due:"1676779200" end:"1676931600" entry:"1676433648" imask:"36.000000" modified:"1676931600" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"319a5010-725b-459f-9fdb-c9ecb9252f76"]
+---
+time 1676931617
+old [description:"assignment 3" due:"1676782800" entry:"1676649240" modified:"1676649279" project:"it" status:"pending" tags:"HW" tags_HW:"x" uuid:"d1d187c8-bc1d-4ac6-8b58-cb8324f6c049"]
+new [description:"assignment 3" due:"1676782800" end:"1676931617" entry:"1676649240" modified:"1676931617" project:"it" status:"completed" tags:"HW" tags_HW:"x" uuid:"d1d187c8-bc1d-4ac6-8b58-cb8324f6c049"]
+---
+time 1676931630
+old [description:"complete pandas data input" due:"1675918800" entry:"1675892852" modified:"1675892852" project:"bootcamp" status:"pending" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+new [description:"complete pandas data input" due:"1676955600" entry:"1675892852" modified:"1676931630" project:"bootcamp" status:"pending" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+---
+time 1676931639
+old [description:"complete pandas data input" due:"1676955600" entry:"1675892852" modified:"1676931630" project:"bootcamp" status:"pending" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+new [description:"complete pandas data input" due:"1677042000" entry:"1675892852" modified:"1676931639" project:"bootcamp" status:"pending" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+---
+time 1676931649
+old [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX+++++++++++++++--" modified:"1676779424" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+new [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX++++++++++++++++-" modified:"1676931649" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+---
+time 1676931649
+old [description:"Update Unlisted Tasks" due:"1676779200" entry:"1676174812" imask:"28.000000" modified:"1675629095" parent:"c4316c19-dc31-47b3-a57d-76ca73193aa7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"607c10ad-545c-410d-b5a3-61281786f9d2"]
+new [description:"Update Unlisted Tasks" due:"1676779200" end:"1676931649" entry:"1676174812" imask:"28.000000" modified:"1676931649" parent:"c4316c19-dc31-47b3-a57d-76ca73193aa7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"607c10ad-545c-410d-b5a3-61281786f9d2"]
+---
+time 1676932060
+old [description:"rewrite readme" due:"1675974146" entry:"1675714946" modified:"1675714946" project:"ccc" status:"pending" uuid:"93553f8c-2294-40cf-a04e-6c43ccaf5149"]
+new [description:"rewrite readme" due:"1675974146" end:"1676932060" entry:"1675714946" modified:"1676932060" project:"ccc" status:"completed" uuid:"93553f8c-2294-40cf-a04e-6c43ccaf5149"]
+---
+time 1676932073
+old [description:"review zara case and watch lec if needed" due:"1676869200" entry:"1676649158" modified:"1676649158" project:"it" status:"pending" uuid:"c52ebf02-b77f-4b15-8713-0e64ff02981c"]
+new [description:"review zara case and watch lec if needed" due:"1676869200" end:"1676932073" entry:"1676649158" modified:"1676932073" project:"it" status:"completed" uuid:"c52ebf02-b77f-4b15-8713-0e64ff02981c"]
+---
+time 1676987309
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++--" modified:"1676779424" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++-" modified:"1676987309" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1676987309
+old [description:"Review Qs in Dropbox" due:"1676779200" entry:"1676520309" imask:"56.000000" modified:"1676492043" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"3b7a8ab1-7b04-4361-9a1e-59152fb39b4d"]
+new [description:"Review Qs in Dropbox" due:"1676779200" end:"1676987309" entry:"1676520309" imask:"56.000000" modified:"1676987309" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"completed" tags:"uni" tags_uni:"x" uuid:"3b7a8ab1-7b04-4361-9a1e-59152fb39b4d"]
+---
+time 1676987373
+old [description:"review notes for second lec" due:"1676060634" entry:"1675801434" modified:"1675801434" project:"dim" status:"pending" uuid:"c570949d-22c7-414a-ad17-06a863ef7b69"]
+new [description:"review notes for second lec" due:"1676060634" end:"1676987371" entry:"1675801434" modified:"1676987373" project:"dim" status:"deleted" uuid:"c570949d-22c7-414a-ad17-06a863ef7b69"]
+---
+time 1676987601
+old [description:"full read course summary without notetaking" due:"1676610000" entry:"1676654583" modified:"1676654583" project:"corpFin" status:"pending" uuid:"0dbc9355-0e71-4787-ba97-d857d95e3926"]
+new [description:"full read course summary without notetaking" due:"1677042000" entry:"1676654583" modified:"1676987601" project:"corpFin" status:"pending" uuid:"0dbc9355-0e71-4787-ba97-d857d95e3926"]
+---
+time 1676987611
+old [description:"get caughtup" due:"1675832400" entry:"1675703710" modified:"1675703710" project:"dim" status:"pending" uuid:"0f9e6a1e-4b55-43b3-806a-e01d1d2c5347"]
+new [description:"get caughtup" due:"1677042000" entry:"1675703710" modified:"1676987611" project:"dim" status:"pending" uuid:"0f9e6a1e-4b55-43b3-806a-e01d1d2c5347"]
+---
+time 1676987622
+old [description:"complete matplotlib fundamentals" due:"1676091600" entry:"1675892870" modified:"1675892870" project:"bootcamp" status:"pending" uuid:"0777929b-b2fb-46e2-ad62-6e6dc88e4da6"]
+new [description:"complete matplotlib fundamentals" due:"1676091600" end:"1676987621" entry:"1675892870" modified:"1676987622" project:"bootcamp" status:"deleted" uuid:"0777929b-b2fb-46e2-ad62-6e6dc88e4da6"]
+---
+time 1676987671
+old [description:"get caughtup" due:"1675746000" entry:"1675703759" modified:"1675703759" project:"dma" status:"pending" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+new [description:"get caughtup" due:"1675746000" entry:"1675703759" modified:"1676987671" project:"dim" status:"pending" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+---
+time 1676987716
+new [description:"get caughtup" due:"1677042000" entry:"1676987716" modified:"1676987716" project:"dma" status:"pending" uuid:"b3ba5766-4f3e-46bd-9cf3-c6d9583e6afd"]
+---
+time 1676987732
+old [description:"get caughtup" due:"1675746000" entry:"1675703759" modified:"1676987671" project:"dim" status:"pending" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+new [description:"get caughtup" due:"1676955600" entry:"1675703759" modified:"1676987732" project:"dim" status:"pending" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+---
+time 1676987753
+old [description:"homework2" due:"1676178000" entry:"1675094231" modified:"1675818555" project:"it" status:"pending" uuid:"54cd96d9-f1ee-435d-b7fd-f1d9ac720c4a"]
+new [description:"homework2" due:"1676178000" end:"1676987751" entry:"1675094231" modified:"1676987753" project:"it" status:"deleted" uuid:"54cd96d9-f1ee-435d-b7fd-f1d9ac720c4a"]
+---
+time 1676987775
+old [description:"watch last two lectures" due:"1676696400" entry:"1676656848" modified:"1676656848" project:"corpFin" status:"pending" uuid:"8e8e4e89-e338-4145-a970-7430a1968444"]
+new [description:"watch last two lectures" due:"1677042000" entry:"1676656848" modified:"1676987775" project:"corpFin" status:"pending" uuid:"8e8e4e89-e338-4145-a970-7430a1968444"]
+---
+time 1676987775
+old [description:"review overview worksheets" due:"1676696400" entry:"1676656909" modified:"1676656909" project:"corpFin" status:"pending" uuid:"41c3f5f3-a407-426e-9ad2-214e283bea37"]
+new [description:"review overview worksheets" due:"1677042000" entry:"1676656909" modified:"1676987775" project:"corpFin" status:"pending" uuid:"41c3f5f3-a407-426e-9ad2-214e283bea37"]
+---
+time 1676987775
+old [description:"review other presentation slides" due:"1676696400" entry:"1676656921" modified:"1676656921" project:"corpFin" status:"pending" uuid:"fe57d9f7-f8b2-4e4f-af9e-383a4fd8132a"]
+new [description:"review other presentation slides" due:"1677042000" entry:"1676656921" modified:"1676987775" project:"corpFin" status:"pending" uuid:"fe57d9f7-f8b2-4e4f-af9e-383a4fd8132a"]
+---
+time 1676987791
+new [description:"make advisor appt" due:"1676955600" entry:"1676987791" modified:"1676987791" project:"Sift" status:"pending" uuid:"b20c529d-7b23-44b3-853d-59f70728135d"]
+---
+time 1676992557
+new [description:"update predictoins" due:"1677301200" entry:"1676992557" modified:"1676992557" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86"]
+---
+time 1676992566
+old [description:"update predictoins" due:"1677301200" entry:"1676992557" modified:"1676992557" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86"]
+new [description:"update predictions" due:"1677301200" entry:"1676992557" modified:"1676992566" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86"]
+---
+time 1676992576
+new [description:"update predictoins" due:"1677301200" entry:"1676992546" imask:"0.000000" modified:"1676992557" parent:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86" project:"Important" recur:"weekly" rtype:"periodic" status:"pending" uuid:"fda31a01-e5f0-4724-8756-a4ac356ae4e5"]
+---
+time 1676992576
+old [description:"update predictions" due:"1677301200" entry:"1676992557" modified:"1676992566" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86"]
+new [description:"update predictions" due:"1677301200" entry:"1676992557" mask:"-" modified:"1676992566" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86"]
+---
+time 1676992951
+new [description:"update academic calendar" due:"1677042000" entry:"1676992951" modified:"1676992951" project:"Sift" status:"pending" uuid:"6005dace-ab58-4725-9c5b-ec586b92bac1"]
+---
+time 1676994867
+old [description:"catchup" due:"1676523600" entry:"1676592796" modified:"1676592796" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"a2d69b68-1999-4efc-910e-53e071645177"]
+new [description:"catchup" due:"1676523600" entry:"1676592796" modified:"1676994867" project:"dma" status:"pending" uuid:"a2d69b68-1999-4efc-910e-53e071645177"]
+---
+time 1676994873
+old [description:"get caughtup" due:"1676955600" entry:"1675703759" modified:"1676987732" project:"dim" status:"pending" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+new [description:"get caughtup" due:"1676955600" entry:"1675703759" modified:"1676994873" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+---
+time 1676994966
+old [description:"add hw solutions to anki" due:"1675963903" entry:"1675704703" modified:"1675704703" project:"it" status:"pending" uuid:"5a432f01-7848-460b-84c5-1986e6229910"]
+new [description:"add hw solutions to anki" due:"1677042000" entry:"1675704703" modified:"1676994966" project:"it" status:"pending" uuid:"5a432f01-7848-460b-84c5-1986e6229910"]
+---
+time 1676994966
+old [description:"homework1-3" due:"1676091600" entry:"1675887660" modified:"1675887660" project:"it" status:"pending" uuid:"a027c568-18be-423d-86e6-8aeee16278ab"]
+new [description:"homework1-3" due:"1677042000" entry:"1675887660" modified:"1676994966" project:"it" status:"pending" uuid:"a027c568-18be-423d-86e6-8aeee16278ab"]
+---
+time 1676995248
+new [description:"clean up and begin idle gambler" due:"1677128400" entry:"1676995248" modified:"1676995248" project:"ig" status:"pending" uuid:"b4357f77-8768-4062-8145-7d030776b1d2"]
+---
+time 1676995458
+old [description:"review project compared to naming_conventions notes and clean code" due:"1676737991" entry:"1676478791" modified:"1676478791" project:"ccc" status:"pending" uuid:"6e7dd235-c157-4566-a6f3-1e544b4d4643"]
+new [description:"review project compared to naming_conventions notes and clean code" due:"1676737991" end:"1676995456" entry:"1676478791" modified:"1676995458" project:"ccc" status:"deleted" uuid:"6e7dd235-c157-4566-a6f3-1e544b4d4643"]
+---
+time 1676995458
+old [description:"Revise Notes" due:"1676610000" entry:"1676571246" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+new [description:"Revise Notes" due:"1676610000" end:"1676995458" entry:"1676571246" mask:"+-" modified:"1676995458" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+---
+time 1676995464
+old [description:"Revise Notes" due:"1676610000" end:"1676995458" entry:"1676571246" mask:"+-" modified:"1676995458" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+new [description:"Revise Notes" due:"1676610000" end:"1676995458" entry:"1676571246" mask:"+X" modified:"1676995464" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"5e1c46ca-766e-4297-a9a3-6c6beef3316a"]
+---
+time 1676995464
+old [description:"Revise Notes" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"5e1c46ca-766e-4297-a9a3-6c6beef3316a" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"e04ed533-546c-411c-a082-4381964fd8dd"]
+new [description:"Revise Notes" due:"1677214800" end:"1676995464" entry:"1676610264" imask:"1.000000" modified:"1676995464" parent:"5e1c46ca-766e-4297-a9a3-6c6beef3316a" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"e04ed533-546c-411c-a082-4381964fd8dd"]
+---
+time 1676995505
+new [description:"update filestructure, github, and set new goals in readme" due:"1677254705" entry:"1676995505" modified:"1676995505" project:"ccc" status:"pending" uuid:"3045c646-5ff8-480b-a63b-a4c2323650bc"]
+---
+time 1676995519
+new [description:"create readme based on ccc" due:"1677254719" entry:"1676995519" modified:"1676995519" project:"ig" status:"pending" uuid:"dff2f04d-3710-4ea5-9909-a0619afa1025"]
+---
+time 1676995638
+old [description:"complete bearbone tests and programs" due:"1675971083" entry:"1675711883" modified:"1675711883" project:"ccc" status:"pending" uuid:"f66b2f4e-6e75-4d75-9076-3c7df1dfe088"]
+new [description:"complete bearbone tests and programs" due:"1675971083" end:"1676995637" entry:"1675711883" modified:"1676995638" project:"ccc" status:"deleted" uuid:"f66b2f4e-6e75-4d75-9076-3c7df1dfe088"]
+---
+time 1676995665
+old [description:"prepare for and complete quiz" due:"1676782800" entry:"1676572463" modified:"1676572463" project:"bootcamp" status:"pending" uuid:"f87f889d-8328-4ea7-bdd0-d56ba872a575"]
+new [description:"prepare for and complete quiz" due:"1676782800" end:"1676995665" entry:"1676572463" modified:"1676995665" project:"bootcamp" status:"completed" uuid:"f87f889d-8328-4ea7-bdd0-d56ba872a575"]
+---
+time 1676995665
+old [description:"review google_sheets sslides and commands" due:"1676782800" entry:"1676649094" modified:"1676649094" project:"it" status:"pending" uuid:"3eecfc1e-5195-4373-a39c-95377d682a78"]
+new [description:"review google_sheets sslides and commands" due:"1676782800" end:"1676995665" entry:"1676649094" modified:"1676995665" project:"it" status:"completed" uuid:"3eecfc1e-5195-4373-a39c-95377d682a78"]
+---
+time 1676995693
+old [description:"catchup" due:"1676523600" entry:"1676592796" modified:"1676994867" project:"dma" status:"pending" uuid:"a2d69b68-1999-4efc-910e-53e071645177"]
+new [description:"catchup" due:"1677042000" entry:"1676592796" modified:"1676995693" project:"dma" status:"pending" uuid:"a2d69b68-1999-4efc-910e-53e071645177"]
+---
+time 1676995726
+old [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"--" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+new [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"X-" modified:"1676995726" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+---
+time 1676995726
+old [description:"Add to Anki" due:"1676610000" entry:"1676572119" imask:"0.000000" modified:"1676572116" parent:"c1ac1237-f03b-4f99-8bc6-5a94044511fc" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"dda2d60e-2119-4b92-8ee5-d0511ec04e74"]
+new [description:"Add to Anki" due:"1676610000" end:"1676995725" entry:"1676572119" imask:"0.000000" modified:"1676995726" parent:"c1ac1237-f03b-4f99-8bc6-5a94044511fc" project:"Maintain" recur:"weekly" rtype:"periodic" status:"deleted" tags:"shallow" tags_shallow:"x" uuid:"dda2d60e-2119-4b92-8ee5-d0511ec04e74"]
+---
+time 1676995762
+old [description:"email prof about exit slips and presentation" due:"1676696400" entry:"1676649641" modified:"1676649641" project:"it" status:"pending" uuid:"3066fe77-8e9a-4f62-8a0f-6dd3cb3d1488"]
+new [description:"email prof about exit slips and presentation" due:"1676955600" entry:"1676649641" modified:"1676995762" project:"it" status:"pending" uuid:"3066fe77-8e9a-4f62-8a0f-6dd3cb3d1488"]
+---
+time 1676995804
+old [description:"track the predictions of sports pundits" due:"1676782052" entry:"1676522852" modified:"1676522852" project:"Sift" status:"pending" uuid:"d98aadbd-6c00-443e-bc6f-7f1204d17ae9"]
+new [description:"track the predictions of sports pundits" due:"1676782052" end:"1676995804" entry:"1676522852" modified:"1676995804" project:"Sift" status:"completed" uuid:"d98aadbd-6c00-443e-bc6f-7f1204d17ae9"]
+---
+time 1676995898
+old [description:"tracker for sachin" due:"1676782502" entry:"1676523302" modified:"1676523302" project:"Sift" status:"pending" uuid:"f9b5f55c-ef77-4810-84a8-59a5a052d98f"]
+new [description:"tracker for sachin" due:"1677387600" entry:"1676523302" modified:"1676995898" project:"Sift" status:"pending" uuid:"f9b5f55c-ef77-4810-84a8-59a5a052d98f"]
+---
+time 1677038722
+new [description:"Review Qs in Dropbox" due:"1677297600" entry:"1677038722" imask:"58.000000" modified:"1676987309" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"5a8a324d-fe46-41b0-b2f9-08f7cf5f7bbc"]
+---
+time 1677038722
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++-" modified:"1676987309" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++--" modified:"1677038722" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677104470
+old [description:"email prof about exit slips and presentation" due:"1676955600" entry:"1676649641" modified:"1676995762" project:"it" status:"pending" uuid:"3066fe77-8e9a-4f62-8a0f-6dd3cb3d1488"]
+new [description:"email prof about exit slips and presentation" due:"1676955600" end:"1677104470" entry:"1676649641" modified:"1677104470" project:"it" status:"completed" uuid:"3066fe77-8e9a-4f62-8a0f-6dd3cb3d1488"]
+---
+time 1677104498
+old [description:"get caughtup" due:"1676955600" entry:"1675703759" modified:"1676994873" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+new [description:"get caughtup" due:"1677214800" entry:"1675703759" modified:"1677104498" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+---
+time 1677104499
+new [description:"Review Qs in Dropbox" due:"1677297600" entry:"1677075218" imask:"58.000000" modified:"1676987309" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"ebd2b676-e549-4ca2-841b-99019bd44548"]
+---
+time 1677104499
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++--" modified:"1677038722" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++--" modified:"1677075218" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677104555
+old [description:"complete pandas data input" due:"1677042000" entry:"1675892852" modified:"1676931639" project:"bootcamp" status:"pending" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+new [description:"complete pandas data input" due:"1677214800" entry:"1675892852" modified:"1677104555" project:"bootcamp" status:"pending" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+---
+time 1677104665
+old [description:"add hw solutions to anki" due:"1677042000" entry:"1675704703" modified:"1676994966" project:"it" status:"pending" uuid:"5a432f01-7848-460b-84c5-1986e6229910"]
+new [description:"add hw solutions to anki" due:"1677042000" end:"1677104662" entry:"1675704703" modified:"1677104665" project:"it" status:"deleted" uuid:"5a432f01-7848-460b-84c5-1986e6229910"]
+---
+time 1677104714
+old [description:"get caughtup" due:"1677042000" entry:"1675703710" modified:"1676987611" project:"dim" status:"pending" uuid:"0f9e6a1e-4b55-43b3-806a-e01d1d2c5347"]
+new [description:"get caughtup" due:"1677214800" end:"1677104714" entry:"1675703710" modified:"1677104714" project:"dim" status:"completed" uuid:"0f9e6a1e-4b55-43b3-806a-e01d1d2c5347"]
+---
+time 1677104772
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++--" modified:"1677075218" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++-" modified:"1677104772" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677104772
+old [description:"Review Qs in Dropbox" due:"1677038400" entry:"1676779424" imask:"57.000000" modified:"1676570860" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"68135167-f15f-428a-a159-c270da41de35"]
+new [description:"Review Qs in Dropbox" due:"1677038400" end:"1677104772" entry:"1676779424" imask:"57.000000" modified:"1677104772" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"completed" tags:"uni" tags_uni:"x" uuid:"68135167-f15f-428a-a159-c270da41de35"]
+---
+time 1677104794
+old [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X++-" modified:"1676931600" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+new [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+++" modified:"1677104794" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+---
+time 1677104794
+old [description:"Update Home.md" due:"1677124800" entry:"1676779424" imask:"37.000000" modified:"1676492042" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"dd0287a2-7b4a-4bad-9679-9575d99b563c"]
+new [description:"Update Home.md" due:"1677124800" end:"1677104794" entry:"1676779424" imask:"37.000000" modified:"1677104794" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"dd0287a2-7b4a-4bad-9679-9575d99b563c"]
+---
+time 1677105436
+old [description:"make advisor appt" due:"1676955600" entry:"1676987791" modified:"1676987791" project:"Sift" status:"pending" uuid:"b20c529d-7b23-44b3-853d-59f70728135d"]
+new [annotation_1677105436:"tdo" description:"make advisor appt" due:"1676955600" end:"1677105436" entry:"1676987791" modified:"1677105436" project:"Sift" status:"completed" uuid:"b20c529d-7b23-44b3-853d-59f70728135d"]
+---
+time 1677105781
+new [description:"email group about project" due:"1677042000" entry:"1677105781" modified:"1677105781" project:"dma" status:"pending" uuid:"9e9dccb2-14ff-4eaf-8f80-05e5b9ff4816"]
+---
+time 1677105852
+old [description:"update academic calendar" due:"1677042000" entry:"1676992951" modified:"1676992951" project:"Sift" status:"pending" uuid:"6005dace-ab58-4725-9c5b-ec586b92bac1"]
+new [description:"update academic calendar" due:"1677042000" end:"1677105852" entry:"1676992951" modified:"1677105852" project:"Sift" status:"completed" uuid:"6005dace-ab58-4725-9c5b-ec586b92bac1"]
+---
+time 1677125054
+new [description:"Update Home.md" due:"1677470400" entry:"1677125054" imask:"38.000000" modified:"1677104794" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"d04fb9f5-1525-4cd0-8d3f-918f4d7e0b2d"]
+---
+time 1677125054
+old [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+++" modified:"1677104794" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+new [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+++-" modified:"1677125054" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+---
+time 1677128556
+new [description:"update weightLog" due:"1677733200" entry:"1677128556" imask:"9.000000" modified:"1676569556" parent:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6" project:"Sift" recur:"7d" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"55fb0df7-168c-4904-9c70-e5add40ddfda"]
+---
+time 1677128556
+old [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"++++++++-" modified:"1676569556" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+new [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"++++++++--" modified:"1677128556" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+---
+time 1677187144
+new [description:"chapter 7 in textbook" due:"1677474000" entry:"1677187144" modified:"1677187144" project:"it" status:"pending" uuid:"544bfb2c-5865-497a-96a3-62d9cd6d146b"]
+---
+time 1677189099
+new [description:"start tracking daily finances" due:"1675227600" entry:"1677189099" modified:"1677189099" project:"Sift" status:"pending" uuid:"d269a9e5-869c-4e83-a192-063e641ec317"]
+---
+time 1677190249
+new [description:"start tracking daily finances+" due:"1675227600" entry:"1677190248" modified:"1677190248" project:"Sift" status:"pending" uuid:"ed4e6051-e784-4b2b-8bb2-21f3296f27df"]
+---
+time 1677190531
+new [description:"update academic planner" due:"1677387600" entry:"1677190531" modified:"1677190531" project:"Important" status:"pending" uuid:"98a13424-3453-4239-91fe-80cdfa4b2359"]
+---
+time 1677192550
+old [description:"start tracking daily finances+" due:"1675227600" entry:"1677190248" modified:"1677190248" project:"Sift" status:"pending" uuid:"ed4e6051-e784-4b2b-8bb2-21f3296f27df"]
+new [description:"start tracking daily finances+" due:"1675227600" end:"1677192549" entry:"1677190248" modified:"1677192550" project:"Sift" status:"deleted" uuid:"ed4e6051-e784-4b2b-8bb2-21f3296f27df"]
+---
+time 1677192790
+old [description:"start tracking daily finances" due:"1675227600" entry:"1677189099" modified:"1677189099" project:"Sift" status:"pending" uuid:"d269a9e5-869c-4e83-a192-063e641ec317"]
+new [description:"start tracking daily finances" due:"1677646800" entry:"1677189099" modified:"1677192790" project:"Sift" status:"pending" uuid:"d269a9e5-869c-4e83-a192-063e641ec317"]
+---
+time 1677192807
+old [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"++++++++--" modified:"1677128556" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+new [description:"update weightLog" due:"1672290000" entry:"1672332335" mask:"+++++++++-" modified:"1677192807" project:"Sift" recur:"7d" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6"]
+---
+time 1677192807
+old [description:"update weightLog" due:"1677128400" entry:"1676523628" imask:"8.000000" modified:"1675965783" parent:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6" project:"Sift" recur:"7d" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"dd153475-1058-41f1-8fa1-c3b06c721b02"]
+new [description:"update weightLog" due:"1677128400" end:"1677192807" entry:"1676523628" imask:"8.000000" modified:"1677192807" parent:"bb5436b2-d03c-4e17-9d88-3dae81d5b0f6" project:"Sift" recur:"7d" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"dd153475-1058-41f1-8fa1-c3b06c721b02"]
+---
+time 1677194850
+old [description:"watch last two lectures" due:"1677042000" entry:"1676656848" modified:"1676987775" project:"corpFin" status:"pending" uuid:"8e8e4e89-e338-4145-a970-7430a1968444"]
+new [description:"watch last two lectures" due:"1677042000" end:"1677194849" entry:"1676656848" modified:"1677194850" project:"corpFin" status:"deleted" uuid:"8e8e4e89-e338-4145-a970-7430a1968444"]
+---
+time 1677194878
+old [description:"catchup" due:"1677042000" entry:"1676592796" modified:"1676995693" project:"dma" status:"pending" uuid:"a2d69b68-1999-4efc-910e-53e071645177"]
+new [description:"catchup" due:"1677042000" end:"1677194876" entry:"1676592796" modified:"1677194878" project:"dma" status:"deleted" uuid:"a2d69b68-1999-4efc-910e-53e071645177"]
+---
+time 1677194878
+old [description:"full read course summary without notetaking" due:"1677042000" entry:"1676654583" modified:"1676987601" project:"corpFin" status:"pending" uuid:"0dbc9355-0e71-4787-ba97-d857d95e3926"]
+new [description:"full read course summary without notetaking" due:"1677042000" end:"1677194878" entry:"1676654583" modified:"1677194878" project:"corpFin" status:"deleted" uuid:"0dbc9355-0e71-4787-ba97-d857d95e3926"]
+---
+time 1677194907
+old [description:"get caughtup" due:"1677214800" entry:"1675703759" modified:"1677104498" project:"dim" status:"pending" tags:"NOW" tags_NOW:"x" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+new [description:"get caughtup" due:"1677214800" end:"1677194905" entry:"1675703759" modified:"1677194907" project:"dim" status:"deleted" tags:"NOW" tags_NOW:"x" uuid:"53b23236-337c-4dd5-b0e5-21eb41b2a3f3"]
+---
+time 1677195386
+new [description:"full review and update" due:"1677214800" entry:"1677195386" modified:"1677195386" project:"it" status:"pending" uuid:"092c3984-56fc-4ae4-9fb7-cf40d4f66084"]
+---
+time 1677195391
+new [description:"full review and update" due:"1677214800" entry:"1677195391" modified:"1677195391" project:"dma" status:"pending" uuid:"8acb7d63-a5a0-41cc-aadb-45fea011a751"]
+---
+time 1677195394
+new [description:"full review and update" due:"1677214800" entry:"1677195394" modified:"1677195394" project:"dim" status:"pending" uuid:"27c075bf-2f31-4e6d-b016-6cddb2a5e073"]
+---
+time 1677195405
+new [description:"full review and update" due:"1677214800" entry:"1677195405" modified:"1677195405" project:"bootcamp" status:"pending" uuid:"77760fca-e617-4a2e-a33c-ee85276f88c2"]
+---
+time 1677195448
+new [description:"full reivew and update" due:"1677214800" entry:"1677195448" modified:"1677195448" project:"corpFin" status:"pending" uuid:"bce45256-2b58-490c-a649-1f8a94b8d5a6"]
+---
+time 1677195468
+old [description:"review overview worksheets" due:"1677042000" entry:"1676656909" modified:"1676987775" project:"corpFin" status:"pending" uuid:"41c3f5f3-a407-426e-9ad2-214e283bea37"]
+new [description:"review overview worksheets" due:"1677387600" entry:"1676656909" modified:"1677195468" project:"corpFin" status:"pending" uuid:"41c3f5f3-a407-426e-9ad2-214e283bea37"]
+---
+time 1677195479
+old [description:"review other presentation slides" due:"1677042000" entry:"1676656921" modified:"1676987775" project:"corpFin" status:"pending" uuid:"fe57d9f7-f8b2-4e4f-af9e-383a4fd8132a"]
+new [description:"review other presentation slides" due:"1677042000" end:"1677195478" entry:"1676656921" modified:"1677195479" project:"corpFin" status:"deleted" uuid:"fe57d9f7-f8b2-4e4f-af9e-383a4fd8132a"]
+---
+time 1677196213
+old [description:"homework1-3" due:"1677042000" entry:"1675887660" modified:"1676994966" project:"it" status:"pending" uuid:"a027c568-18be-423d-86e6-8aeee16278ab"]
+new [description:"homework1-3" due:"1677042000" end:"1677196213" entry:"1675887660" modified:"1677196213" project:"it" status:"completed" uuid:"a027c568-18be-423d-86e6-8aeee16278ab"]
+---
+time 1677196231
+old [description:"get caughtup" due:"1677042000" entry:"1676987716" modified:"1676987716" project:"dma" status:"pending" uuid:"b3ba5766-4f3e-46bd-9cf3-c6d9583e6afd"]
+new [description:"get caughtup" due:"1677214800" entry:"1676987716" modified:"1677196231" project:"dma" status:"pending" uuid:"b3ba5766-4f3e-46bd-9cf3-c6d9583e6afd"]
+---
+time 1677196231
+old [description:"email group about project" due:"1677042000" entry:"1677105781" modified:"1677105781" project:"dma" status:"pending" uuid:"9e9dccb2-14ff-4eaf-8f80-05e5b9ff4816"]
+new [description:"email group about project" due:"1677214800" entry:"1677105781" modified:"1677196231" project:"dma" status:"pending" uuid:"9e9dccb2-14ff-4eaf-8f80-05e5b9ff4816"]
+---
+time 1677207420
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"++" modified:"1677207420" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+---
+time 1677207420
+old [description:"update vim nvim and lunarvim configs" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572273" parent:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"862a0807-a8a1-4200-a7de-05f93faa0035"]
+new [description:"update vim nvim and lunarvim configs" due:"1677214800" end:"1677207420" entry:"1676610264" imask:"1.000000" modified:"1677207420" parent:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"862a0807-a8a1-4200-a7de-05f93faa0035"]
+---
+time 1677207477
+old [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+new [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"++" modified:"1677207477" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+---
+time 1677207477
+old [description:"Clear Bookmarks" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"ebba3158-68c3-48c2-b63c-55a536708073"]
+new [description:"Clear Bookmarks" due:"1677214800" end:"1677207477" entry:"1676610264" imask:"1.000000" modified:"1677207477" parent:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"ebba3158-68c3-48c2-b63c-55a536708073"]
+---
+time 1677207487
+old [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+new [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"++" modified:"1677207487" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+---
+time 1677207487
+old [description:"Laundry" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"825c52e5-9adc-4ce5-b087-74e5c454594f"]
+new [description:"Laundry" due:"1677214800" end:"1677207487" entry:"1676610264" imask:"1.000000" modified:"1677207487" parent:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"825c52e5-9adc-4ce5-b087-74e5c454594f"]
+---
+time 1677207491
+old [description:"clean up and begin idle gambler" due:"1677128400" entry:"1676995248" modified:"1676995248" project:"ig" status:"pending" uuid:"b4357f77-8768-4062-8145-7d030776b1d2"]
+new [description:"clean up and begin idle gambler" due:"1677301200" entry:"1676995248" modified:"1677207491" project:"ig" status:"pending" uuid:"b4357f77-8768-4062-8145-7d030776b1d2"]
+---
+time 1677208167
+old [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+new [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"++" modified:"1677208167" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+---
+time 1677208167
+old [description:"Update subscriptions" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"6685848f-4931-451f-a37a-964a752e897a" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"c9cc2871-12cd-4953-8889-8355ccd9a7d3"]
+new [description:"Update subscriptions" due:"1677214800" end:"1677208167" entry:"1676610264" imask:"1.000000" modified:"1677208167" parent:"6685848f-4931-451f-a37a-964a752e897a" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"c9cc2871-12cd-4953-8889-8355ccd9a7d3"]
+---
+time 1677208182
+old [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+new [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"++" modified:"1677208182" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+---
+time 1677208182
+old [description:"Clear Tray" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"12667d83-ccc7-472a-91b4-f3eec5679e53" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"4831154a-518d-4dd7-a72e-e51c0c8c0746"]
+new [description:"Clear Tray" due:"1677214800" end:"1677208182" entry:"1676610264" imask:"1.000000" modified:"1677208182" parent:"12667d83-ccc7-472a-91b4-f3eec5679e53" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"4831154a-518d-4dd7-a72e-e51c0c8c0746"]
+---
+time 1677208198
+old [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"X-" modified:"1676995726" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+new [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"X+" modified:"1677208198" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+---
+time 1677208198
+old [description:"Add to Anki" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572119" parent:"c1ac1237-f03b-4f99-8bc6-5a94044511fc" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"34d31fad-ca89-4ccd-b868-5d1aa6d0e536"]
+new [description:"Add to Anki" due:"1677214800" end:"1677208198" entry:"1676610264" imask:"1.000000" modified:"1677208198" parent:"c1ac1237-f03b-4f99-8bc6-5a94044511fc" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"34d31fad-ca89-4ccd-b868-5d1aa6d0e536"]
+---
+time 1677208213
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"+-" modified:"1676610264" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"++" modified:"1677208213" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+---
+time 1677208213
+old [description:"Spring Cleaning" due:"1677214800" entry:"1676610264" imask:"1.000000" modified:"1676572250" parent:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"20bad978-888b-4b73-89c7-fc6f7959b4b5"]
+new [description:"Spring Cleaning" due:"1677214800" end:"1677208213" entry:"1676610264" imask:"1.000000" modified:"1677208213" parent:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"completed" tags:"shallow" tags_shallow:"x" uuid:"20bad978-888b-4b73-89c7-fc6f7959b4b5"]
+---
+time 1677208337
+old [description:"complete pandas data input" due:"1677214800" entry:"1675892852" modified:"1677104555" project:"bootcamp" status:"pending" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+new [description:"complete pandas data input" due:"1677214800" end:"1677208335" entry:"1675892852" modified:"1677208337" project:"bootcamp" status:"deleted" uuid:"276a24fb-d7d1-44f9-9f24-5d32e9838694"]
+---
+time 1677208356
+new [description:"review last two lectures and practice" due:"1677560400" entry:"1677208356" modified:"1677208356" project:"bootcamp" status:"pending" uuid:"75ce47a0-3d7d-47c4-bceb-1b0424f88c30"]
+---
+time 1677214872
+new [description:"Clear Bookmarks" due:"1677819600" entry:"1677214872" imask:"2.000000" modified:"1677207477" parent:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"9a3c7da3-af29-4c71-a770-fef97401380a"]
+---
+time 1677214872
+old [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"++" modified:"1677207477" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+new [description:"Clear Bookmarks" due:"1676610000" entry:"1676571256" mask:"++-" modified:"1677214872" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4e7b13b-e5f2-475b-8a05-b3f8aa4db933"]
+---
+time 1677214872
+new [description:"Laundry" due:"1677819600" entry:"1677214872" imask:"2.000000" modified:"1677207487" parent:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"7c7bb1b6-ba4c-4901-9eb7-cf74f9abde0b"]
+---
+time 1677214872
+old [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"++" modified:"1677207487" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+new [description:"Laundry" due:"1676610000" entry:"1676571261" mask:"++-" modified:"1677214872" project:"Maintain" recur:"weekly" rtype:"periodic" scheduled:"1677128400" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"08e575a2-2fe8-46b7-ac98-0122d9d9fe69"]
+---
+time 1677214872
+new [description:"Update subscriptions" due:"1677819600" entry:"1677214872" imask:"2.000000" modified:"1677208167" parent:"6685848f-4931-451f-a37a-964a752e897a" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"bd908cf5-3d70-4093-adc6-80994b880d52"]
+---
+time 1677214872
+old [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"++" modified:"1677208167" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+new [description:"Update subscriptions" due:"1676610000" entry:"1676571883" mask:"++-" modified:"1677214872" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"6685848f-4931-451f-a37a-964a752e897a"]
+---
+time 1677214872
+new [description:"update vim nvim and lunarvim configs" due:"1677819600" entry:"1677214872" imask:"2.000000" modified:"1677207420" parent:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"5440c499-954c-40cc-9a97-bcc08533e5da"]
+---
+time 1677214872
+old [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"++" modified:"1677207420" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+new [description:"update vim nvim and lunarvim configs" due:"1676610000" entry:"1676571956" mask:"++-" modified:"1677214872" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"a3595ede-2d77-404c-9e68-45dcbb5c5aeb"]
+---
+time 1677214872
+new [description:"Clear Tray" due:"1677819600" entry:"1677214872" imask:"2.000000" modified:"1677208182" parent:"12667d83-ccc7-472a-91b4-f3eec5679e53" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"c910c163-94f4-42b1-9eda-7d27014d90cc"]
+---
+time 1677214872
+old [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"++" modified:"1677208182" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+new [description:"Clear Tray" due:"1676610000" entry:"1676572061" mask:"++-" modified:"1677214872" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"12667d83-ccc7-472a-91b4-f3eec5679e53"]
+---
+time 1677214872
+new [description:"Add to Anki" due:"1677819600" entry:"1677214872" imask:"2.000000" modified:"1677208198" parent:"c1ac1237-f03b-4f99-8bc6-5a94044511fc" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"67c4cecf-ee43-4e7b-86e5-44c2e35af2a8"]
+---
+time 1677214872
+old [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"X+" modified:"1677208198" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+new [description:"Add to Anki" due:"1676610000" entry:"1676572116" mask:"X+-" modified:"1677214872" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c1ac1237-f03b-4f99-8bc6-5a94044511fc"]
+---
+time 1677214872
+new [description:"Spring Cleaning" due:"1677819600" entry:"1677214872" imask:"2.000000" modified:"1677208213" parent:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"1dce3dd6-ca1c-4198-b547-ef3c7c5a5a58"]
+---
+time 1677214872
+old [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"++" modified:"1677208213" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+new [description:"Spring Cleaning" due:"1676610000" entry:"1676572171" mask:"++-" modified:"1677214872" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"ee74db84-5d4c-4dbc-8599-ac3ed99a80f3"]
+---
+time 1677297742
+new [description:"Review Qs in Dropbox" due:"1677556800" entry:"1677297742" imask:"59.000000" modified:"1677104772" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"4363911a-20c2-46c9-8e96-d59113142f98"]
+---
+time 1677297742
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++-" modified:"1677104772" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++--" modified:"1677297742" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677301244
+new [description:"update predictions" due:"1677906000" entry:"1677301244" imask:"1.000000" modified:"1676992566" parent:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86" project:"Important" recur:"weekly" rtype:"periodic" status:"pending" uuid:"4d5ed0af-6cd8-4d4f-8cd1-98a239aa09b3"]
+---
+time 1677301244
+old [description:"update predictions" due:"1677301200" entry:"1676992557" mask:"-" modified:"1676992566" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86"]
+new [description:"update predictions" due:"1677301200" entry:"1676992557" mask:"--" modified:"1677301244" project:"Important" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"d6cd48dc-b5e8-47b9-af38-1bfec4768a86"]
+---
+time 1677343471
+new [description:"move important stash to permanent folder" due:"1677602671" entry:"1677343471" modified:"1677343471" project:"Sift" status:"pending" uuid:"a4bc5058-5cf7-4d92-b464-7123aa3a3e19"]
+---
+time 1677347549
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" modified:"1677347549" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+---
+time 1677347857
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347857" imask:"0.000000" modified:"1677347549" parent:"38d7a55b-908b-4505-a50b-5cc05e8f3343" project:"Sift" recur:"weekly" rtype:"periodic" status:"pending" uuid:"d4d55025-fe40-4d68-b160-7b0d7f9daede"]
+---
+time 1677347857
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677906000" entry:"1677347857" imask:"1.000000" modified:"1677347549" parent:"38d7a55b-908b-4505-a50b-5cc05e8f3343" project:"Sift" recur:"weekly" rtype:"periodic" status:"pending" uuid:"e182f55f-2bc6-482b-8202-00b8790f81a3"]
+---
+time 1677347857
+old [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" modified:"1677347549" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" mask:"--" modified:"1677347857" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+---
+time 1677347858
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347538" imask:"0.000000" modified:"1677347549" parent:"38d7a55b-908b-4505-a50b-5cc05e8f3343" project:"Sift" recur:"weekly" rtype:"periodic" status:"pending" uuid:"13f1fbed-7258-4822-bc92-986c27f5cdb1"]
+---
+time 1677347858
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677906000" entry:"1677347538" imask:"1.000000" modified:"1677347549" parent:"38d7a55b-908b-4505-a50b-5cc05e8f3343" project:"Sift" recur:"weekly" rtype:"periodic" status:"pending" uuid:"8180ec4d-a7c2-4b0a-81df-c16cc465dc1e"]
+---
+time 1677347858
+old [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" mask:"--" modified:"1677347857" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" mask:"--" modified:"1677347538" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+---
+time 1677347858
+old [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" mask:"--" modified:"1677347538" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" mask:"--" modified:"1677347857" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+---
+time 1677365656
+new [description:"review hbr case studies" due:"1677387600" entry:"1677365656" modified:"1677365656" project:"Sift" status:"pending" uuid:"2cecff40-e52d-4af0-9687-98d98c238307"]
+---
+time 1677384366
+new [description:"Update Unlisted Tasks" due:"1677988800" entry:"1677384366" imask:"30.000000" modified:"1676931649" parent:"c4316c19-dc31-47b3-a57d-76ca73193aa7" project:"Maintain" recur:"weekly" rtype:"periodic" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"88ce3641-efe2-45a1-8cda-743ca5ddd703"]
+---
+time 1677384366
+old [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX++++++++++++++++-" modified:"1676931649" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+new [description:"Update Unlisted Tasks" due:"1659844800" entry:"1659632468" mask:"+++++++++++XX++++++++++++++++--" modified:"1677384366" project:"Maintain" recur:"weekly" rtype:"periodic" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"c4316c19-dc31-47b3-a57d-76ca73193aa7"]
+---
+time 1677442134
+old [description:"get phone for gma" due:"1676996920" entry:"1676737720" modified:"1676737720" project:"Sift" status:"pending" uuid:"8614e4f2-f808-43e9-a168-46b7784b3c83"]
+new [description:"get phone for gma" due:"1677474000" entry:"1676737720" modified:"1677442134" project:"Sift" status:"pending" uuid:"8614e4f2-f808-43e9-a168-46b7784b3c83"]
+---
+time 1677464172
+old [description:"full review and update" due:"1677214800" entry:"1677195386" modified:"1677195386" project:"it" status:"pending" uuid:"092c3984-56fc-4ae4-9fb7-cf40d4f66084"]
+new [description:"full review and update" due:"1677214800" end:"1677464172" entry:"1677195386" modified:"1677464172" project:"it" status:"completed" uuid:"092c3984-56fc-4ae4-9fb7-cf40d4f66084"]
+---
+time 1677470678
+new [description:"Update Home.md" due:"1677816000" entry:"1677470678" imask:"39.000000" modified:"1677125054" parent:"75ff837b-3b75-431b-b6a6-24ca062ea837" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"pending" tags:"shallow" tags_shallow:"x" uuid:"61bba03d-bb5f-424d-a02b-010c2df32b18"]
+---
+time 1677470678
+old [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+++-" modified:"1677125054" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+new [description:"Update Home.md" due:"1664337600" entry:"1659320594" mask:"++-+++++++++++++++++++++++++++++++X+++--" modified:"1677470678" project:"Maintain" recur:"4d" rtype:"periodic" scheduled:"1659320594" status:"recurring" tags:"shallow" tags_shallow:"x" uuid:"75ff837b-3b75-431b-b6a6-24ca062ea837"]
+---
+time 1677527351
+old [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" mask:"--" modified:"1677347857" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677301200" entry:"1677347549" mask:"-+" modified:"1677527351" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"38d7a55b-908b-4505-a50b-5cc05e8f3343"]
+---
+time 1677527351
+old [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677906000" entry:"1677347857" imask:"1.000000" modified:"1677347549" parent:"38d7a55b-908b-4505-a50b-5cc05e8f3343" project:"Sift" recur:"weekly" rtype:"periodic" status:"pending" uuid:"e182f55f-2bc6-482b-8202-00b8790f81a3"]
+new [description:"update weekly planner, calendar, and habit tracker for next week" due:"1677906000" end:"1677527351" entry:"1677347857" imask:"1.000000" modified:"1677527351" parent:"38d7a55b-908b-4505-a50b-5cc05e8f3343" project:"Sift" recur:"weekly" rtype:"periodic" status:"completed" uuid:"e182f55f-2bc6-482b-8202-00b8790f81a3"]
+---
+time 1677529946
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++--" modified:"1677297742" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++++-" modified:"1677529946" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677529946
+old [description:"Review Qs in Dropbox" due:"1677297600" entry:"1677038722" imask:"58.000000" modified:"1676987309" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"5a8a324d-fe46-41b0-b2f9-08f7cf5f7bbc"]
+new [description:"Review Qs in Dropbox" due:"1677297600" end:"1677529946" entry:"1677038722" imask:"58.000000" modified:"1677529946" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"completed" tags:"uni" tags_uni:"x" uuid:"5a8a324d-fe46-41b0-b2f9-08f7cf5f7bbc"]
+---
+time 1677529963
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X+++++-" modified:"1677529946" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++X-" modified:"1677529963" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677529963
+old [description:"Review Qs in Dropbox" due:"1677297600" entry:"1677075218" imask:"58.000000" modified:"1676987309" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"ebd2b676-e549-4ca2-841b-99019bd44548"]
+new [description:"Review Qs in Dropbox" due:"1677297600" end:"1677529958" entry:"1677075218" imask:"58.000000" modified:"1677529963" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"deleted" tags:"uni" tags_uni:"x" uuid:"ebd2b676-e549-4ca2-841b-99019bd44548"]
+---
+time 1677529965
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++X-" modified:"1677529963" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++XX" modified:"1677529965" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677529965
+old [description:"Review Qs in Dropbox" due:"1677556800" entry:"1677297742" imask:"59.000000" modified:"1677104772" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"pending" tags:"uni" tags_uni:"x" uuid:"4363911a-20c2-46c9-8e96-d59113142f98"]
+new [description:"Review Qs in Dropbox" due:"1677556800" end:"1677529965" entry:"1677297742" imask:"59.000000" modified:"1677529965" parent:"21a065d1-0691-4d7b-95e7-a5b127010778" project:"Important" recur:"3d" rtype:"periodic" status:"deleted" tags:"uni" tags_uni:"x" uuid:"4363911a-20c2-46c9-8e96-d59113142f98"]
+---
+time 1677529965
+old [description:"Review Qs in Dropbox" due:"1662264000" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++XX" modified:"1677529965" project:"Important" recur:"3d" rtype:"periodic" status:"recurring" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+new [description:"Review Qs in Dropbox" due:"1662264000" end:"1677529965" entry:"1662306839" mask:"++++++++XXXXXXXXXXXX++++++++++++++++++++++++++X++++X+X++++XX" modified:"1677529965" project:"Important" recur:"3d" rtype:"periodic" status:"deleted" tags:"uni" tags_uni:"x" uuid:"21a065d1-0691-4d7b-95e7-a5b127010778"]
+---
+time 1677530053
+new [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530053" modified:"1677530053" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"dda00b40-c100-4595-b9ab-d3f73ff7c779"]
+---
+time 1677530070
+new [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530070" imask:"0.000000" modified:"1677530053" parent:"dda00b40-c100-4595-b9ab-d3f73ff7c779" project:"Sift" recur:"weekly" rtype:"periodic" status:"pending" uuid:"3e5a6b01-b1fd-427c-940b-1b6e74da891c"]
+---
+time 1677530070
+old [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530053" modified:"1677530053" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"dda00b40-c100-4595-b9ab-d3f73ff7c779"]
+new [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530053" mask:"-" modified:"1677530070" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"dda00b40-c100-4595-b9ab-d3f73ff7c779"]
+---
+time 1677530071
+new [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530040" imask:"0.000000" modified:"1677530053" parent:"dda00b40-c100-4595-b9ab-d3f73ff7c779" project:"Sift" recur:"weekly" rtype:"periodic" status:"pending" uuid:"145ecdfc-e68e-47b9-835d-852df7019394"]
+---
+time 1677530071
+old [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530053" mask:"-" modified:"1677530070" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"dda00b40-c100-4595-b9ab-d3f73ff7c779"]
+new [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530053" mask:"-" modified:"1677530040" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"dda00b40-c100-4595-b9ab-d3f73ff7c779"]
+---
+time 1677530071
+old [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530053" mask:"-" modified:"1677530040" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"dda00b40-c100-4595-b9ab-d3f73ff7c779"]
+new [description:"Review Qs in Dropbox" due:"1677819600" entry:"1677530053" mask:"-" modified:"1677530070" project:"Sift" recur:"weekly" rtype:"periodic" status:"recurring" uuid:"dda00b40-c100-4595-b9ab-d3f73ff7c779"]
+---
+time 1677596502
+old [description:"complete fafsa for summer" due:"1677560400" entry:"1674749599" modified:"1675093839" project:"Sift" status:"pending" uuid:"2b3fe135-ddf5-497f-b932-1cec7f281610"]
+new [description:"complete fafsa for summer" due:"1677992400" entry:"1674749599" modified:"1677596502" project:"Sift" status:"pending" uuid:"2b3fe135-ddf5-497f-b932-1cec7f281610"]
+---
